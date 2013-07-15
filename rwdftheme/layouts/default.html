@@ -35,21 +35,33 @@
 
   <body>
 
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container-narrow">
-          <a class="brand" href="{{urls.base_path}}">{{ data.title }}</a>
-          <ul class="nav">
+    <!-- Nav!
+    ================================================== -->
+    <nav class="navbar">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="logo" href="{{urls.base_path}}"><img src="img/deutsch_logo.jpg" alt="{{ data.title }} Official Logo"></a>
+        <div class="nav-collapse collapse">
+          <ul class="nav pull-right">
             {{# data.navigation?to__root }}
               {{> pages_list }}
             {{/ data.navigation?to__root }}
+            <li><a href="http://rwdfblog.com/" target="_blank">Visit the Blog &raquo;</a></li>
           </ul>
-        </div>
+        </div><!--/.nav-collapse -->
       </div>
-    </div>
-
-    <div class="container-narrow">
-
+    </nav>
+    <!-- /Nav!
+    ================================================== -->
+    
+    <!-- Main Page Content
+    ================================================== -->
+    <div class="container">
+    
       <div class="content">
         {{{ content }}}
       </div>
