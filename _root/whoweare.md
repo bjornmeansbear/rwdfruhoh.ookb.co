@@ -1,7 +1,9 @@
 ---
-title : We are the Deutsch.
-description: We're committed to sustaining the philanthropic legacy of Bob and Florence Deutsch. The Foundation exists to promote innovation in the arts, sciences, tech, education, and social good.
+title : Who We Are
 ---
+
+#We are the Deutsch.
+We're committed to sustaining the philanthropic legacy of Bob and Florence Deutsch. The Foundation exists to promote innovation in the arts, sciences, tech, education, and social good.
 
 ##Our Philosophy
 Some more text about why, etc. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.Donec id elit non mi porta gravida at eget metus.
