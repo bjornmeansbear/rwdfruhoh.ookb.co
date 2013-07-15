@@ -1,0 +1,83 @@
+/* @Font-Face declarations and basic typographic rules */
+
+/* Base Styles */
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic|Open+Sans:300italic,400italic,700italic,400,300,700);
+
+html {
+  font-size:10px;
+  line-height:1.25;
+  }
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size:1.5rem;
+  }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', Georgia, serif;
+  line-height: 1.25em;  
+  }
+
+/* Nav Styles */
+
+ul.nav li {
+  font-size:1.8rem;
+  font-weight:300;
+  }
+
+/** tweaks for @media queries */
+
+@media (min-width: 979px) {
+
+.jumbo-text h1 { /* Homepage */
+  font-size:7.5rem;
+  margin-bottom:20px;
+  padding:0 100px;
+  line-height: 1.125;
+  }
+    
+.jumbo-text.inner h1 { /* Inner Pages */
+  font-size:5rem;
+  margin-bottom: 10px;
+  padding:0 50px;
+  }
+    
+        
+.jumbo-text .lead {
+  font-size:2.4rem;
+  font-weight:300;
+  line-height:1.33;
+  }
+  
+.jumbo-text.inner .lead {
+  font-size:2.0rem;
+  }
+  
+
+
+/* Jumbotron Styles */
+
+.jumbotron {
+  text-align: center;
+  }
+  
+  
+/* Page Styles */
+  
+h3 { /* Inner Page Head */
+  font-size:2.4rem;
+  margin:30px 0 10px 0;
+  }  
+  
+h4 { /* Inner Page Subhead */
+  font-size:14px;
+  margin:20px 0 0 0;
+  }
+  
+
+footer {
+  font-size:1.2rem;
+  line-height: 1.5;
+  }
+  

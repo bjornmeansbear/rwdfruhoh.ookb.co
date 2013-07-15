@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/***** Base Styles ************************************/
+  
+.e-breadcrumb {
+  margin:40px 0 10px 0;
+  }
+  
+body {
+  padding-bottom:100px;
+  }
+
+
+/***** Modules ************************************/
+
+/* this needs to be tweaked based on the media-queries from the responsive CSS file */
+/* right now it is not optimal */
+.container {
+  margin: 0 auto;
+  }  
+
+/* Navbar */
+
+.navbar {
+  margin-top: 20px;
+  margin-bottom: 0;
+  }
+  
+nav.navbar a.logo {
+  display: block;
+  float:left;
+}
+
+nav.navbar > .container {
+  border-bottom: 3px solid rgba(248,247,247,1);
+  padding-bottom: 20px;
+  }
+
+.navbar ul.nav {
+  position: relative;
+  top: 54px;
+}
+
+
+/* Jumbotron */
+ 
+.jumbotron {
+  background: url("../img/diag.gif") repeat;
+  border-bottom: 3px solid rgba(248,247,247,1); 
+  }
+  
+.jumbo-text {
+  margin:0 42px;
+  padding: 50px 100px;
+  background-color: #fff;  
+  }
+  
+.jumbo-text.inner {
+  margin:0 42px;
+  padding: 30px 100px;  
+  }
+  
+  
+/* Homepage */
+  
+.row-fluid {
+  padding-top:25px;
+  padding-bottom:75px;
+  }
+  
+.home-content p {
+  margin-top:10px;
+  width:85%;
+  }
+  
+.home-content h3 {
+  width:85%;
+  padding-bottom:10px;
+  border-bottom: 3px solid rgba(248,247,247,1); 
+  }
+ 
+/* Inner Pages */
+  
+.sidebar {
+  background-color:#f2f2f2;
+  border: #eee solid 1px;
+  padding:30px;
+  margin-bottom:20px;
+  color:gray;
+  border-radius: 7px
+  }
+  
+.sidebar h3 {
+  margin-top:0;  
+  }
+
+form {
+  /*background-color:#f2f2f2;
+  border: #eee solid 1px;
+  padding:20px 40px 20px 20px;
+  border-radius: 7px;*/
+  margin-top:20px;
+  }
+
+textarea {
+  width:90%
+  }
+  
+label {
+  margin:10px 0 2px 0;
+  }
+  
+.brick {
+  padding-bottom:20px;
+  border-bottom:1px solid #bbbbbb;
+  }
+  
+.brick h3 {
+  float:left;
+  }
+  
+.tags {
+  float:right;
+  margin-top:34px;
+  }
+  
+.brick p {
+  clear:both;
+  }
+  
+.filters {
+ list-style-type: none;
+ padding:0;
+ margin:5px 0;
+}
+
+.filters li {
+  line-height: 1.5em;
+  }
+  
+/* Footer */
+
+.diag-divider {
+  height:40px;  
+  background: url("../img/diag.gif") repeat;
+  border-bottom: 3px solid rgba(248,247,247,1); 
+  margin-bottom: 20px;
+  } 
+
+.socialicon {
+  float:left;
+  margin: 5px 10px 0 0;
+  }
+  
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope  .isotope-item {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: opacity;
+     -moz-transition-property: opacity;
+      -ms-transition-property: opacity;
+       -o-transition-property: opacity;
+          transition-property: opacity;
+}
+  
+  
+
+
