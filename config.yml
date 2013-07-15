@@ -21,7 +21,7 @@ base_path: "/"
 date_format: '%b %d, %Y'
 
 # Tell ruhoh which folder will model the "theme"
-rwdf :
+rwdftheme :
   # Tells ruhoh which collection class to use for this folder.
   # Here we use "theme" which makes this folder the theme.
   use : "theme"

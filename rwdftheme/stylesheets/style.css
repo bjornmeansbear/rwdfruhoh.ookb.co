@@ -69,10 +69,3 @@
   color:#FFF;
 }
 
-
-*, html, html *, body, body * {
-  background: red !important;
-  color: white !important;
-  clear: none;
-}
-
