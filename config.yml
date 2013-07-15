@@ -8,7 +8,7 @@ RuhohSpec: "2.1"
 # Used for things like RSS that need the full URL to a given resource.
 # This DOES NOT affect any of your paths or links in any way.
 # This DOES NOT configure domain mapping. See post2.ruhoh.com for hosting options.
-production_url: "http://sample.com"
+production_url: "http://rwdfruhoh.ookb.co"
 
 # Intelligently prepends all urls in the system with the given base_path.
 # This allows you to host your blog in a subdirectory of a given website.
@@ -17,6 +17,8 @@ production_url: "http://sample.com"
 #  set base_path: "/staff/me/~/blog"
 # NOTE: base_path is never added in development mode (for convenience).
 base_path: "/"
+
+date_format: '%b %d, %Y'
 
 # Tell ruhoh which folder will model the "theme"
 twitter :
