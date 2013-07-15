@@ -25,6 +25,7 @@ rwdftheme :
   # Tells ruhoh which collection class to use for this folder.
   # Here we use "theme" which makes this folder the theme.
   use : "theme"
+  # okay, I am using my theme, but why isn't the footer showing up? and where/how to I get images to work?
 
 _root:
   summary_lines: 20
