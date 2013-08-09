@@ -1,6 +1,6 @@
 ---
 title: Our Values
-date: 0000-00-00;
+date: 2013-08-09
 ---
 
 ## Our Philosophy
