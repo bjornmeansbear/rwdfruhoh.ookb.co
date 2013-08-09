@@ -1,6 +1,5 @@
 ---
 title: Our Values
-date: 2013-08-09
 ---
 
 ## Our Philosophy
