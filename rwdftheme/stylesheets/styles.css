@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/***** Base Styles ************************************/
+  
+.e-breadcrumb {
+  margin:40px 0 10px 0;
+  }
+  
+body {
+  padding-bottom:100px;
+  }
+
+
+/***** Modules ************************************/
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  }  
+    
+hr {   
+  height:3px;
+  border:0;
+  margin:0;
+  padding:0;
+  }
+  
+.hr-nav {
+  border-top:20px white;
+  clear:both;
+  }
+  
+.hr-footer {
+  margin-bottom:20px;
+  clear:both;
+  }
+
+/* Navbar */
+
+.navbar {
+  margin: 50px 0 0 0;
+  }
+  
+.navbar ul {
+  margin-top:55px;
+  margin-bottom:0;
+  list-style-type: none;
+  float:right;
+  }
+  
+.navbar li {
+  float:left;
+  margin-left:20px;
+  }
+  
+.logo {  
+  display: block;
+  float: left;
+  }
+ 
+/* Jumbotron */
+ 
+.jumbotron {
+  background: url("../img/diag.gif") repeat
+  }
+  
+.jumbo-text {
+  margin:0 42px;
+  padding: 75px 50px;
+  background-color: #fff;  
+  }
+  
+/* Homepage */
+  
+.home-content{
+  padding-top:25px;
+  padding-bottom:75px;
+  }
+ 
+.diag-divider {
+  height:40px;  
+  background: url("../img/diag.gif") repeat
+  } 
+
+/* Inner Pages */
+  
+.sidebar {
+  background-color:#f2f2f2;
+  border: #eee solid 1px;
+  padding:30px;
+  margin-bottom:20px;
+  color:gray;
+  border-radius: 7px
+  }
+  
+.sidebar h3 {
+  margin-top:0;  
+  }
+
+form {
+  /*background-color:#f2f2f2;
+  border: #eee solid 1px;
+  padding:20px 40px 20px 20px;
+  border-radius: 7px;*/
+  margin-top:20px;
+  }
+
+textarea {
+  width:90%
+  }
+  
+label {
+  margin:10px 0 2px 0;
+  }
+  
+.brick {
+  padding-bottom:20px;
+  border-bottom:1px solid #bbbbbb;
+  }
+  
+.brick h3 {
+  float:left;
+  }
+  
+.tags {
+  float:right;
+  margin-top:34px;
+  }
+  
+.brick p {
+  clear:both;
+  }
+  
+.filters {
+ list-style-type: none;
+ padding:0;
+ margin:5px 0;
+}
+
+.filters li {
+  line-height: 1.5em;
+  }
+
+  
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope  .isotope-item {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: opacity;
+     -moz-transition-property: opacity;
+      -ms-transition-property: opacity;
+       -o-transition-property: opacity;
+          transition-property: opacity;
+}
+  
+  
+
+

@@ -52,7 +52,7 @@ nav.navbar > .container {
   
 .jumbo-text {
   margin:0 42px;
-  padding: 50px 100px;
+  padding: 50px 140px;
   background-color: #fff;  
   }
   
@@ -60,7 +60,35 @@ nav.navbar > .container {
   margin:0 42px;
   padding: 30px 100px;  
   }
+
+/* Hero */
+ 
+.hero {
+  }
+
+.index .hero {
+  background: url("../img/allosphere.jpg");
+  height:450px;  
+  }
   
+.hero-main {  
+  background-color:rgba(7,153,200,.33);
+  padding:20px 40px;
+  margin:0;
+  position: relative;
+  z-index: 9999;
+  top: 100px;
+  }
+  
+.hero h1, .hero p {
+  color:rgba(255,255,255,1);
+  
+  }  
+  
+.hero .rev-offset2 {
+  margin-left: -180px;
+}
+
   
 /* Homepage */
   
@@ -79,9 +107,103 @@ nav.navbar > .container {
   padding-bottom:10px;
   border-bottom: 3px solid rgba(248,247,247,1); 
   }
+  
+  
+/* Side Nav */
+  
+  
+.side-nav {
+  list-style-type: none;
+  padding-top: 20px;
+  margin:5px 0;
+  }
+
+.side-nav li {
+  padding-bottom:15px;
+  line-height: 1.1;  
+  }
+  
+.side-nav li a {
+  font-size: 1.4rem;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  }
+
+.side-nav > .active > a,
+.side-nav > .active > a:hover,
+.side-nav > .active > a:focus {
+  color: #555555;
+  background-color: rgba(248,247,247,1);
+  cursor: default;
+  text-decoration: none;
+}
+
+.side-nav i { margin: 3px 3px 0 0 }
  
 /* Inner Pages */
+
+.inline-image {
+  width:100%;
+  margin-top: 30px;
+  }
   
+ 
+.top-15 {
+  padding-top:15px;
+  }
+  
+.top-25 {
+  padding-top:25px;
+  }
+  
+.plain {
+  margin-right:0 !important;
+  margin-bottom:15px; 
+  margin-left:0 !important;
+  border-bottom: 3px solid rgba(248,247,247,1);
+  overflow:hidden;
+  }
+  
+.plain p, .slide-in p {
+  padding-right:15px;
+  }
+  
+ 
+ 
+@-webkit-keyframes slideIn { from { height:45px; } to { min-height:220px; } }
+@-moz-keyframes slideIn { from { height:45px; } to { min-height:220px; } }
+@keyframes slideIn { from { height:45px; } to { min-height:220px; } }
+
+.slide-in {
+  height:45px; 
+  margin-right:0 !important;  
+  margin-left:0 !important;
+  border-bottom: 3px solid rgba(248,247,247,1);
+  overflow:hidden;
+    
+    animation:slideIn ease-in 1;
+    -webkit-animation:slideIn ease-in 1;
+    -moz-animation:slideIn ease-in 1;
+    
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+ 
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+}
+ 
+  
+
 .sidebar {
   background-color:#f2f2f2;
   border: #eee solid 1px;
@@ -113,7 +235,7 @@ label {
   
 .brick {
   padding-bottom:20px;
-  border-bottom:1px solid #bbbbbb;
+  border-bottom: 3px solid rgba(248,247,247,1); 
   }
   
 .brick h3 {
@@ -129,15 +251,6 @@ label {
   clear:both;
   }
   
-.filters {
- list-style-type: none;
- padding:0;
- margin:5px 0;
-}
-
-.filters li {
-  line-height: 1.5em;
-  }
   
 /* Footer */
 
@@ -148,10 +261,11 @@ label {
   margin-bottom: 20px;
   } 
 
-.socialicon {
+.socialicon, .socialicon-color {
   float:left;
-  margin: 5px 10px 0 0;
+  margin: 5px 10px 20px 0;
   }
+
   
 
 /**** Isotope CSS3 transitions ****/

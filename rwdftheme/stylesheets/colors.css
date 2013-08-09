@@ -3,7 +3,8 @@
 /** Base RWDF Color Palette **/
 /**
 
-Green:        rgba(189,213,0,1)
+Light Green:  rgba(189,213,0,1)
+Dk Green:     rgba(110,176,0,1)
 Blue:         rgba(0,154,201,1)
 Gray:         rgba(185,186,184,1)
 light gray:   rgba(248,247,247,1)
@@ -19,13 +20,18 @@ light gray:   rgba(248,247,247,1)
 
 /* Text */
 
-a { color:rgba(189,213,0,1); }
+a { color:rgba(110,176,0,1); }
   
 a:hover { color:rgba(0,154,201,1); }
 
-h3 { /* Homepage Subhead */
+h3, h4 { /* Subheads */
   color:rgba(0,160,208,1);
   }
+
+.plain h5 { /* Subheads */
+  color:rgba(110,176,0,1);
+  }
+
   
 footer {
   color: rgba(185,186,184,1);
@@ -40,4 +46,15 @@ hr { background-color:rgba(248,247,247,1); }
   
 .socialicon { background-color:rgba(185,186,184,1); }
 
-.socialicon:hover { background-color:rgba(0,154,201,1); }
+.socialicon-color { background-color:rgba(110,176,0,1); }
+
+.socialicon:hover, .socialicon-color:hover { background-color:rgba(110,176,0,1); }
+
+.carousel-control { 
+    color:rgba(185,186,184,1);
+    background-color: transparent 
+    }
+
+.carousel-control:hover { color:rgba(110,176,0,1); }
+
+

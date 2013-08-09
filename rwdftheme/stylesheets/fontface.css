@@ -25,6 +25,10 @@ ul.nav li {
   font-size:1.8rem;
   font-weight:300;
   }
+  
+.side-nav ul li {
+  font-size: 1.4rem; 
+  }
 
 /** tweaks for @media queries */
 
@@ -36,13 +40,13 @@ ul.nav li {
   padding:0 100px;
   line-height: 1.125;
   }
+
     
 .jumbo-text.inner h1 { /* Inner Pages */
   font-size:5rem;
   margin-bottom: 10px;
   padding:0 50px;
-  }
-    
+  } 
         
 .jumbo-text .lead {
   font-size:2.4rem;
@@ -54,7 +58,27 @@ ul.nav li {
   font-size:2.0rem;
   }
   
-
+  
+.hero h1 { /* Homepage */
+  font-size:5.5rem;
+  margin-bottom:20px;
+  line-height: 1.125;
+  }
+  
+.hero .lead {
+  font-size:2rem;
+  font-weight:300;
+  line-height:1.33;
+  padding-right: 40px;
+  }
+  
+.hero-caption {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size:1.3rem;
+  color:rgba(185,186,184,1);
+  text-align: right;
+  margin-top: 10px;
+  }
 
 /* Jumbotron Styles */
 
@@ -71,8 +95,8 @@ h3 { /* Inner Page Head */
   }  
   
 h4 { /* Inner Page Subhead */
-  font-size:14px;
-  margin:20px 0 0 0;
+  font-size:1.8rem;
+  margin: 15px 0 5px 0;
   }
   
 
@@ -81,3 +105,6 @@ footer {
   line-height: 1.5;
   }
   
+  
+
+
