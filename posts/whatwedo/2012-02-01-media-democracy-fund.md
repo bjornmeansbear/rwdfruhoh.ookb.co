@@ -1,6 +1,6 @@
 --- 
-categories: something
 title: "Media Democracy Fund"
+categories: something
 ---
 
 America's ongoing experiment with democracy has depended for over two hundred years on the rights of free speech, the vibrancy of a free press, access to information for all citizens and equal opportunity for all to be heard and to participate in public debates and forums.
@@ -12,7 +12,4 @@ At a time when internet and mobile technologies are changing and challenging the
 The Robert W. Deutsch Foundation participates in MDF to benefit from this expertise and to leverage the foundation's grant making in this area through collaboration with other funders.  The foundation's concern for the participation of diverse voices in public policy debates, and belief that a strong, free press protects the common good and public interest make the Media Democracy Fund an essential partner and valued collaborator.
 
 [MDF]: http://www.mediademocracyfund.org/
-
-
-
 
