@@ -1,7 +1,7 @@
 ---
 title: Media Democracy Fund
 categories :
-	- 'something or other'
+  - 'something or other'
 tags :
 ---
 
