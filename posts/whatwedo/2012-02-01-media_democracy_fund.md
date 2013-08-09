@@ -14,3 +14,4 @@ At a time when internet and mobile technologies are changing and challenging the
 The Robert W. Deutsch Foundation participates in MDF to benefit from this expertise and to leverage the foundation's grant making in this area through collaboration with other funders.  The foundation's concern for the participation of diverse voices in public policy debates, and belief that a strong, free press protects the common good and public interest make the Media Democracy Fund an essential partner and valued collaborator.
 
 [MDF]: http://www.mediademocracyfund.org/
+
