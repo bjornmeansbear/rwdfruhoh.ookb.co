@@ -1,7 +1,7 @@
 ---
 layout: test
 title: "This is to play with MD, Ruhoh, Mustached, and YAML"
-image: "media/2203.gif"
+image: "../media/2203.gif"
 description: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo."
 categories:
   - one
