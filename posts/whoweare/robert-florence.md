@@ -1,5 +1,5 @@
 ---
-title: Robert & Florence
+title: Robert and Florence
 image:
 ---
 
@@ -15,7 +15,7 @@ In 1988, Dr. Deutsch left General Physics to start RWD Technologies, a company f
 
 Throughout his career, Dr. Deutsch remained true to his commitment to invest in the education, training and development of people, and to promote innovative thinking and solutions for complex problems in the workplace.
 
-## Robert & Florence
+## Robert and Florence
 
 Robert Deutsch was born in New York City in 1924 to a family of modest means. He graduated from Far Rockaway High School in the top of his class.
 
@@ -27,5 +27,6 @@ Florence and Robert first met in 1947 at Tamiment in the Pocono Mountains of Pen
 
 After one year of graduate studies at M.I.T., Robert went back to New York where he and Florence were married in the summer of 1949. They moved to Berkeley where Florence was studying and Robert completed his doctoral degree.
 
-Robert and Florence's first child, Jane, was born in Berkeley. Three years later, their second child, David, was born. Completing his doctoral degree that year, Robert elected to pursue a career in the rapidly developing nuclear industry, joining the nuclear power division of General Electric in Schenectady, New York. After several corporate relocations, the family settled in Baltimore in 1964.
+Robert and Florence’s first child, Jane, was born in Berkeley. Three years later, their second child, David, was born. Completing his doctoral degree that year, Robert elected to pursue a career in the rapidly developing nuclear industry, joining the nuclear power division of General Electric in Schenectady, New York. After several corporate relocations, the family settled in Baltimore in 1964.
+
 
