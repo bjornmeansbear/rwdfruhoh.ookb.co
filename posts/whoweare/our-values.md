@@ -1,6 +1,5 @@
 ---
-title: 'Our Values'
-image:
+title: Our Values
 ---
 
 ## Our Philosophy

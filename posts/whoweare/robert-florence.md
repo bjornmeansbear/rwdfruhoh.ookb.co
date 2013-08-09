@@ -1,5 +1,5 @@
 ---
-title: 'Robert and Florence'
+title: Robert and Florence
 ---
 
 ## Career
@@ -8,7 +8,7 @@ The Robert W. Deutsch Foundation exists through the generosity of Robert Deutsch
 
 As a graduate student in nuclear physics at UC Berkeley in the early 1950s and as an expert in the nuclear industry in the 1950s and 60s, Dr. Deutsch realized that the future of American industry would be shaped by increasingly complex technologies and systems. Helping major corporations use and manage rapidly changing technologies would become a central focus for his career.
 
-In 1968, Dr. Deutsch launched his career as an entrepreneur with the founding of General Physics Corporation, which would become the leading provider of education and training programs for operating personnel in the nationÕs nuclear power plants. His innovative training methods quickly proved to the industry that they could meet the stringent federal standards for operating safety by investing in the training of their plant personnel. Success in the United States led to contracts with nuclear power plant operators in Europe, Asia and the Middle East.
+In 1968, Dr. Deutsch launched his career as an entrepreneur with the founding of General Physics Corporation, which would become the leading provider of education and training programs for operating personnel in the nationâ€™s nuclear power plants. His innovative training methods quickly proved to the industry that they could meet the stringent federal standards for operating safety by investing in the training of their plant personnel. Success in the United States led to contracts with nuclear power plant operators in Europe, Asia and the Middle East.
 
 In 1988, Dr. Deutsch left General Physics to start RWD Technologies, a company focused on the IT revolution that was transforming the way companies manufactured products, managed their business operations and communicated with their suppliers and customers. Dr. D led RWD Technologies to become a world leader in performance improvement training and productivity products and services.
 
@@ -26,5 +26,5 @@ Florence and Robert first met in 1947 at Tamiment in the Pocono Mountains of Pen
 
 After one year of graduate studies at M.I.T., Robert went back to New York where he and Florence were married in the summer of 1949. They moved to Berkeley where Florence was studying and Robert completed his doctoral degree.
 
-Robert and FlorenceÕs first child, Jane, was born in Berkeley. Three years later, their second child, David, was born. Completing his doctoral degree that year, Robert elected to pursue a career in the rapidly developing nuclear industry, joining the nuclear power division of General Electric in Schenectady, New York. After several corporate relocations, the family settled in Baltimore in 1964.
+Robert and Florenceâ€™s first child, Jane, was born in Berkeley. Three years later, their second child, David, was born. Completing his doctoral degree that year, Robert elected to pursue a career in the rapidly developing nuclear industry, joining the nuclear power division of General Electric in Schenectady, New York. After several corporate relocations, the family settled in Baltimore in 1964.
 
