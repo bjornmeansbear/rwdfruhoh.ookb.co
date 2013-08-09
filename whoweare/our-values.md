@@ -1,5 +1,6 @@
 ---
 title: Our Values
+date: 0000-00-00;
 ---
 
 ## Our Philosophy
