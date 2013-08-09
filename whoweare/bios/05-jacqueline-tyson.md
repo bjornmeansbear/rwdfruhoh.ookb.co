@@ -1,7 +1,8 @@
 ---
+layout: bio
 title: Jacqueline Tyson
 subhead: Executive Assistant
-image:
+image: rwdf-square.png
 email:
 twitter:
 linkedin:

@@ -1,7 +1,8 @@
 ---
+layout: bio
 title: David Deutsch
 subhead: Director
-image:
+image: rwdf-square.png
 email:
 twitter:
 linkedin:

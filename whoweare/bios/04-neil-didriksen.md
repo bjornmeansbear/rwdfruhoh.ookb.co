@@ -1,7 +1,8 @@
 ---
+layout: bio
 title: Neil Didriksen
 subhead: Chief Operating Officer
-image:
+image: rwdf-square.png
 email:
 twitter:
 linkedin:

@@ -1,7 +1,8 @@
 ---
+layout: bio
 title: Anthony Hawkins
 subhead: Advisor
-image:
+image: rwdf-square.png
 email:
 twitter:
 linkedin:

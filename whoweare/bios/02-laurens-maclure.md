@@ -1,7 +1,8 @@
 ---
+layout: bio
 title: Laurens “Mac” MacLure
 subhead: Director
-image:
+image: rwdf-square.png
 email:
 twitter:
 linkedin:

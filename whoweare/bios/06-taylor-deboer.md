@@ -1,7 +1,8 @@
 ---
+layout: bio
 title: Taylor Deboer
 subhead: Communications Manager
-image:
+image: rwdf-square.png
 email:
 twitter:
 linkedin:
