@@ -1,5 +1,5 @@
 ---
-title: Our Values
+title: 'Our Values'
 image:
 ---
 
