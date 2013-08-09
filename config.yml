@@ -34,6 +34,13 @@ _root:
   paginator:
     enable: false
 
+whoweare:
+  summary_lines: 20
+  rss:
+    enable: false
+  paginator:
+    enable: false
+
 posts:
   sort: ["date", "desc"]
   permalink: "/:categories/:title/"

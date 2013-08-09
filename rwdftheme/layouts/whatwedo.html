@@ -10,18 +10,34 @@ layout : default
    </div>
 </div>
 
-{{# posts.all }}
-<div class="post">
-  <div class="post-title">
-    <h3><a href="{{ base.path }}/{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
+
+<div class="row-fluid">
+
+  <!-- this will need to be auto-created; and then also auto-place classes in each posts div -->
+  <div class="span2">
+    <ul class="side-nav" id="filters">
+      <li><a href="#" data-filter="*">View All Categories</a></li>
+      <li><a href="#" data-filter=".science"><i class="icon-globe"></i> Science &amp; Tech</a></li>
+      <li><a href="#" data-filter=".scholar"><i class="icon-bookmark"></i> Scholars &amp; Fellows</a></li>
+      <li><a href="#" data-filter=".arts"><i class="icon-picture"></i> Arts &amp; Culture</a></li>
+      <li><a href="#" data-filter=".justice"><i class="icon-heart"></i> Social Justice</a></li>
+      <li><a href="#" data-filter=".community"><i class="icon-bullhorn"></i> Community</a></li>
+    </ul>
   </div>
-  <div class="post-date">
-    <span class="parts">{{ date }}</span>
-  </div>
-  <div class="post-content">
-    {{{ content.summary }}}
+        
+  <div class="span10" id="projects">
+    {{# posts.all }}
+    <div class="post">
+      <div class="post-title">
+        <h3><a href="{{ base.path }}/{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
+      </div>
+      <span class="category">
+        <i class="icon-leaf"></i><!-- this will show the icon that corresponds with the category for future sorting -->
+      </span>
+      <div class="post-content">
+        {{{ content.summary }}}
+      </div>
+    </div>
+    {{/ posts.all }}
   </div>
 </div>
-{{/ posts.all }}
-
-
