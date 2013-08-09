@@ -1,5 +1,5 @@
 ---
-title: Laurens ÒMacÓ MacLure
+title: Laurens â€œMacâ€ MacLure
 subhead: Director
 image:
 email:
