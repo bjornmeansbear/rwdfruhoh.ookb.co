@@ -3,8 +3,8 @@ layout: bio
 title: "Jane Brown"
 subhead: "President and Executive Director"
 image: rwdf-square.png
-email: tk
-twitter: "bjornmeansbear"
+mail: "jane.brown@rwdfoundation.org"
+twitter: "@bjornmeansbear"
 linkedin: "http://www.linkedin.com/in/kristianbjornard"
 ---
 
