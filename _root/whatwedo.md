@@ -12,3 +12,9 @@ The Deutsch Foundation has a tradition of pro-active and engaged grant making, w
 Prior to making any grant, the foundation’s staff engages in extended discussions with the leaders of such projects or with the innovators proposing new approaches in one of the foundation’s areas of interest.  We maintain active involvement with funded projects throughout the duration of our support. 
 
 Projects will be listed here...
+
+<ul>
+{{# _root.all }}
+  {{> pages_list }}
+{{/ _root.all }}
+</ul>
