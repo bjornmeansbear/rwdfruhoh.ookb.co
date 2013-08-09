@@ -1,4 +1,5 @@
 ---
+layout: whatwedo
 title: What We Do
 ---
 

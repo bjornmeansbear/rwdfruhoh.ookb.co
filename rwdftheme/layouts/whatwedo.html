@@ -1,0 +1,19 @@
+---
+layout : default
+---
+
+{{# posts.all }}
+<div class="post">
+  <div class="post-title">
+    <h3><a href="http://www.slowtheory.com{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
+  </div>
+  <div class="post-date">
+    <span class="parts">{{ date }}</span>
+  </div>
+  <div class="post-content">
+    {{{ content }}}
+  </div>
+</div>
+{{/ posts.all }}
+
+
