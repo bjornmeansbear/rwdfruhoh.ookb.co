@@ -34,6 +34,7 @@ _root:
     enable: false
 
 whoweare:
+  sort: ["title"]
   summary_lines: 20
   rss:
     enable: false
