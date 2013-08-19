@@ -32,7 +32,7 @@ nav.navbar a.logo {
   float:left;
 }
 
-.index nav.navbar a.logo {
+nav.navbar.index a.logo {
   width: 180px;
 }
 
@@ -94,12 +94,12 @@ nav.navbar > .container {
   
 .hero .row,
 .hero .row img,
-.index .triptych .trio,
-.index .triptych .span4 img {
+.triptych .trio,
+.triptych .span4 img {
   position: relative;
 }
 
-.index .hero .row div.text,
+.hero .row div.text,
 .overlay div.text {
   background: #009CC1;
   background: rgba(0,156,193,.5);
@@ -109,40 +109,40 @@ nav.navbar > .container {
   margin: 0;
 }
 
-.index .hero .row div.text > * {
+.hero .row div.text > * {
   padding: 15px;
 }
 
-.index .hero .row div.text.span8 h1 {
+.hero .row div.text.span8 h1 {
   padding-bottom: 0;
 }
 
-.index .hero .row .tagline div.text {
+.hero .row .tagline div.text {
   background: #009CC1;
   background: rgba(0,156,193,1);
 }
 
 /* Triptych info */
-.index .triptych .trio {
+.triptych .trio {
   overflow: hidden;
 }
 
-.index .triptych .span4 img {
+.triptych .span4 img {
   height: auto;
   width: 100%;
 }
 
-.index .triptych .overlay img {
+.triptych .overlay img {
   height: 100%;
   width: auto;
 }
 
-.index .triptych .overlay div.text {
+.triptych .overlay div.text {
   top: 0;
   height: 50px;
 }
 
-.index .triptych .overlay div.text h3 {
+.triptych .overlay div.text h3 {
   color: white;
   margin: 0;
   padding: 10px;
@@ -152,22 +152,22 @@ nav.navbar > .container {
 .trio h3 { margin: .25em 0; }
 .trio h3 a { color: white; font-weight: 400; }
 
-.index .triptych .no-overlay div.text {
+.triptych .no-overlay div.text {
   top: 0;
   height: auto;
   margin: 0;
   padding: 0;
 }
 
-.index .triptych .no-overlay div.text h3, .no-overlay h3 a {
+.triptych .no-overlay div.text h3, .no-overlay h3 a {
   color: #77A41D;
   margin: 0 0 10px 0;
   padding: 0;
   font-weight: 400;
 }
 
-.index .triptych .no-overlay .tags {margin-bottom: 10px;}
-.index .triptych .no-overlay .tags .icon {
+.triptych .no-overlay .tags {margin-bottom: 10px;}
+.triptych .no-overlay .tags .icon {
   width: 100px;
 }
 /* lower, more general stuff */
@@ -185,17 +185,17 @@ nav.navbar > .container {
   margin-top:10px;
   }
   
-.index .jumbotron {
+.index.jumbotron {
   background: none;
   border-bottom: none;
   margin: 0 auto;
   }
 
-.index .jumbotron .diag-divider {
+.index.jumbotron .diag-divider {
   margin-bottom: 70px;
   }
 
-.index .jumbotron .lead {
+.index.jumbotron .lead {
   font-size: 4.4rem;
   line-height: 1.3333;
   }
