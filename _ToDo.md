@@ -1,4 +1,4 @@
-# RWDF CAPE necessities
+# RWDF Ruhoh/CAPE To dos.
 
 ## Homepage.
 - Need to be able to promote projects from the projects page feed to the 5 homepage blocks.
