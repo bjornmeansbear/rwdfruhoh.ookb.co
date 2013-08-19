@@ -48,7 +48,7 @@ nav.navbar > .container {
 /* This is the big text areas on each of the sub-pages */
 /*=========================*/
 .jumbotron {
-  background: url("../img/diag.gif") repeat;
+  background: url("../media/diag.gif") repeat;
   border-bottom: 3px solid rgba(248,247,247,1); 
   }
   
@@ -288,7 +288,7 @@ label {
 /*=========================*/
 .diag-divider {
   height:40px;  
-  background: url("../img/diag.gif") repeat;
+  background: url("../media/diag.gif") repeat;
   border-bottom: 3px solid rgba(248,247,247,1); 
   margin-bottom: 20px;
   } 
@@ -393,8 +393,8 @@ label {
 
 /* next/prev */
 .cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 888; height: 100%; cursor: pointer; }
-.cycle-prev { left: 0;  background: url(../img/prev2.png) 50% 50% no-repeat;}
-.cycle-next { right: 0; background: url(../img/next2.png) 50% 50% no-repeat;}
+.cycle-prev { left: 0;  background: url("../media/prev2.png") 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url("../media/next2.png") 50% 50% no-repeat;}
 .cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
 
 /* pager */
