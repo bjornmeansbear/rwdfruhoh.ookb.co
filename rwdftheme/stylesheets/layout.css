@@ -90,12 +90,12 @@ nav.navbar > .container {
   
 .hero .row,
 .hero .row img,
-.triptych .trio,
-.triptych .span4 img {
+.index .triptych .trio,
+.index .triptych .span4 img {
   position: relative;
 }
 
-.hero .row div.text,
+.index .hero .row div.text,
 .overlay div.text {
   background: #009CC1;
   background: rgba(0,156,193,.5);
@@ -105,27 +105,27 @@ nav.navbar > .container {
   margin: 0;
 }
 
-.hero .row div.text > * {
+.index .hero .row div.text > * {
   padding: 15px;
 }
 
-.hero .row div.text.span8 h1 {
+.index .hero .row div.text.span8 h1 {
   padding-bottom: 0;
 }
 
-.hero .row .tagline div.text {
+.index .hero .row .tagline div.text {
   background: #009CC1;
   background: rgba(0,156,193,1);
 }
 
 /* Triptych info */
-.triptych .trio {
-  overflow: hidden !important;
+.index .triptych .trio {
+  overflow: hidden;
 }
 
 .triptych .span4 img {
-  height: auto !important;
-  width: 100% !important;
+  height: auto;
+  width: 100%;
 }
 
 .triptych .overlay img {
