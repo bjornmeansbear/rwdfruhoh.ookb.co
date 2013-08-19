@@ -29,7 +29,11 @@ Not part of the ruhoh/CAPE site; powered and hosted externally by wordpress.
 - How to explain editing of MD files to client
 - Anyway to just grant access to the content folders, not the whole git repo?
 - Multiple ways to show featured projects on homepage? (text only posts should be able to be featured somehow too?)
-
 - Navigation links…
 if I don't want to put those “pages” in the root folder, so as to make them sensically organized with the rest of the site structure; can I do that… ? I guess what I'm saying is how do I tell ruhoh those pages exists as root level pages, but put their main content also in the sub-directories I created for the other bits of the sections?
 (this is important for Who We Are, What We Do, and Tell Us About You pages)
+
+## The Theme
+- Need to create template variations on individual project versions » the text only, small image, and big slideshow variants.
+- If form for tell us about you goes into the template .html file for that page, how is it triggered? Does it need to be a wufoo form? is there some JS or other server solution that can trigger an email to be sent?
+
