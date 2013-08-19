@@ -1,5 +1,5 @@
 # RWDF Ruhoh/CAPE To dos.
-_(for an example of what the site will look like when all working visit http://rwdf.ookb.co/ — this document is referring to steps needed on rwdfruhoh.ookb.co)_
+_(for an example of what the site will look like when all working visit http://rwdf.ookb.co/ — this document is referring to steps needed on this repo, http://rwdfruhoh.ookb.co/)_
 
 ## Homepage.
 - Need to be able to promote projects from the projects page (what we do page) feed to the 5 homepage blocks.
