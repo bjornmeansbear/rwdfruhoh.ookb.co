@@ -26,15 +26,15 @@ layout : default
   </div>
         
   <div class="span10" id="projects">
-    {{# posts.all }}
-    <div class="post">
-      <div class="post-title">
+    {{# whatwedo.all }}
+    <div class="project">
+      <div class="project-title">
         <h3><a href="{{ base.path }}/{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
       </div>
       <span class="category">
         <i class="icon-leaf"></i><!-- this will show the icon that corresponds with the category for future sorting -->
       </span>
-      <div class="post-content">
+      <div class="project-content">
         {{{ content.summary }}}
       </div>
     </div>

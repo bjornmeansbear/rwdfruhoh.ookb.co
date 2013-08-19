@@ -1,10 +1,8 @@
 ---
+layout:
 title: The Imaging Resource Center
 categories :
   - 'a different one'
-tags :
-  - 'organization'
-  - 'some other tag'
 ---
 
 In 2001 Professor Dan Bailey, a senior faculty member in the Department of Visual Arts, recognized that the world was about to experience an explosion of innovation in digital communications and visualization technologies.
