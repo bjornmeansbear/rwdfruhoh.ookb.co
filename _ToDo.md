@@ -1,8 +1,8 @@
 # RWDF Ruhoh/CAPE To dos.
 
 ## Homepage.
-- Need to be able to promote projects from the projects page feed to the 5 homepage blocks.
-- These 5 blocks are to then fill randomly on each page load — so that the big featured area “rotates” each time the page is loaded/refreshed — is that possible?
+- Need to be able to promote projects from the projects page (what we do page) feed to the 5 homepage blocks.
+- These 5 blocks are to then fill randomly on each page load — so that the big featured area “rotates” each time the page is loaded/refreshed — is that possible? (there is a 6th block, which will have just text in it that I don't think needs to change)
 
 ## Who We Are.
 - Place the “Hero” text in the top from one .md file
