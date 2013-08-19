@@ -32,10 +32,6 @@ nav.navbar a.logo {
   float:left;
 }
 
-nav.navbar.index a.logo {
-  width: 180px;
-}
-
 nav.navbar > .container {
   border-bottom: 3px solid rgba(248,247,247,1);
   margin-bottom: 0;
@@ -124,12 +120,12 @@ nav.navbar > .container {
 
 /* Triptych info */
 .triptych .trio {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .triptych .span4 img {
-  height: auto;
-  width: 100%;
+  height: auto !important;
+  width: 100% !important;
 }
 
 .triptych .overlay img {
