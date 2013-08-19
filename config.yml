@@ -35,7 +35,7 @@ _root:
 
 whoweare:
   sort: ["title"]
-  summary_lines: 2
+  summary_lines: 1
   rss:
     enable: false
   paginator:
@@ -44,7 +44,16 @@ whoweare:
 
 whatwedo:
   sort: ["date", "desc"]
-  summary_lines: 2
+  summary_lines: 1
+  rss:
+    enable: false
+  paginator:
+    enable: false
+  root_page: '/'
+
+tellus:
+  sort: ["title"]
+  summary_lines: 20
   rss:
     enable: false
   paginator:
