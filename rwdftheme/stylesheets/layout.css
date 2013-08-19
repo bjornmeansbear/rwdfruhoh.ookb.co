@@ -155,7 +155,8 @@ nav.navbar > .container {
   padding: 0;
 }
 
-.triptych .no-overlay div.text h3, .no-overlay h3 a {
+.triptych .no-overlay div.text h3, 
+.no-overlay h3 a {
   color: #77A41D;
   margin: 0 0 10px 0;
   padding: 0;

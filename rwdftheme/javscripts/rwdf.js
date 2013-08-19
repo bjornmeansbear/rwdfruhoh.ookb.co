@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // set common height of triptych blocks on homepage
-  var blockwidth = $('.span4').width();
+  var blockwidth = $('.triptych .span4').width();
   var blockheight = blockwidth/1.32;
   $('.triptych .trio').height(blockheight);
 
