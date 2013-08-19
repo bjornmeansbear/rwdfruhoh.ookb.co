@@ -1,5 +1,4 @@
 ---
-layout: textonly
 title: "The Imaging Resource Center"
 categories :
   - "one"

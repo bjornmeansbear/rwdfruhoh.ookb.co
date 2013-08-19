@@ -1,5 +1,4 @@
 ---
-layout: slideshow
 title: "The Allosphere at UC-Santa Barbara"
 categories :
   - "one"
