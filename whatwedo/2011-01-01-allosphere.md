@@ -1,12 +1,9 @@
 ---
-title: The Allosphere at UC-Santa Barbara
+layout: slideshow
+title: "The Allosphere at UC-Santa Barbara"
 categories :
-  - 'the main one'
-tags :
-  - 'technology and something or other'
-  - 'foundation'
-  - 'spruce up grant'
-  - 'some other tag'
+  - "one"
+images: 
 ---
 
 *Imagine* diagnosing a neurological disease by flying through the cortex of a human brain, examining data about brain activity presented beautifully through color or music.

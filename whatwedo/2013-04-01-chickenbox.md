@@ -1,5 +1,5 @@
 ---
-title: The Chicken Box
+title: "The Chicken Box"
 categories :
   - 'Arts...'
 tags :
