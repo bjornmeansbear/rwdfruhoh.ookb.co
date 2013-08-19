@@ -1,0 +1,38 @@
+---
+layout : default
+---
+
+<!-- Top Hero -->
+<div class="jumbotron">
+<div class="jumbo-text inner">
+   <h1>{{ page.jumbohed }}</h1>
+   <p class="lead">{{ page.jumbodek }}</p>
+   </div>
+</div>
+
+
+<div class="row-fluid">
+
+  <!-- this will need to be auto-created; and then also auto-place classes in each posts div -->
+  <div class="span2">
+    <ul class="side-nav">
+      <li>TK</li>
+    </ul>
+  </div>
+        
+  <div class="span10" id="tab stuff TK">
+    {{# whoweare.all }}
+    <div class="tk">
+      <div class="tk-title">
+        <h3><a href="{{ base.path }}/{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
+      </div>
+      <span class="category">
+        <i class="icon-leaf"></i><!-- this will show the icon that corresponds with the category for future sorting -->
+      </span>
+      <div class="tk-content">
+        {{{ content }}}
+      </div>
+    </div>
+    {{/ whoweare.all }}
+  </div>
+</div>

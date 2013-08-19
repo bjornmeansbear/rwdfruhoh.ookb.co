@@ -35,19 +35,21 @@ _root:
 
 whoweare:
   sort: ["title"]
-  summary_lines: 20
+  summary_lines: 2
   rss:
     enable: false
   paginator:
     enable: false
+  root_page: '/'
 
 whatwedo:
   sort: ["date", "desc"]
-  summary_lines: 20
+  summary_lines: 2
   rss:
     enable: false
   paginator:
     enable: false
+  root_page: '/'
 
 #posts:
 #  sort: ["date", "desc"]
