@@ -2,9 +2,9 @@
 /* CSS Document */
 
 /***** Base Styles ************************************/
-  
+/*=========================*/
 .e-breadcrumb {
-  margin:40px 0 10px 0;
+  margin:30px 0 10px 0;
   }
   
 body {
@@ -13,17 +13,17 @@ body {
 
 
 /***** Modules ************************************/
-
+/*=========================*/
 /* this needs to be tweaked based on the media-queries from the responsive CSS file */
 /* right now it is not optimal */
 .container {
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   }  
 
 /* Navbar */
 
 .navbar {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 0;
   }
   
@@ -32,8 +32,13 @@ nav.navbar a.logo {
   float:left;
 }
 
+.index nav.navbar a.logo {
+  width: 180px;
+}
+
 nav.navbar > .container {
   border-bottom: 3px solid rgba(248,247,247,1);
+  margin-bottom: 0;
   padding-bottom: 20px;
   }
 
@@ -44,7 +49,8 @@ nav.navbar > .container {
 
 
 /* Jumbotron */
- 
+/* This is the big text areas on each of the sub-pages */
+/*=========================*/
 .jumbotron {
   background: url("../img/diag.gif") repeat;
   border-bottom: 3px solid rgba(248,247,247,1); 
@@ -61,57 +67,142 @@ nav.navbar > .container {
   padding: 30px 100px;  
   }
 
-/* Hero */
- 
-.hero {
-  }
+/*=========================*/
+/*=========================*/
+/* Homepage */
+/*=========================*/
+/*=========================*/
 
-.index .hero {
-  background: url("../img/allosphere.jpg");
-  height:450px;  
+/* Hero */
+/* This is the big image area on the homepage */
+/*=========================*/
+.hero {
+  margin-top: 5px;
+  overflow: hidden;
+  max-height: 500px;
   }
   
-.hero-main {  
-  background-color:rgba(7,153,200,.33);
-  padding:20px 40px;
-  margin:0;
-  position: relative;
-  z-index: 9999;
-  top: 100px;
-  }
-  
-.hero h1, .hero p {
-  color:rgba(255,255,255,1);
-  
-  }  
-  
-.hero .rev-offset2 {
-  margin-left: -180px;
+.hero .text * {
+  color: white;
+  margin: 0;
 }
 
+.hero .row {
+  overflow: hidden;
+  max-height: 500px;
+}
   
-/* Homepage */
-  
+.hero .row,
+.hero .row img,
+.index .triptych .trio,
+.index .triptych .span4 img {
+  position: relative;
+}
+
+.index .hero .row div.text,
+.overlay div.text {
+  background: #009CC1;
+  background: rgba(0,156,193,.5);
+  position: absolute;
+  bottom: 0;
+  float: none;
+  margin: 0;
+}
+
+.index .hero .row div.text > * {
+  padding: 15px;
+}
+
+.index .hero .row div.text.span8 h1 {
+  padding-bottom: 0;
+}
+
+.index .hero .row .tagline div.text {
+  background: #009CC1;
+  background: rgba(0,156,193,1);
+}
+
+/* Triptych info */
+.index .triptych .trio {
+  overflow: hidden;
+}
+
+.index .triptych .span4 img {
+  height: auto;
+  width: 100%;
+}
+
+.index .triptych .overlay img {
+  height: 100%;
+  width: auto;
+}
+
+.index .triptych .overlay div.text {
+  top: 0;
+  height: 50px;
+}
+
+.index .triptych .overlay div.text h3 {
+  color: white;
+  margin: 0;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.trio h3 { margin: .25em 0; }
+.trio h3 a { color: white; font-weight: 400; }
+
+.index .triptych .no-overlay div.text {
+  top: 0;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.index .triptych .no-overlay div.text h3, .no-overlay h3 a {
+  color: #77A41D;
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.index .triptych .no-overlay .tags {margin-bottom: 10px;}
+.index .triptych .no-overlay .tags .icon {
+  width: 100px;
+}
+/* lower, more general stuff */
 .row-fluid {
   padding-top:25px;
   padding-bottom:75px;
   }
-  
-.home-content p {
-  margin-top:10px;
-  width:85%;
-  }
-  
+
 .home-content h3 {
-  width:85%;
   padding-bottom:10px;
   border-bottom: 3px solid rgba(248,247,247,1); 
   }
   
+.home-content p {
+  margin-top:10px;
+  }
   
+.index .jumbotron {
+  background: none;
+  border-bottom: none;
+  margin: 0 auto;
+  }
+
+.index .jumbotron .diag-divider {
+  margin-bottom: 70px;
+  }
+
+.index .jumbotron .lead {
+  font-size: 4.4rem;
+  line-height: 1.3333;
+  }
+
+
 /* Side Nav */
-  
-  
+/*=========================*/
 .side-nav {
   list-style-type: none;
   padding-top: 20px;
@@ -145,13 +236,12 @@ nav.navbar > .container {
 .side-nav i { margin: 3px 3px 0 0 }
  
 /* Inner Pages */
-
+/*=========================*/
 .inline-image {
   width:100%;
   margin-top: 30px;
   }
-  
- 
+
 .top-15 {
   padding-top:15px;
   }
@@ -168,41 +258,9 @@ nav.navbar > .container {
   overflow:hidden;
   }
   
-.plain p, .slide-in p {
+.plain p {
   padding-right:15px;
   }
-  
- 
- 
-@-webkit-keyframes slideIn { from { height:45px; } to { min-height:220px; } }
-@-moz-keyframes slideIn { from { height:45px; } to { min-height:220px; } }
-@keyframes slideIn { from { height:45px; } to { min-height:220px; } }
-
-.slide-in {
-  height:45px; 
-  margin-right:0 !important;  
-  margin-left:0 !important;
-  border-bottom: 3px solid rgba(248,247,247,1);
-  overflow:hidden;
-    
-    animation:slideIn ease-in 1;
-    -webkit-animation:slideIn ease-in 1;
-    -moz-animation:slideIn ease-in 1;
-    
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode:forwards;
-    -moz-animation-fill-mode:forwards;
- 
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    
-    animation-delay: .5s;
-    -webkit-animation-delay: .5s;
-    -moz-animation-delay: .5s;
-}
- 
-  
 
 .sidebar {
   background-color:#f2f2f2;
@@ -218,10 +276,6 @@ nav.navbar > .container {
   }
 
 form {
-  /*background-color:#f2f2f2;
-  border: #eee solid 1px;
-  padding:20px 40px 20px 20px;
-  border-radius: 7px;*/
   margin-top:20px;
   }
 
@@ -233,27 +287,8 @@ label {
   margin:10px 0 2px 0;
   }
   
-.brick {
-  padding-bottom:20px;
-  border-bottom: 3px solid rgba(248,247,247,1); 
-  }
-  
-.brick h3 {
-  float:left;
-  }
-  
-.tags {
-  float:right;
-  margin-top:34px;
-  }
-  
-.brick p {
-  clear:both;
-  }
-  
-  
 /* Footer */
-
+/*=========================*/
 .diag-divider {
   height:40px;  
   background: url("../img/diag.gif") repeat;
@@ -266,10 +301,119 @@ label {
   margin: 5px 10px 20px 0;
   }
 
+#tab-staff .socialicon-color {
+  float:none;
+  margin-top: 15px !important;
+  }
+
+#tab-staff .plain a {
+  margin: 0px 10px 10px 0;
+  display: inline-block;
+}
+
+/* Project Pages */
+/*=========================*/
+
+.minus-top, .minus-top .btn { position: relative; }
+
+.brick {
+  padding-bottom:20px;
+  border-bottom: 3px solid rgba(248,247,247,1); 
+  }
+  
+.brick h3 {
+  }
+  
+.brick .tags {
+  display: block;
+  text-align: right;
+  margin-top: 34px;
+  }
+  
+.brick p {
+  clear:both;
+  margin-right: 55px;
+  }
   
 
-/**** Isotope CSS3 transitions ****/
+/*Icon Stuff*/
+.side-nav .icon {
+  height: 30px;
+  max-width: 36px;
+  margin-right: 2px;
+}
 
+.tags .icon {
+  width: 18%;
+  margin-left: 1.5%;
+}
+
+/* JUST TEXT PAGES */
+
+.project .tags,
+.project .tags .icon {
+  height: 60px;
+}
+
+.project .tags.bottom {
+  margin-top: 60px;
+}
+
+/* Slideshow Stuff */
+/*=========================*/
+
+#slideshow {
+  overflow: hidden;
+  position: relative;
+  border-radius: 0;
+}
+
+#slideshow .cycle-slideshow, 
+#slideshow .cycle-slideshow img {
+  width: 100%;
+}
+
+#slideshow:before,
+#slideshow:after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 777;
+  display: block;
+  content: "";
+  height: 40px;
+}
+#slideshow:before {
+  top:0;
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,0));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,0));
+}
+#slideshow:after {
+  bottom: 0;
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
+}
+
+/* next/prev */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 888; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url(../img/prev2.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(../img/next2.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+/* pager */
+.cycle-pager { 
+  text-align: center; width: 100%; z-index: 999; position: absolute; bottom: 10px; overflow: hidden;
+}
+.cycle-pager span { 
+  font-family: arial; font-size: 80px; width: 30px; height: 30px; line-height: 30px;
+  display: inline-block; color: #F3F3F3; cursor: pointer; 
+}
+.cycle-pager span:hover { color: #0799C8; }
+.cycle-pager span.cycle-pager-active { color: #77A41D;}
+.cycle-pager > * { cursor: pointer;}
+
+
+/**** Isotope CSS3 transitions ****/
 .isotope-item {
   z-index: 2;
 }
@@ -304,6 +448,3 @@ label {
           transition-property: opacity;
 }
   
-  
-
-
