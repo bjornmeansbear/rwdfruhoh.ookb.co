@@ -1,10 +1,12 @@
 ---
 layout: slideshow
 title: "The Allosphere at UC-Santa Barbara"
+year: "2000"
+month: "01"
 categories :
   - "science and tech"
   - "arts and culture"
-images: 
+image: 
   - "http://rwdf.ookb.co/img/ss01.png"
   - "http://rwdf.ookb.co/img/ss12.png"
   - "http://rwdf.ookb.co/img/allosphere.png"

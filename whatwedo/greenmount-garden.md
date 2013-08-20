@@ -1,6 +1,8 @@
 ---
 layout: textonly
 title: "Greenmount North Garden"
+year: "2012"
+month: "01"
 categories :
   - "arts and culture"
   - "social justice"

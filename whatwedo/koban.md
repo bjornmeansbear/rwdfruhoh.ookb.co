@@ -2,6 +2,8 @@
 layout: singleimage
 title: "The Koban Project"
 image: "http://rwdfoundation.files.wordpress.com/2013/04/photo-1.jpg?w=600"
+year: "2013"
+month: "04"
 categories :
   - "arts and culture"
 ---

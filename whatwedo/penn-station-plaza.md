@@ -1,6 +1,8 @@
 ---
 layout: textonly
 title: Penn Station Plaza
+year: "2012"
+month: "01"
 categories :
   - "arts and culture"
   - "social justice"

@@ -1,6 +1,8 @@
 ---
 layout: textonly
 title: "Media Democracy Fund"
+year: "2000"
+month: "01"
 categories: 
   - "science and tech"
   - "social justice"

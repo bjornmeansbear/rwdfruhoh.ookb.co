@@ -39,14 +39,16 @@ whoweare:
     enable: false
   paginator:
     enable: false
+  base_path: "/whoweare/"
 
 whatwedo:
-  sort: ["date", "desc"]
+  sort: ["year", "month", "title"]
   summary_lines: 1
   rss:
     enable: false
   paginator:
     enable: false
+  base_path: "/whatwedo/"
 
 tellus:
   sort: ["title"]
@@ -54,6 +56,7 @@ tellus:
     enable: false
   paginator:
     enable: false
+  base_path: "/tellus/"
 
 #posts:
 #  sort: ["date", "desc"]
