@@ -1,6 +1,7 @@
 ---
 title: "Directors & Staff"
 tabid: "tab-staff"
+tags: "tab-staff"
 ---
 
 Somehow print out bios here...
