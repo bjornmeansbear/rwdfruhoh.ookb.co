@@ -2,50 +2,58 @@
 layout : default
 ---
 
-<!-- Top Hero -->
-<div class="jumbotron">
-<div class="jumbo-text inner">
-   <h1>{{ page.jumbohed }}</h1>
-   <p class="lead">{{ page.jumbodek }}</p>
-   </div>
-</div>
+<!-- Main Content
+================================================== -->
+<div class="container inner">
 
-
-<div class="row-fluid">
-
-  <!-- this will need to be auto-created; and then also auto-place classes in each posts div -->
-  <div class="span8">
-    <h3>We'd love to hear from you.</h3>
-
-    <form>
-      <fieldset>  
-        <div class="controls controls-row">
-          <input type="text" class="span4" placeholder="Your Name">
-          <input type="text" class="span4" placeholder="Organization Name">
-          </div>
-        <div class="controls controls-row">
-          <input type="text" class="span3" placeholder="Phone">
-          <input type="text" class="span6" placeholder="Email">
-          </div>
-          
-          
-        <label>Describe your idea or program</label>
-          <textarea rows="3"></textarea>   
-        <label>Describe your organization (or yourself)</label>
-          <textarea rows="3"></textarea>  
-        <label>How are you and your idea aligned with Deutsch's values and interests?</label>
-          <textarea rows="3"></textarea>  
-        <button type="submit" class="btn btn-info btn-large">Send</button>
-      </fieldset>
-    </form> 
-  
+  <!-- Top Hero -->
+  <div class="jumbotron">
+  <div class="jumbo-text inner">
+     <h1>{{ page.jumbohed }}</h1>
+     <p class="lead">{{ page.jumbodek }}</p>
+     </div>
   </div>
-        
-  {{# tellus.all }}
-  <div class="span4 sidebar">
-    <h3>{{ title }}</h3>
-    {{{ content }}}
-  </div>
-  {{/ tellus.all }}
   
+  
+  <div class="row-fluid">
+  
+    <!-- this will need to be auto-created; and then also auto-place classes in each posts div -->
+    <div class="span8">
+      <h3>We'd love to hear from you.</h3>
+  
+      <form>
+        <fieldset>  
+          <div class="controls controls-row">
+            <input type="text" class="span4" placeholder="Your Name">
+            <input type="text" class="span4" placeholder="Organization Name">
+            </div>
+          <div class="controls controls-row">
+            <input type="text" class="span3" placeholder="Phone">
+            <input type="text" class="span6" placeholder="Email">
+            </div>
+            
+            
+          <label>Describe your idea or program</label>
+            <textarea rows="3"></textarea>   
+          <label>Describe your organization (or yourself)</label>
+            <textarea rows="3"></textarea>  
+          <label>How are you and your idea aligned with Deutsch's values and interests?</label>
+            <textarea rows="3"></textarea>  
+          <button type="submit" class="btn btn-info btn-large">Send</button>
+        </fieldset>
+      </form> 
+    
+    </div>
+          
+    {{# tellus.all }}
+    <div class="span4 sidebar">
+      <h3>{{ title }}</h3>
+      {{{ content }}}
+    </div>
+    {{/ tellus.all }}
+    
+  </div>
+
 </div>
+<!-- END Main Content
+================================================== -->

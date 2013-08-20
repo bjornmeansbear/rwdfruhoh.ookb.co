@@ -2,50 +2,59 @@
 layout : default
 ---
 
-<div class="e-breadcrumb">
-  <a href="../whatwedo">&larr; Back to All Projects</a>
-</div>
+<!-- Main Content
+================================================== -->
+<div class="container inner">
 
-<!-- Content -->
-<div class="row-fluid">
-
-  <div class="span8 offset2">
-    <article class="project">
-      <div class="leadimage top text-center clearfix">
-        <img class="img-circle span6 offset3" src="{{ page.image }}" />
-      </div>
-      <h2>{{ page.title }}</h2>
-      {{{ page.content }}}
-      <div class="tags bottom text-center">
-        <img class="icon" src="img/tempicon/noun_project_15461.svg" alt="arts and culture"/>
-        <img class="icon" src="img/tempicon/noun_project_8199.svg" alt="community"/>
-      </div>
-      <ul class="tag_box inline">
-        <li><i class="icon-folder-open"></i></li>
-      {{# page.categories }}
-        {{> categories_list }}
-      {{/ page.categories }}
-      </ul>
-    </article>
+  <div class="e-breadcrumb">
+    <a href="../whatwedo">&larr; Back to All Projects</a>
   </div>
   
-</div>
+  <!-- Content -->
+  <div class="row-fluid">
+  
+    <div class="span8 offset2">
+      <article class="project">
+        <div class="leadimage top text-center clearfix">
+          <img class="img-circle span6 offset3" src="{{ page.image }}" />
+        </div>
+        <h2>{{ page.title }}</h2>
+        {{{ page.content }}}
+        <div class="tags bottom text-center">
+          <img class="icon" src="img/tempicon/noun_project_15461.svg" alt="arts and culture"/>
+          <img class="icon" src="img/tempicon/noun_project_8199.svg" alt="community"/>
+        </div>
+        <ul class="tag_box inline">
+          <li><i class="icon-folder-open"></i></li>
+        {{# page.categories }}
+          {{> categories_list }}
+        {{/ page.categories }}
+        </ul>
+      </article>
+    </div>
     
-<div class="row-fluid minus-top">
-
-  {{# page.previous }}
-    <div class="prev previous span2 btn"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></div>
-  {{/ page.previous }}
-  {{^ page.previous }}
-    <div class="prev disabled previous span2 btn"><a>&larr; Previous</a></div>
-  {{/ page.previous }}
-
-  {{# page.next }}
-    <div class="next span2 btn offset8"><a href="{{ url }}" title="{{ title }}">Next &rarr;</a></div>
-  {{/ page.next }}
-  {{^ page.next }}
-    <div class="next disabled span2 btn offset8"><a>Next &rarr;</a></div>
-  {{/ page.next }}
-        
+  </div>
+      
+  <div class="row-fluid minus-top">
+  
+    {{# page.previous }}
+      <div class="prev previous span2 btn"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></div>
+    {{/ page.previous }}
+    {{^ page.previous }}
+      <div class="prev disabled previous span2 btn"><a>&larr; Previous</a></div>
+    {{/ page.previous }}
+  
+    {{# page.next }}
+      <div class="next span2 btn offset8"><a href="{{ url }}" title="{{ title }}">Next &rarr;</a></div>
+    {{/ page.next }}
+    {{^ page.next }}
+      <div class="next disabled span2 btn offset8"><a>Next &rarr;</a></div>
+    {{/ page.next }}
+          
+  </div>
+  <!-- this is presumably for each individual post -->
+  
+    
 </div>
-<!-- this is presumably for each individual post -->
+<!-- END Main Content
+================================================== -->

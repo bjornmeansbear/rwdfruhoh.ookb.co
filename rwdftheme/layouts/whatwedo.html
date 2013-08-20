@@ -2,42 +2,50 @@
 layout : default
 ---
 
-<!-- Top Hero -->
-<div class="jumbotron">
-<div class="jumbo-text inner">
-   <h1>{{ page.jumbohed }}</h1>
-   <p class="lead">{{ page.jumbodek }}</p>
-   </div>
-</div>
+<!-- Main Content
+================================================== -->
+<div class="container inner">
 
-
-<div class="row-fluid">
-
-  <!-- this will need to be auto-created; and then also auto-place classes in each posts div -->
-  <div class="span2">
-    <ul class="side-nav" id="filters">
-      <li><a href="#" data-filter="*">View All Categories</a></li>
-      <li><a href="#" data-filter=".science"><i class="icon-globe"></i> Science &amp; Tech</a></li>
-      <li><a href="#" data-filter=".scholar"><i class="icon-bookmark"></i> Scholars &amp; Fellows</a></li>
-      <li><a href="#" data-filter=".arts"><i class="icon-picture"></i> Arts &amp; Culture</a></li>
-      <li><a href="#" data-filter=".justice"><i class="icon-heart"></i> Social Justice</a></li>
-      <li><a href="#" data-filter=".community"><i class="icon-bullhorn"></i> Community</a></li>
-    </ul>
+  <!-- Top Hero -->
+  <div class="jumbotron">
+  <div class="jumbo-text inner">
+     <h1>{{ page.jumbohed }}</h1>
+     <p class="lead">{{ page.jumbodek }}</p>
+     </div>
   </div>
-        
-  <div class="span10" id="projects">
-    {{# whatwedo.all }}
-    <div class="project">
-      <div class="project-title">
-        <h3><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
-      </div>
-      <span class="category">
-        <i class="icon-leaf"></i><!-- this will show the icon that corresponds with the category for future sorting -->
-      </span>
-      <div class="project-content">
-        {{{ summary }}}
-      </div>
+  
+  
+  <div class="row-fluid">
+  
+    <!-- this will need to be auto-created; and then also auto-place classes in each posts div -->
+    <div class="span2">
+      <ul class="side-nav" id="filters">
+        <li><a href="#" data-filter="*">View All Categories</a></li>
+        <li><a href="#" data-filter=".science"><i class="icon-globe"></i> Science &amp; Tech</a></li>
+        <li><a href="#" data-filter=".scholar"><i class="icon-bookmark"></i> Scholars &amp; Fellows</a></li>
+        <li><a href="#" data-filter=".arts"><i class="icon-picture"></i> Arts &amp; Culture</a></li>
+        <li><a href="#" data-filter=".justice"><i class="icon-heart"></i> Social Justice</a></li>
+        <li><a href="#" data-filter=".community"><i class="icon-bullhorn"></i> Community</a></li>
+      </ul>
     </div>
-    {{/ whatwedo.all }}
+          
+    <div class="span10" id="projects">
+      {{# whatwedo.all }}
+      <div class="project">
+        <div class="project-title">
+          <h3><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
+        </div>
+        <span class="category">
+          <i class="icon-leaf"></i><!-- this will show the icon that corresponds with the category for future sorting -->
+        </span>
+        <div class="project-content">
+          {{{ summary }}}
+        </div>
+      </div>
+      {{/ whatwedo.all }}
+    </div>
   </div>
+
 </div>
+<!-- END Main Content
+================================================== -->
