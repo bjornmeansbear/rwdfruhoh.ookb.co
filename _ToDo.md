@@ -9,7 +9,8 @@ _(for an example of what the site will look like (more or less) when all working
 - Bios were created as their own files in a sub-directory; how to make these print out as a list inside the last tab here? I'm having a lot of problems with this one. In terms of how this software is working, it might make more sense to pull this out into another root-level folder and not make it a subfolder of whoweare?
 
 ## What We Do.
-- Sorted by categories: but how to get categories to print out as classes on each of the list entries? Also, how to get categories to print out as the side-nav?
+- Sorted by categories: but how to get categories to print out as classes on each of the list entries? 
+- Also, how to get categories to print out as the side-nav?
 - These need to be promotable someway to the homepage.
 
 ## Tell Us About You.
@@ -17,6 +18,7 @@ _(for an example of what the site will look like (more or less) when all working
 
 ## Blog.
 Not part of the ruhoh/CAPE site; powered and hosted externally by wordpress.
+Just need to get to the theme of this sucker.
 
 ## Additional stuff:
 - How to explain editing of MD files to client
