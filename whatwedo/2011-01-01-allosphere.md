@@ -1,8 +1,12 @@
 ---
+layout: slideshow
 title: "The Allosphere at UC-Santa Barbara"
 categories :
   - "one"
 images: 
+  - "http://rwdf.ookb.co/img/ss01.png"
+  - "http://rwdf.ookb.co/img/ss12.png"
+  - "http://rwdf.ookb.co/img/allosphere.png"
 ---
 
 *Imagine* diagnosing a neurological disease by flying through the cortex of a human brain, examining data about brain activity presented beautifully through color or music.

@@ -1,4 +1,5 @@
 ---
+layout: textonly
 title: "The Imaging Resource Center"
 categories :
   - "science and tech"
