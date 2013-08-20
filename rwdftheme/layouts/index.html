@@ -2,6 +2,25 @@
 layout : default
 ---
 
+<div class="hero container">
+  <div class="row">
+    <div class="span4 tagline">
+      <div class="text">
+        <!-- this needs to be turned into markdown files... make changing this text easy if possible -->
+        <h1>Great People. <br/>Great Ideas. <br/>Great Projects.</h1>
+      </div>
+    </div>
+    {{# whatwedo.latest }}
+      <div class="span4 overlay trio">
+        <h2><a href="{{url}}">{{title}}</a></h2>
+        <img src="{{ image }}">
+      </div>
+    {{/ whatwedo.latest }}
+  </div>
+</div>
+
+<hr class="add-top add-bottom">
+
 <!-- this will be turned into dynamic content areas, but for now bear with me -->
 <!-- INDEX Page Content
 ================================================== -->
@@ -11,14 +30,14 @@ layout : default
     <div class="span8">
       <img src="{{urls.media}}/briony-wide.jpg">
       <div class="text span8 green">
-        <h1>Briony Hynson</h1>
+        <h2>Briony Hynson</h2>
         <p class="lead"><a href="project-sample-text.html">Social Design Fellow and visionary behind the Bethel Street Playscape. &rarr;</a></p>
       </div>
     </div>
     <div class="span4 tagline">
       <div class="text">
         <!-- this needs to be turned into markdown files... make changing this text easy if possible -->
-        <h1>Great People. Great Ideas. Great Projects.</h1>
+        <h1>Great People. <br/>Great Ideas. <br/>Great Projects.</h1>
       </div>
     </div>
   </div>

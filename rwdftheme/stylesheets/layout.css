@@ -12,6 +12,9 @@ body {
   }
 
 
+.add-top    { margin-top: 60px; }
+.add-bottom { margin-bottom: 60px; }
+
 /***** Modules ************************************/
 /*=========================*/
 /* this needs to be tweaked based on the media-queries from the responsive CSS file */

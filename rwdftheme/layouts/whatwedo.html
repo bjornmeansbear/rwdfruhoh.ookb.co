@@ -35,9 +35,11 @@ layout : default
         <div class="project-title">
           <h3><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
         </div>
-        <span class="category">
-          <i class="icon-leaf"></i><!-- this will show the icon that corresponds with the category for future sorting -->
-        </span>
+        <ul>
+        {{# categories }}
+          <li><a href="{{url}}">{{name}}</a></li>
+        {{/ categories }}
+        </ul>
         <div class="project-content">
           {{{ summary }}}
         </div>

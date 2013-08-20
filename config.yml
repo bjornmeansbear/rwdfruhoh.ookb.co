@@ -44,6 +44,7 @@ whoweare:
 whatwedo:
   sort: ["year", "month", "title"]
   summary_lines: 1
+  latest: 5
   rss:
     enable: false
   paginator:

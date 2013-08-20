@@ -6,7 +6,7 @@ _(for an example of what the site will look like (more or less) when all working
 - These 5 blocks are to then fill randomly on each page load — so that the big featured area “rotates” each time the page is loaded/refreshed — is that possible? (there is a 6th block, which will have just text in it that I don't think needs to change)
 
 ## Who We Are.
-- Bios were created as their own files in a sub-directory; how to make these print out as a list inside the last tab here?
+- Bios were created as their own files in a sub-directory; how to make these print out as a list inside the last tab here? I'm having a lot of problems with this one. In terms of how this software is working, it might make more sense to pull this out into another root-level folder and not make it a subfolder of whoweare?
 
 ## What We Do.
 - Sorted by categories: but how to get categories to print out as classes on each of the list entries? Also, how to get categories to print out as the side-nav?
