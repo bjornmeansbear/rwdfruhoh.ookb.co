@@ -1,5 +1,6 @@
 ---
 title: "Our Values"
+tabid: "tab-values"
 ---
 
 ## Our Philosophy
