@@ -37,3 +37,12 @@ if I don't want to put those “pages” in the root folder, so as to make them 
 - Need to create template variations on individual project versions » the text only, small image, and big slideshow variants.
 - If form for tell us about you goes into the template .html file for that page, how is it triggered? Does it need to be a wufoo form? is there some JS or other server solution that can trigger an email to be sent?
 
+==========
+
+## Problems to solve:
+
+1. JS from theme isn't being found
+2. get email form to work
+3. issues with homepage rotation
+4. Bios (and other tabs on Who We Are) showing up the way I desire
+5. make just the folders from the repo that I want available to the clients for editing, not the whole repo...
