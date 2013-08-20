@@ -2,7 +2,8 @@
 layout: slideshow
 title: "The Allosphere at UC-Santa Barbara"
 categories :
-  - "one"
+  - "science and tech"
+  - "arts and culture"
 images: 
   - "http://rwdf.ookb.co/img/ss01.png"
   - "http://rwdf.ookb.co/img/ss12.png"
