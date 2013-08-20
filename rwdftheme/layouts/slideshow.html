@@ -15,9 +15,9 @@ layout : default
     data-cycle-next=".cycle-next"
     >
     <!-- IMAGES in the slideshow -->
-      {{# page.image }}
-        {{> image_list }}
-      {{/ page.image }}
+      {{# page.image.all }}
+        <img src="{{ page.immage }}" />
+      {{/ page.image.all }}
   </div>
 </div>
 
