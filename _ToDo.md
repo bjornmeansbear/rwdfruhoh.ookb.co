@@ -1,5 +1,5 @@
 # RWDF Ruhoh/CAPE To dos.
-_(for an example of what the site will look like when all working visit http://rwdf.ookb.co/ — this document is referring to steps needed on this repo, http://rwdfruhoh.ookb.co/)_
+_(for an example of what the site will look like (more or less) when all working visit [rwdf.ookb.co](http://rwdf.ookb.co/) — this document is referring to steps needed on this repo, [rwdfruhoh.ookb.co](http://rwdfruhoh.ookb.co/))_
 
 ## Homepage.
 - Need to be able to promote projects from the projects page (what we do page) feed to the 5 homepage blocks.
@@ -32,9 +32,8 @@ Not part of the ruhoh/CAPE site; powered and hosted externally by wordpress.
 ==========
 
 ## Problems to solve:
-
 1. JS from theme isn't being found
 2. get email form to work
-3. issues with homepage rotation
+3. work on homepage project placement and then rotation
 4. Bios (and other tabs on Who We Are) showing up the way I desire
 5. make just the folders from the repo that I want available to the clients for editing, not the whole repo...
