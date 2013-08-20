@@ -1,5 +1,5 @@
 ---
-layout : default
+layout: default
 ---
 
 <!-- Top Hero -->
@@ -13,7 +13,6 @@ layout : default
 <!-- Main Content
 ================================================== -->
 <div class="row-fluid">
-
   <div class="tabbable">
     <!-- THIS WILL PROBABLY NEED TO BE AUTO CREATED? -->
     <ul class="side-nav span2 id="myTab"">
@@ -28,10 +27,10 @@ layout : default
       <!-- This is the actual content... there will also be an image sidebar that siwtches up too...
       ================================================== -->
       {{# whoweare.all }}
-      <div class="tab-pane" id="{{ tabid }}">        
+      <div class="tab-pane" id="{{ tabid }}">
         <div class="span8">
-            <h3><a href="{{ base.path }}/{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
-            {{{ content }}}
+          <h3><a href="{{ base.path }}/{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
+          {{{ content }}}
         </div>
       </div>
       {{/ whoweare.all }}
@@ -41,122 +40,3 @@ layout : default
 
   </div><!-- / END tabbable -->
 </div><!-- / END Row-Fluid -->
-
-
-
-        
-          <div class="tab-content span10">
-      
-            <!-- VALUES!
-            ================================================== -->
-            <div class="tab-pane active" id="tab-values">        
-              <div class="span8">
-                <h3>Our Philosophy</h3>
-                <p>Some more text about why, etc. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.Donec id elit non mi porta gravida at eget metus. </p>           
-                
-                <h3>Who We Fund</h3>
-                <p>The Deutsch Foundation has been selective in the programs and institutions it has supported during its first 20 years of operation.  Its directors and staff will continue this practice, carefully researching issues significant to the public welfare, monitoring innovative trends, and selecting areas for grant making where the foundation can have significant impact, given its limited resources. We intend to concentrate our funding in Maryland and the Mid-Atlantic region.</p>
-                <p>Think you might be a good fit? <a href="tellus.html">Tell us about your idea.</a></p> 
-              </div>
-            </div>
-            
-            <!-- FOUNDERS -->
-            <!-- ====================================== -->
-            <div class="tab-pane" id="tab-founders">
-              <div class="span8">
-              <!-- FOUNDERS INFO -->
-              </div>
-            </div>
-
-            <!-- STAFF -->
-            <!-- ====================================== -->
-            <div class="tab-pane top-15" id="tab-staff">
-              <div class="span6">
-              
-                <div class="plain">
-                  <img src="img/rwdf-square.png" class="span4 img-circle" />
-                  <div class="span8">
-                    <h4>Jane Brown</h4>
-                    <h5>President and Executive Director</h5>
-                    <p>Jane has been guiding the foundation’s grant making and operations since 1995.  Previously she worked as an editor, writer and journalist, as managing editor of <i>Baltimore Magazine</i> and a features editor for the <i>Baltimore Sun</i>. She is a graduate of the University of Maryland at College Park and SUNY Stony Brook.</p>
-                    <a href="mailto:info@deutschfoundation.org" target="_blank">info@deutschfoundation.org</a>
-                    <a href="https://twitter.com" target="_blank"><img src="img/socialmask_twitter.png" class="socialicon-color" ></a>
-                  </div>
-                </div>
-                
-                <div class="plain"> 
-                  <img src="img/rwdf-square.png" class="span4 img-circle" />
-                  <div class="span8">
-                    <h4>Laurens “Mac” MacLure</h4>
-                    <h5>Director</h5>          
-                    <p>Mac is on the Board of Directors of the Baltimore Arts Realty Corporation and the Hannah More School Foundation. Previously he was President and CEO of RWD Technologies and held a number of management positions at Pioneer EyeCare and PHH Corporation. Mac received his J.D. from the University of Maryland School of Law and his B.A. in Economics from Bucknell University.</p>
-                    <a href="mailto:info@deutschfoundation.org" target="_blank">info@deutschfoundation.org</a>
-                  </div>
-                </div>
-                
-                <div class="plain">
-                  <img src="img/rwdf-square.png" class="span4 img-circle" />
-                  <div class="span8">
-                    <h4>David Deutsch </h4>
-                    <h5>Director</h5>
-                    <p>David has recently retired from a career as a high school mathematics teacher. Previously, he had worked as a software engineer specializing in simulation software.  He received his undergraduate degree in mathematics from the University of Maryland College Park and completed graduate work in mathematics at Boston University.</p>
-                    <a href="mailto:info@deutschfoundation.org" target="_blank">info@deutschfoundation.org</a>
-                  </div>
-                </div>
-                
-              </div>
-              <!-- end column 1, directors -->
-              
-              <div class="span6">  
-            
-                <div class="plain">
-                  <img src="img/rwdf-square.png" class="span4 img-circle" />
-                  <div class="span8">
-                    <h4>Neil Didriksen</h4>
-                    <h5>Chief Operating Officer</h5>
-                    <p>Neil joined the foundation staff in 2010. He spent many years raising money for colleges and universities including MIT, Duke Medical Center and the University of Baltimore. He received his undergraduate degree from Haverford College and his MBA from Duke University.</p>          
-                    <a href="mailto:info@deutschfoundation.org" target="_blank">info@deutschfoundation.org</a>
-                  </div>
-                </div>
-                
-                <div class="plain">
-                  <img src="img/rwdf-square.png" class="span4 img-circle" />
-                  <div class="span8">
-                    <h4>Jacqueline Tyson</h4>
-                    <h5>Executive Assistant</h5>
-                    <p>Jackie, a native Baltimorean, joined the foundation’s staff in 2010. She spent a number of years working in the nonprofit sector. She received her undergraduate degree in business and management from the Johns Hopkins University and is looking to pursue a Master's Degree in Nonprofit Management in the very near future.</p>
-                    <a href="mailto:info@deutschfoundation.org" target="_blank">info@deutschfoundation.org</a>
-                  </div>
-                </div>
-                  
-                <div class="plain">            
-                  <img src="img/rwdf-square.png" class="span4 img-circle" />
-                  <div class="span8">
-                    <h4>Taylor DeBoer</h4>
-                    <h5>Communications Manager</h5>
-                    <p>Taylor is the newest member of the foundation. A 2011 graduate of Loyola University Maryland’s Writing program, Taylor is an avid music writer and reader as well as an enthusiast of anything Baltimore. Taylor guides the foundations communication efforts, promoting the innovative work of the grantees. Please contact Taylor for press inquiries.</p>
-                    <a href="mailto:info@deutschfoundation.org" target="_blank">info@deutschfoundation.org</a>
-                    <a href="https://twitter.com" target="_blank"><img src="img/socialmask_twitter.png" class="socialicon-color" ></a>
-                  </div>
-                </div>
-                
-                <div class="plain">            
-                  <img src="img/rwdf-square.png" class="span4 img-circle" />
-                  <div class="span8">
-                    <h4>Anthony Hawkins </h4>
-                    <h5>Advisor</h5>
-                    <p>Tony joined the staff in 2012 after nearly thirty years as Vice President at the Rouse Company, a community developer. He is a native Baltimorean and graduate of Morgan State University and Johns Hopkins University. Tony helps guide the Foundation’s reality arts development in Station North as the President of the Baltimore Arts Realty Corporation. </p>
-                    <a href="mailto:info@deutschfoundation.org" target="_blank">info@deutschfoundation.org</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <!-- ====================================== -->
-            <!-- END OF STAFF TAB -->
-
-          </div>
-          <!-- END TABS! -->
-          <!-- ====================================== -->
-        </div>
-      </div>
