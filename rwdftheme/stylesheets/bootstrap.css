@@ -4265,7 +4265,6 @@ input[type="submit"].btn.btn-mini {
   display: none;
 }
 
-.tab-content > .tab-pane:first-child,
 .tab-content > .active,
 .pill-content > .active {
   display: block;
