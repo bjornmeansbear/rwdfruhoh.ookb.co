@@ -35,7 +35,6 @@ _root:
 
 whoweare:
   sort: ["title"]
-  summary_lines: 1
   rss:
     enable: false
   paginator:
@@ -53,7 +52,6 @@ whatwedo:
 
 tellus:
   sort: ["title"]
-  summary_lines: 20
   rss:
     enable: false
   paginator:
