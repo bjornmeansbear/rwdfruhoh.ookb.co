@@ -39,7 +39,6 @@ whoweare:
     enable: false
   paginator:
     enable: false
-  root_page: '/'
 
 whatwedo:
   sort: ["date", "desc"]
@@ -48,7 +47,6 @@ whatwedo:
     enable: false
   paginator:
     enable: false
-  root_page: '/'
 
 tellus:
   sort: ["title"]
@@ -56,7 +54,6 @@ tellus:
     enable: false
   paginator:
     enable: false
-  root_page: '/'
 
 #posts:
 #  sort: ["date", "desc"]
