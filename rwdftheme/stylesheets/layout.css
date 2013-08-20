@@ -345,7 +345,7 @@ label {
   margin-left: 1.5%;
 }
 
-.prev.disabled, .next.disabled {
+.minus-top .prev.disabled, .minus-top .next.disabled {
   display: none !important;
 }
 
