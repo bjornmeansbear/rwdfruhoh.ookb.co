@@ -9,7 +9,6 @@ _(for an example of what the site will look like (more or less) when all working
 - Bios were created as their own files in a sub-directory; how to make these print out as a list inside the last tab here?
 
 ## What We Do.
-- Projects are their own content type.
 - Sorted by categories: but how to get categories to print out as classes on each of the list entries? Also, how to get categories to print out as the side-nav?
 - These need to be promotable someway to the homepage.
 
@@ -26,7 +25,6 @@ Not part of the ruhoh/CAPE site; powered and hosted externally by wordpress.
 
 ## The Theme
 - Need to refine theme files
-- Play around with Slideshow template more, it is going to need the most work.
 - If form for tell us about you goes into the template .html file for that page, how is it triggered? Does it need to be a wufoo form? is there some JS or other server solution that can trigger an email to be sent?
 
 ==========
