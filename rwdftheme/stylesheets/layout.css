@@ -346,7 +346,7 @@ label {
 }
 
 .minus-top .prev.disabled, .minus-top .next.disabled {
-  display: none !important;
+  visibility: hidden !important;
 }
 
 
