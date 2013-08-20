@@ -1,7 +1,7 @@
 ---
 layout: singleimage
 title: "The Chicken Box"
-image: "http://www.flickr.com/photos/rwdf/9256159136/"
+image: "http://farm8.staticflickr.com/7324/9256158912_0bd89e142f.jpg"
 categories :
   - "arts and culture"
   - "social justice"
