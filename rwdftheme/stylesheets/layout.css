@@ -345,6 +345,11 @@ label {
   margin-left: 1.5%;
 }
 
+.prev.disabled, .next.disabled {
+  display: none !important;
+}
+
+
 /* JUST TEXT PAGES */
 
 .project .tags,
