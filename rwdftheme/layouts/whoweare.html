@@ -31,29 +31,29 @@ layout: default
         <!-- VALUES!
         ================================================== -->
         <div class="tab-pane active" id="tab-values">        
-          <div class="span8">
-            {{# whoweare.tags.values }}
-              {{# whoweare?to_whoweare }}
-                {{{content}}}
-              {{/ whoweare?to_whoweare }}
-            {{/ whoweare.tags.values }}
-          </div>
+          {{# whoweare.tags.values }}
+            {{# whoweare?to_whoweare }}
+              <div class="span8">{{{content}}}</div>
+              <div class="span4 inline-image">
+                <img src="{{image}}"/>
+                <p>IMG TK</p>
+              </div>     
+            {{/ whoweare?to_whoweare }}
+          {{/ whoweare.tags.values }}
         </div>
     
         <!-- FOUNDERS -->
         <!-- ====================================== -->
         <div class="tab-pane" id="tab-founders">
-          <div class="span8">
-            {{# whoweare.tags.founders }}
-              {{# whoweare?to_whoweare }}
-                {{{content}}}
-              {{/ whoweare?to_whoweare }}
-            {{/ whoweare.tags.founders }}
-          </div>
-          <div class="span4 inline-image">
-            <img src="img/philo_allosphere.jpg">
-            <p>IMG TK</p>
-          </div>     
+          {{# whoweare.tags.founders }}
+            {{# whoweare?to_whoweare }}
+              <div class="span8">{{{content}}}</div>
+              <div class="span4 inline-image">
+                <img src="{{image}}"/>
+                <p>IMG TK</p>
+              </div>     
+            {{/ whoweare?to_whoweare }}
+          {{/ whoweare.tags.founders }}
         </div>
         
         <!-- STAFF -->
