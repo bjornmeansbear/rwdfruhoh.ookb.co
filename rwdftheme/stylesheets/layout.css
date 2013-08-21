@@ -120,6 +120,13 @@ nav.navbar > .container {
   background: rgba(0,156,193,1);
 }
 
+.hero .tagline div.text,
+.hero .tagline h1 {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
 /* Triptych info */
 .triptych .trio {
   overflow: hidden;
@@ -255,6 +262,7 @@ nav.navbar > .container {
   margin-left:0 !important;
   border-bottom: 3px solid rgba(248,247,247,1);
   overflow:hidden;
+  min-height: 350px;
   }
   
 .plain p {
