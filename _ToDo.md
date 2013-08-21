@@ -6,7 +6,7 @@ _(for an example of what the site will look like (more or less) when all working
 - These 5 blocks are to then fill randomly on each page load — so that the big featured area “rotates” each time the page is loaded/refreshed — is that possible? (there is a 6th block, which will have just text in it that I don't think needs to change)
 
 ## Who We Are.
-- Bios were created as their own files in a sub-directory; how to make these print out as a list inside the last tab here? I'm having a lot of problems with this one. In terms of how this software is working, it might make more sense to pull this out into another root-level folder and not make it a subfolder of whoweare?
+- I'm still haveing some layout problems, but it is close.
 
 ## What We Do.
 - Sorted by categories: but how to get categories to print out as classes on each of the list entries? 
@@ -14,26 +14,17 @@ _(for an example of what the site will look like (more or less) when all working
 - These need to be promotable someway to the homepage.
 
 ## Tell Us About You.
-- How to trigger the sending of the form?
-
-## Blog.
-Not part of the ruhoh/CAPE site; powered and hosted externally by wordpress.
-Just need to get to the theme of this sucker.
+- How to trigger the sending of the form? Does it need to be a wufoo form? is there some JS or other server solution that can trigger an email to be sent?
 
 ## Additional stuff:
 - How to explain editing of MD files to client
 - Anyway to just grant access to the content folders, not the whole git repo?
 - Multiple ways to show featured projects on homepage? (text only posts should be able to be featured somehow too?)
 
-## The Theme
-- Need to refine theme files
-- If form for tell us about you goes into the template .html file for that page, how is it triggered? Does it need to be a wufoo form? is there some JS or other server solution that can trigger an email to be sent?
-
 ==========
 
-## Problems to solve:
-1. JS from theme isn't being found
-2. get email form to work
-3. work on homepage project placement and then rotation
-4. Bios (and other tabs on Who We Are) showing up the way I desire
-5. make just the folders from the repo that I want available to the clients for editing, not the whole repo...
+## Big Stuff to Solve:
+1. get email form to work
+2. work on homepage project placement and then rotation
+3. make just the folders from the repo that I want available to the clients for editing, not the whole repo...
+4. work with a flickr profile for images in slideshows, sidebars, etc.

@@ -1,6 +1,7 @@
 ---
 title: "Robert and Florence"
 tags: "founders"
+image: ""
 ---
 
 ## Career
