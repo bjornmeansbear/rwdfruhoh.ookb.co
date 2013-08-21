@@ -28,17 +28,54 @@ layout: default
       <!-- start tabbed "pages" column... -->
       <div class="tab-content span10">
   
-        <!-- This is the actual content... there will also be an image sidebar that siwtches up too...
+        <!-- VALUES!
         ================================================== -->
-        {{# whoweare.all }}
-        <div class="tab-pane" id="{{ tabid }}">
+        <div class="tab-pane active" id="tab-values">        
           <div class="span8">
-            <h3>{{ title }}</h3>
-            {{{ content }}}
+            {{# whoweare.tags.values }}
+              {{# whoweare?to_whoweare }}
+                {{{content}}}
+              {{/ whoweare?to_whoweare }}
+            {{/ whoweare.tags.values }}
           </div>
         </div>
-        {{/ whoweare.all }}
-  
+    
+        <!-- FOUNDERS -->
+        <!-- ====================================== -->
+        <div class="tab-pane" id="tab-founders">
+          <div class="span8">
+            {{# whoweare.tags.founders }}
+              {{# whoweare?to_whoweare }}
+                {{{content}}}
+              {{/ whoweare?to_whoweare }}
+            {{/ whoweare.tags.founders }}
+          </div>
+          <div class="span4 inline-image">
+            <img src="img/philo_allosphere.jpg">
+            <p>IMG TK</p>
+          </div>     
+        </div>
+        
+        <!-- STAFF -->
+        <!-- ====================================== -->
+        <div class="tab-pane" id="tab-staff">
+          <div class="span6">
+          
+            {{# whoweare.tags.bio }}
+              <div class="plain">
+                {{# whoweare?to_whoweare }}
+                  <h4>{{title}}</h4>
+                  <h5>{{subhead}}</h5>
+                  <img src="{{image}}"/>
+                  {{{content}}}
+                {{/ whoweare?to_whoweare }}
+              </div>
+            {{/ whoweare.tags.bio }}
+          </div>
+        </div>
+        <!-- END VALUES, FOUNDERS, STAFF -->
+        <!-- ====================================== -->
+
       </div>
       <!-- end tabbed "pages" column... -->
   

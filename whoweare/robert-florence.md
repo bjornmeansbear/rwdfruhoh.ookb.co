@@ -1,7 +1,6 @@
 ---
 title: "Robert and Florence"
-tabid: "tab-founders"
-tags: "tab-founders"
+tags: "founders"
 ---
 
 ## Career
