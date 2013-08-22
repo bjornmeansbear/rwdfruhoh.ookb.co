@@ -11,15 +11,13 @@ _(for an example of what the site will look like (more or less) when all working
 ## What We Do.
 - Sorted by categories: but how to get categories to print out as classes on each of the list entries? 
 - Also, how to get categories to print out as the side-nav?
-- These need to be promotable someway to the homepage.
 
 ## Tell Us About You.
 - How to trigger the sending of the form? Does it need to be a wufoo form? is there some JS or other server solution that can trigger an email to be sent?
 
 ## Additional stuff:
 - How to explain editing of MD files to client
-- Anyway to just grant access to the content folders, not the whole git repo?
-- Multiple ways to show featured projects on homepage? (text only posts should be able to be featured somehow too?)
+- Multiple design templates for showing featured projects on homepage? (text only posts should be able to be featured somehow too?)
 
 ==========
 
@@ -27,4 +25,5 @@ _(for an example of what the site will look like (more or less) when all working
 1. get email form to work
 2. work on homepage project placement and then rotation
 3. make just the folders from the repo that I want available to the clients for editing, not the whole repo...
-4. work with a flickr profile for images in slideshows, sidebars, etc.
+4. work on integration with a flickr profile for images in slideshows, sidebars, etc.
+5. make projects a CAPE powered promotable feed to the homepage

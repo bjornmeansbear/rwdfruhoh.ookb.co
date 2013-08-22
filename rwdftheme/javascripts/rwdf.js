@@ -16,11 +16,6 @@ $(document).ready(function() {
   var wh = $(window).height();
   $('#slideshow').height(wh-300);
 
-  // make tagline the same height as the lead feature
-  var fh = $('.hero .feature').height();
-  $('.hero .tagline .text').height(fh);
-  $('.hero .tagline h1').height(fh);
-
 });
 
 $(window).bind("load", function() {
@@ -30,7 +25,7 @@ $(window).bind("load", function() {
   $('.hero .tagline h1').height(fh);
 });
 
-//gallery keyboard evetns
+//gallery keyboard events
 $(document.documentElement).keyup(function (event) {
   if (event.keyCode == 37){
     $('.cycle-slideshow').cycle('prev');

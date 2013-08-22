@@ -1,10 +1,10 @@
 ---
 title: "Robert and Florence"
 tags: "founders"
-image: ""
+image: "robert-and-florence-deutsch-picture_large.jpg"
 ---
 
-## Career
+### Career
 
 The Robert W. Deutsch Foundation exists through the generosity of Robert Deutsch and Florence Kadish Deutsch, who believed in giving back to the community, supporting education and helping others throughout their lives.
 
@@ -16,7 +16,7 @@ In 1988, Dr. Deutsch left General Physics to start RWD Technologies, a company f
 
 Throughout his career, Dr. Deutsch remained true to his commitment to invest in the education, training and development of people, and to promote innovative thinking and solutions for complex problems in the workplace.
 
-## Robert and Florence
+### Robert and Florence
 
 Robert Deutsch was born in New York City in 1924 to a family of modest means. He graduated from Far Rockaway High School in the top of his class.
 
