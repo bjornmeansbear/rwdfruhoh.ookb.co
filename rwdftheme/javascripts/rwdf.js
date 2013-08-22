@@ -23,6 +23,13 @@ $(document).ready(function() {
 
 });
 
+$(window).bind("load", function() {
+  // make tagline the same height as the lead feature
+  var fh = $('.hero .feature').height();
+  $('.hero .tagline .text').height(fh);
+  $('.hero .tagline h1').height(fh);
+});
+
 //gallery keyboard evetns
 $(document.documentElement).keyup(function (event) {
   if (event.keyCode == 37){
