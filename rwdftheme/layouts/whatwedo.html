@@ -17,27 +17,32 @@ layout : default
   
   <div class="row-fluid">
   
-    <!-- this will need to be auto-created; and then also auto-place classes in each posts div -->
+    <!-- this will need to be auto-created; and then also auto-place classes in each whatwedo div -->
     <div class="span2">
       <ul class="side-nav" id="filters">
-        <li><a href="#" data-filter="*">View All Categories</a></li>
-        <li><a href="#" data-filter=".science"><i class="icon-globe"></i> Science &amp; Tech</a></li>
-        <li><a href="#" data-filter=".scholar"><i class="icon-bookmark"></i> Scholars &amp; Fellows</a></li>
-        <li><a href="#" data-filter=".arts"><i class="icon-picture"></i> Arts &amp; Culture</a></li>
-        <li><a href="#" data-filter=".justice"><i class="icon-heart"></i> Social Justice</a></li>
-        <li><a href="#" data-filter=".community"><i class="icon-bullhorn"></i> Community</a></li>
+        <li class="active"><a href="#" data-filter="*">View All Categories</a></li>
+        <li><a href="#" data-filter=".science">ICON TK Science &amp; Tech</a></li>
+        <li><a href="#" data-filter=".scholars">ICON TK Scholars &amp; Fellows</a></li>
+        <li><a href="#" data-filter=".arts">ICON TK Arts &amp; Culture</a></li>
+        <li><a href="#" data-filter=".justice">ICON TK Social Justice</a></li>
+        <li><a href="#" data-filter=".community">ICON TK Community</a></li>
       </ul>
+<!--
+      {{# whatwedo.categories.all }}
+        {{> categories_list }}
+      {{/ whatwedo.categories.all }}
+-->
     </div>
           
-    <div class="span10" id="projects">
+    <div class="span10 isotope-area" id="projects">
       {{# whatwedo.all }}
-      <div class="project">
+      <div class="project brick {{# categories }} {{name}} {{/ categories }}">
         <div class="project-title">
           <h3><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
         </div>
-        <ul>
+        <ul class="icons categories">
         {{# categories }}
-          <li><a href="{{url}}">{{name}}</a></li>
+          <li class="{{# categories }} {{name}} {{/ categories }}"><a href="{{url}}">ICON TK {{name}}</a></li>
         {{/ categories }}
         </ul>
         <div class="project-content">

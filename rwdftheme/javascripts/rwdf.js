@@ -16,6 +16,15 @@ $(document).ready(function() {
   var wh = $(window).height();
   $('#slideshow').height(wh-300);
 
+  var $container = $('#projects');
+  $container.isotope({
+  })
+  $('#filters a').click(function(){
+    var selector = $(this).attr('data-filter');
+    $container.isotope({ filter: selector });
+    return false;
+  });
+
 });
 
 $(window).bind("load", function() {
@@ -32,4 +41,9 @@ $(document.documentElement).keyup(function (event) {
   }else if (event.keyCode == 39){
     $('.cycle-slideshow').cycle('next')
   }
+});
+
+$("#filters a").click(function() {
+  $(this).parent().parent().find('li.active').removeClass('active');
+  $(this).parent().addClass('active');
 });

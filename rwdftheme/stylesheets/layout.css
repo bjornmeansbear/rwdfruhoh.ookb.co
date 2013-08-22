@@ -459,4 +459,24 @@ label {
        -o-transition-property: opacity;
           transition-property: opacity;
 }
-  
+
+/***********************************/
+/** What We Do Page Icon Stuff... **/
+/***********************************/
+
+.project-title h3 a { color: #0799C8; }
+
+.brick ul.categories {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.brick ul.categories li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+
+
+
