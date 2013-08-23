@@ -1,7 +1,8 @@
 ---
-title: "Our Values"
-tags: "values"
-image: "rowhouse.jpg"
+title: Our Values
+tags: values
+image: rowhouse.jpg
+published: true
 ---
 
 ### Our Philosophy
@@ -14,3 +15,4 @@ The Deutsch Foundation has been selective in the programs and institutions it ha
 
 Think you might be a good fit? [Tell us about your idea](tellusaboutyou).
 
+Writing something new.
