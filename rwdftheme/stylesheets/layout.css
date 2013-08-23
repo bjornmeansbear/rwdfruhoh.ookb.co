@@ -338,6 +338,12 @@ label {
   border-bottom: 3px solid rgba(248,247,247,1); 
   }
   
+
+.brick:last-child {
+  padding-bottom:60px;
+  border-bottom: none; 
+  }
+
 .brick h3 {
   }
   

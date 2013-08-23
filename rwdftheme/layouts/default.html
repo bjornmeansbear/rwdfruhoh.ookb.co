@@ -62,11 +62,11 @@
       <div class="diag-divider"></div>
       <div class="row">
         <p class="pull-right">&copy; Deutsch Foundation 2013</p>
-        <p class="span3 ">
+        <p class="span3">
           The Robert W. Deutsch Foundation <br/>
           Suite 201, The Exchange <br/>
           112 Kenilworth Drive <br/>
-          Towson, MD 21204        
+          Towson, MD 21204
         </p>
         <p class="span3">
           Email us at <a href="mailto:info@rwdfoundation.org" target="_blank">info@rwdfoundation.org</a> <br/>
@@ -74,7 +74,15 @@
           <a href="https://twitter.com/DeutschFound" target="_blank"><img src="{{urls.theme}}/media/socialmask_twitter.png" class="socialicon" ></a>
           <a href="https://www.facebook.com/RobertWDeutschFoundation" target="_blank"><img src="{{urls.theme}}/media/socialmask_fbook.png" class="socialicon" ></a>
           <a href="http://rwdfblog.com/" target="_blank"><img src="{{urls.theme}}/media/socialmask_wpress.png" class="socialicon" ></a>
+          <a href="http://www.flickr.com/photos/rwdf" target="_blank"><img src="{{urls.theme}}/media/FLICKR TK.png" class="socialicon" >FLICKR TK</a>
         </p>
+        <ul class="span3">
+          <li><a href="/" target="_blank">Home</a></li>
+          {{# data.navigation?to__root }}
+            {{> pages_list }}
+          {{/ data.navigation?to__root }}
+          <li><a href="http://rwdfblog.com/" target="_blank">Visit the Blog &raquo;</a></li>
+        </ul>
       </div>
     </footer>
     <!-- /footer -->
