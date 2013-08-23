@@ -3,20 +3,22 @@ layout: slideshow
 title: "The Allosphere at UC-Santa Barbara"
 year: "2000"
 month: "01"
-categories :
-  - "science and tech"
-  - "arts and culture"
+categories: 
+  - science and tech
+  - arts and culture
+  - community
 image: 
   - "http://rwdf.ookb.co/img/ss01.png"
   - "http://rwdf.ookb.co/img/ss12.png"
   - "http://rwdf.ookb.co/img/allosphere.png"
+published: true
 ---
 
-*Imagine* diagnosing a neurological disease by flying through the cortex of a human brain, examining data about brain activity presented beautifully through color or music.
+_Imagine_ diagnosing a neurological disease by flying through the cortex of a human brain, examining data about brain activity presented beautifully through color or music.
 
-*Imagine* discovering new patterns and trends in big data sets through lush, dynamic visualization.
+_Imagine_ discovering new patterns and trends in big data sets through lush, dynamic visualization.
 
-*Imagine* creating transparent solar cells to power mobile devices by expanding our understanding of the multicenter hydrogen bond, using different hues and sounds to identify the various atoms.
+_Imagine_ creating transparent solar cells to power mobile devices by expanding our understanding of the multicenter hydrogen bond, using different hues and sounds to identify the various atoms.
 
 These are among the cutting-edge research projects the Robert W. Deutsch Foundation supports at the University of California, Santa Barbara to explore the intersection of engineering, science, technology and art.
 
@@ -34,4 +36,3 @@ Graham Wakefield, the Deutsch Foundation’s first Postdoctoral Fellow, is helpi
 
 [EVL]: http://vislab.mat.ucsb.edu/
 [ARF]: http://www.allosphere.ucsb.edu/
-
