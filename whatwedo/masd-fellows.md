@@ -1,5 +1,5 @@
 ---
-layout: singleimage
+layout: "singleimage"
 title: "MASD Deutsch Fellows"
 image: ""
 year: "2013"
@@ -19,8 +19,9 @@ Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra aug
 
 Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
 
-Fellows:  
-- Becky Slogeris 2012  
-- Briony Hynson 2012  
-- Name TK 2013  
-- Name TK 2013   s
+### Fellows:
+- Becky Slogeris 2012
+- Briony Hynson 2012
+- Name TK 2013
+- Name TK 2013
+
