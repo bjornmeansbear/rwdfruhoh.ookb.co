@@ -1,7 +1,7 @@
 ---
 layout: "singleimage"
 title: "MASD Deutsch Fellows"
-image: ""
+image: "http://rwdfruhoh.ookb.co/assets/media/briony-wide.jpg"
 year: "2013"
 month: "01"
 categories :

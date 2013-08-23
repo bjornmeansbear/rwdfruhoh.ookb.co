@@ -7,10 +7,16 @@ $(document).ready(function() {
   // subtract height of projects so prev/next buttons show up in right places
   var projectheight = $('article.project').height();
   var iconheight    = $('article.project div.tags.top').height();
-  var imageheight    = $('article.project div.leadimage').height();
+  var imageheight   = $('article.project div.leadimage').height();
   var hedheight     = $('article.project h2').height();
-  var relpos        = (80+projectheight-iconheight-hedheight-imageheight)*-1;
+  
+  var rowfluid      = $('.inner .row-fluid').height();
+  
+  var btnheight     = rowfluid+126;
+  var relpos        = btnheight*-1;
+  
   $('.minus-top .btn').css('top',relpos);
+  $('.minus-top .btn').height(btnheight);
 
   // set slideshow height cleverly
   var wh = $(window).height();
