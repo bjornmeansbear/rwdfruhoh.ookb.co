@@ -179,7 +179,7 @@ nav.navbar > .container {
 /* lower, more general stuff */
 .row-fluid {
   padding-top:25px;
-  padding-bottom:75px;
+  padding-bottom:0;
   }
 
 .home-content h3 {
@@ -321,7 +321,16 @@ label {
 /* Project Pages */
 /*=========================*/
 
-.minus-top, .minus-top .btn { position: relative; }
+.minus-top { padding-top: 0; }
+.minus-top, .minus-top .pager { position: relative; }
+.minus-top .pager a { position: absolute; display: block; width: 100%; }
+.minus-top .pager { margin-top:0; margin-bottom: 0; }
+
+.pager a {
+  background: red;
+
+}
+
 
 .brick {
   padding-bottom:20px;
@@ -341,7 +350,6 @@ label {
   clear:both;
   margin-right: 55px;
   }
-  
 
 /*Icon Stuff*/
 .side-nav .icon {

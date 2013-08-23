@@ -4,20 +4,6 @@ $(document).ready(function() {
   var blockheight = blockwidth/1.32;
   $('.triptych .trio').height(blockheight);
 
-  // subtract height of projects so prev/next buttons show up in right places
-  var projectheight = $('article.project').height();
-  var iconheight    = $('article.project div.tags.top').height();
-  var imageheight   = $('article.project div.leadimage').height();
-  var hedheight     = $('article.project h2').height();
-  
-  var rowfluid      = $('.inner .row-fluid').height();
-  
-  var btnheight     = rowfluid+126;
-  var relpos        = btnheight*-1;
-  
-  $('.minus-top .btn').css('top',relpos);
-  $('.minus-top .btn').height(btnheight);
-
   // set slideshow height cleverly
   var wh = $(window).height();
   $('#slideshow').height(wh-300);
@@ -37,7 +23,22 @@ $(window).bind("load", function() {
   // make tagline the same height as the lead feature
   var fh = $('.hero .feature').height();
   $('.hero .tagline .text').height(fh);
-  $('.hero .tagline h1').height(fh);
+
+  // subtract height of projects so prev/next buttons show up in right places
+  var rowfluid      = $('.inner .row-fluid').height();
+  var minustop      = $('.minus-top').height();
+  var containerheight = $('.container.inner').height();
+/*
+  var btnheight     = rowfluid+minustop+55;
+  var relpos        = (rowfluid+minustop)*-1;
+*/
+  var btnheight     = containerheight+30;
+  var relpos        = (containerheight-30)*-1;
+  
+  $('.minus-top .pager a').css('top',relpos);
+  $('.minus-top .pager a').height(btnheight);
+
+
 });
 
 //gallery keyboard events
