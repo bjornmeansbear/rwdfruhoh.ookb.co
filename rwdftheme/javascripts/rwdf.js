@@ -25,20 +25,11 @@ $(window).bind("load", function() {
   $('.hero .tagline .text').height(fh);
 
   // subtract height of projects so prev/next buttons show up in right places
-  var rowfluid      = $('.inner .row-fluid').height();
-  var minustop      = $('.minus-top').height();
   var containerheight = $('.container.inner').height();
-/*
-  var btnheight     = rowfluid+minustop+55;
-  var relpos        = (rowfluid+minustop)*-1;
-*/
   var btnheight     = containerheight+30;
   var relpos        = (containerheight-30)*-1;
-  
   $('.minus-top .pager a').css('top',relpos);
   $('.minus-top .pager a').height(btnheight);
-
-
 });
 
 //gallery keyboard events
