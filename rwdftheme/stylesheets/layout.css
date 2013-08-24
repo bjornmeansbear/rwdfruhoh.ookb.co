@@ -97,13 +97,11 @@ nav.navbar > .container {
   position: relative;
 }
 
-.hero .row div.text,
 .overlay div.text {
   background: #009CC1;
   background: rgba(0,156,193,.5);
   position: absolute;
   bottom: 0;
-  float: none;
   margin: 0;
 }
 
@@ -119,13 +117,13 @@ nav.navbar > .container {
 .hero .row .tagline div.text {
   background: #009CC1;
   background: rgba(0,156,193,1);
+  display: table;
+  vertical-align: middle;
 }
 
-.hero .row .tagline img {
-  width: 70%;
-  padding: 0;
-  margin: 5% 20% 5% 10%;
-  display: block;
+.hero .row .tagline div.text h1 {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* Triptych info */
