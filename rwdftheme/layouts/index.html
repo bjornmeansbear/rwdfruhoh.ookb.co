@@ -73,24 +73,30 @@ layout : default
 <div class="index jumbotron container">
   <div class="diag-divider"></div>
   <div class="row">
-    <p class="span12 lead">The Deutsch Foundation invests in innovative people, projects and ideas that improve the quality of life in Baltimore and beyond.</p>
+    {{# homepage.find_by_name.dek }}
+      <div class="span12 lead">
+        {{{content}}}
+      </div>
+    {{/ homepage.find_by_name.dek }}
   </div>
 </div>
 
 <!-- these need to be turned into markdown files... make changing this text easy if possible -->
 <!-- Page -->
-<div class="container">
+<div class="container add-bottom">
   <div class="row-fluid home-content">
-    <div class="span6">
-      <h3>Continuing the legacy of Robert W. Deutsch.</h3>
-      <p>The Foundation exists because of the entrepreneurial success of Dr. Robert W. Deutsch. We honor the lifelong interests of Dr. Deutsch and his wife Florence with our support of innovative people, projects and ideas.</p>
-      <p><a href="whoweare">Learn more &raquo;</a></p>
-    </div>
-    <div class="span6">
-      <h3>We’d love to hear about your big idea.</h3>
-      <p>We welcome innovative ideas from individuals and organizations that are aligned with the Foundation’s values and interests, which include but are not limited to Science and Technology, Scholarships and Fellows, Arts and Culture, Social Justice and Community Development.</p>
-      <p><a href="tellusaboutyou">Tell us about yourself &raquo;</a></p>
-    </div>
+    {{# homepage.find_by_name.legacy }}
+      <div class="span6">
+        <h3><a href="whoweare">{{ title }}</a></h3>
+        {{{content}}}
+      </div>
+    {{/ homepage.find_by_name.legacy }}
+    {{# homepage.find_by_name.tellus }}
+      <div class="span6">
+        <h3><a href="tellusaboutyou">{{ title }}</a></h3>
+        {{{content}}}
+      </div>
+    {{/ homepage.find_by_name.tellus }}
   </div>
 </div>
 <!-- /Page -->
