@@ -21,28 +21,61 @@ layout : default
     <div class="span8">
       <h3>We'd love to hear from you.</h3>
   
-      <form>
-        <fieldset>  
-          <div class="controls controls-row">
-            <input type="text" class="span4" placeholder="Your Name">
-            <input type="text" class="span4" placeholder="Organization Name">
-            </div>
-          <div class="controls controls-row">
-            <input type="text" class="span3" placeholder="Phone">
-            <input type="text" class="span6" placeholder="Email">
-            </div>
-            
-            
-          <label>Describe your idea or program</label>
-            <textarea rows="3"></textarea>   
-          <label>Describe your organization (or yourself)</label>
-            <textarea rows="3"></textarea>  
-          <label>How are you and your idea aligned with Deutsch's values and interests?</label>
-            <textarea rows="3"></textarea>  
-          <button type="submit" class="btn btn-info btn-large">Send</button>
-        </fieldset>
+      <form id="form2" name="form2" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://ookb.wufoo.com/forms/m7x3z9/#public">
+        <div class="controls controls-row">
+          <input id="Field2" name="Field2" type="text" class="span4 field text" placeholder="Your Name" maxlength="255" tabindex="1" onkeyup="" />
+          <input id="Field3" name="Field3" type="text" class="span4 field text" placeholder="Organization Name" maxlength="255" tabindex="2" onkeyup="" />
+        </div>
+      
+        <div class="controls controls-row">
+          <div id="foli10" class="phone span4">
+            <label class="desc" id="title10" for="Field10"> Phone Number <span id="req_10" class="req">*</span> </label>
+            <span class="span1">
+              <input id="Field10" name="Field10" type="tel" class="field text" placeholder="###" size="3" maxlength="3" tabindex="3" />
+            </span>
+            <span class="symbol">-</span>
+            <span class="span1">
+            <input id="Field10-1" name="Field10-1" type="tel" class="field text" placeholder="###" size="3" maxlength="3" tabindex="4" />
+            </span>
+            <span class="symbol">-</span>
+            <span class="span2">
+             <input id="Field10-2" name="Field10-2" type="tel" class="field text" placeholder="####" size="4" maxlength="4" tabindex="5" />
+            </span>
+          </div>
+      
+          <input id="Field9" name="Field9" type="email" spellcheck="false" class="span5 field text medium" value="youremail@email.com" placeholder="Email" maxlength="255" tabindex="6" /> 
+        </div>
+      
+        <div>
+          <label class="desc" id="title5" for="Field5"> Describe your idea or program </label>
+          <textarea id="Field5" name="Field5" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="7" onkeyup=""></textarea>
+        </div>
+        
+        
+        <div>
+          <label class="desc" id="title6" for="Field6">Describe your organization (or yourself)</label>
+          <textarea id="Field6" name="Field6" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="8" onkeyup="" ></textarea>
+        </div>
+      
+        <div>
+          <label class="desc" id="title7" for="Field7">How are you and your idea aligned with Deutsch's values and interests?</label>
+          <textarea id="Field7" name="Field7" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="9" onkeyup="" ></textarea>
+        </div>
+      
+        <div>
+          <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit"/>
+        </div>
+      
+        <div class="hide">
+          <label for="comment">Do Not Fill This Out</label>
+          <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+          <input type="hidden" id="idstamp" name="idstamp" value="1DWtsf2ozTiUxBfVTEN9g4JOkzmbuCa1BDGxFxU9xlw=" />
+        </div>
+      
       </form> 
-    
+      
+      <!-- <a class="powertiny" href="http://www.wufoo.com/" title="Powered by Wufoo" style="display:block !important;visibility:visible !important;text-indent:0 !important;position:relative !important;height:auto !important;width:95px !important;overflow:visible !important;text-decoration:none;cursor:pointer !important;margin:0 auto !important"> <span style="background:url(./images/powerlogo.png) no-repeat center 7px; margin:0 auto;display:inline-block !important;visibility:visible !important;text-indent:-9000px !important;position:static !important;overflow: auto !important;width:62px !important;height:30px !important">Wufoo</span> <b style="display:block !important;visibility:visible !important;text-indent:0 !important;position:static !important;height:auto !important;width:auto !important;overflow: auto !important;font-weight:normal;font-size:9px;color:#777;padding:0 0 0 3px;">Designed</b></a> -->
+
     </div>
           
     {{# tellus.all }}

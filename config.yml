@@ -51,13 +51,13 @@ whatwedo:
     enable: false
   base_path: "/whatwedo/"
 
-tellus:
+tellusaboutyou:
   sort: ["title"]
   rss:
     enable: false
   paginator:
     enable: false
-  base_path: "/tellus/"
+  base_path: "/tellusaboutyou/"
 
 #posts:
 #  sort: ["date", "desc"]
