@@ -1,5 +1,5 @@
 ---
-title: "Are We A Good Fit"
+title: "Are We A Good Fit?"
 ---
 
 The Deutsch Foundation welcomes innovative ideas from individuals and organizations that are aligned with the Foundation’s values and interests, which include but are not limited to Science and Technology, Scholarships and Fellows, Arts and Culture, Social Justice and Community Development.
