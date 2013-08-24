@@ -1,4 +1,4 @@
-## from https://github.com/ruhoh/ruhoh.rb/issues/204#issuecomment-23202323
+## my-website/plugins/pages_find_by_name.rb
 
 module PagesFindByName
   def find_by_name
@@ -18,21 +18,3 @@ module PagesFindByName
 end
 
 Ruhoh::Resources::Pages::CollectionView.send(:include, PagesFindByName)
-
-=begin
-
-USE THIS WAY:
-
-# my-blog/_root/index.html
-
-{{# pages.find_by_name.about-me }}
-
-  <h4>{{ title }}</h4>
-
-  {{{ summary }}}
-
-{{/ pages.find_by_name.about-me }}
-
-This assumes you have a valid file at my-blog/pages/about-me.md
-
-=end
