@@ -6,11 +6,8 @@ _(for an example of what the site will look like (more or less) when all working
 - These 5 blocks are to then fill randomly on each page load — so that the big featured area “rotates” each time the page is loaded/refreshed — is that possible? (there is a 6th block, which will have just text in it that I don't think needs to change)
 
 ## Who We Are.
-- I'm still haveing some layout problems, but it is close.
 
 ## What We Do.
-- Sorted by categories: but how to get categories to print out as classes on each of the list entries? 
-- Also, how to get categories to print out as the side-nav?
 
 ## Tell Us About You.
 - How to trigger the sending of the form? Does it need to be a wufoo form? is there some JS or other server solution that can trigger an email to be sent?
