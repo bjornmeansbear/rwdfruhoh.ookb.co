@@ -111,8 +111,9 @@ nav.navbar > .container {
   padding: 15px;
 }
 
-.hero .row div.text.span8 h1 {
+.hero .row div.span8 h2 {
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .hero .row .tagline div.text {
@@ -120,17 +121,15 @@ nav.navbar > .container {
   background: rgba(0,156,193,1);
 }
 
-.hero .tagline div.text,
-.hero .tagline h1 {
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
+.hero .row .tagline img {
+  width: 70%;
+  padding: 0;
+  margin: 5% 20% 5% 10%;
+  display: block;
 }
 
 /* Triptych info */
-.triptych .trio {
-  overflow: hidden;
-}
+.triptych .trio { overflow: hidden; }
 
 .triptych .span4 img {
   height: auto;
@@ -173,9 +172,8 @@ nav.navbar > .container {
 }
 
 .triptych .no-overlay .tags {margin-bottom: 10px;}
-.triptych .no-overlay .tags .icon {
-  width: 100px;
-}
+.triptych .no-overlay .tags .icon { width: 100px; }
+
 /* lower, more general stuff */
 .row-fluid {
   padding-top:25px;
@@ -205,7 +203,6 @@ nav.navbar > .container {
   font-size: 4.4rem;
   line-height: 1.3333;
   }
-
 
 /* Side Nav */
 /*=========================*/
@@ -325,13 +322,31 @@ label {
 .minus-top { padding-top: 0; }
 .minus-top, .minus-top .pager { position: relative; }
 .minus-top .pager a { position: absolute; display: block; width: 100%; }
-.minus-top .pager { margin-top:0; margin-bottom: 0; }
-
-.pager a {
-  background: red;
-
+.minus-top .pager { 
+  margin-top:0; 
+  margin-bottom: 0; 
 }
 
+.pager a {
+  background: url("../media/proj-n.png") center center no-repeat;
+  text-indent: -999999999px;
+  overflow: hidden;
+}
+
+.prev.pager a {
+  background: url("../media/proj-p.png") center center no-repeat;
+}
+
+.pager a:hover {
+  background-color: #009AC9;
+  background-color: rgba(0,154,201,.1);
+  color: white;
+  text-decoration: none;
+  /**/
+  transition: all 300ms;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+}
 
 .brick {
   padding-bottom:20px;

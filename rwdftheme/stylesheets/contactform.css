@@ -32,14 +32,14 @@ textarea {
   border: none;
   background: #009AC9;
   background: rgba(0,154,201,1);
-  width: 206px;
-  padding: 1.1%;
-  margin-top: 15px;
   color:white;
+  margin-top: 15px;
+  padding: 1.1%;
+  width: 206px;
   /**/
-  transition: background 500ms;
-  -moz-transition: background 500ms;
-  -webkit-transition: background 500ms;
+  transition: background 300ms;
+  -moz-transition: background 300ms;
+  -webkit-transition: background 300ms;
 }
 
 #saveForm:hover {
