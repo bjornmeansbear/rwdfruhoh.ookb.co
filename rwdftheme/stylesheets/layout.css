@@ -11,9 +11,6 @@ body {
   padding-bottom:100px;
   }
 
-.add-top    { margin-top: 60px; }
-.add-bottom { margin-bottom: 60px; }
-
 /***** Modules ************************************/
 /*=========================*/
 /* this needs to be tweaked based on the media-queries from the responsive CSS file */
@@ -21,6 +18,9 @@ body {
 .container {
   margin: 0 auto 30px auto;
   }  
+
+.add-top    { margin-top: 75px; }
+.add-bottom { margin-bottom: 75px; }
 
 /* Navbar */
 
@@ -78,6 +78,7 @@ nav.navbar > .container {
   margin-top: 5px;
   overflow: hidden;
   max-height: 500px;
+  position: relative;
   }
   
 .hero .text * {
@@ -85,9 +86,19 @@ nav.navbar > .container {
   margin: 0;
 }
 
-.hero .row {
+.hero .row,
+.hero .feature,
+.hero .tagline {
   overflow: hidden;
   max-height: 500px;
+  position: relative;
+}
+
+.feature .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
 }
   
 .hero .row,
@@ -97,6 +108,7 @@ nav.navbar > .container {
   position: relative;
 }
 
+.feature .overlay,
 .overlay div.text {
   background: #009CC1;
   background: rgba(0,156,193,.5);
@@ -357,9 +369,6 @@ label {
   border-bottom: none; 
   }
 
-.brick h3 {
-  }
-  
 .brick .tags {
   display: block;
   text-align: right;
@@ -386,7 +395,6 @@ label {
 .minus-top .prev.disabled, .minus-top .next.disabled {
   visibility: hidden !important;
 }
-
 
 /* JUST TEXT PAGES */
 

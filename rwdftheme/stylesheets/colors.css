@@ -86,6 +86,7 @@ hr {
 
 /**/
 
+.index .hero .feature .text.green
 .index .hero .row div.text.green,
 .overlay div.text.green {
   background: #A2B952 !important;
