@@ -3,11 +3,11 @@
 /** Base RWDF Color Palette **/
 /**
 
-Light Green:  rgba(189,213,0,1)
-Dk Green:     rgba(110,176,0,1)
-Blue:         rgba(0,154,201,1)
-Gray:         rgba(185,186,184,1)
-light gray:   rgba(248,247,247,1)
+Dk Green:     rgba(110,176,0,1), #6EB000
+Blue:         rgba(0,154,201,1), #009AC9
+Gray:         rgba(185,186,184,1), #B9BAB8
+light gray:   rgba(248,247,247,1), #F8F7F7
+  color:rgba(0,160,208,1);
 
 **/
 
@@ -17,32 +17,72 @@ light gray:   rgba(248,247,247,1)
 
 /* Text */
 
-a { color:rgba(110,176,0,1); }
-a:hover { color:rgba(0,154,201,1); }
-.navbar ul.nav li.active a {
-  color: #0799C8;
-}
-h3, h4 { /* Subheads */
-  color:rgba(0,160,208,1);
+a { 
+  color:#6EB000;
+  color:rgba(110,176,0,1); 
   }
+  
+a:hover { 
+  color: #009AC9;
+  color:rgba(0,154,201,1); 
+  }
+
+.navbar ul.nav li.active a {
+  color: #009AC9;
+  color: rgba(0,154,201,1);
+  }
+
+h3, h4 { /* Subheads */
+  color: #009AC9;
+  color: rgba(0,154,201,1);
+  }
+  
 .plain h5 { /* Subheads */
+  color:#6EB000;
   color:rgba(110,176,0,1);
   }
+  
 footer {
+  color: #B9BAB8;
   color: rgba(185,186,184,1);
   }
-footer a {color:rgba(185,186,184,1)}
+  
+footer a {
+  color: #B9BAB8;
+  color:rgba(185,186,184,1)
+  }
 
 /* Graphic Elements */
-hr { background-color:rgba(248,247,247,1); }
-.socialicon { background-color:rgba(185,186,184,1); }
-.socialicon-color { background-color:rgba(110,176,0,1); }
-.socialicon:hover, .socialicon-color:hover { background-color:rgba(110,176,0,1); }
+hr { 
+  background-color: #F8F7F7;
+  background-color:rgba(248,247,247,1); 
+  }
+  
+.socialicon { 
+  background-color: #B9BAB8;
+  background-color:rgba(185,186,184,1); 
+  }
+
+.socialicon-color { 
+  background-color:#6EB000;
+  background-color:rgba(110,176,0,1); 
+  }
+
+.socialicon:hover, .socialicon-color:hover { 
+  background-color:#6EB000;
+  background-color:rgba(110,176,0,1); 
+  }
+
 .carousel-control { 
-    color:rgba(185,186,184,1);
-    background-color: transparent 
-    }
-.carousel-control:hover { color:rgba(110,176,0,1); }
+  color: #B9BAB8;
+  color:rgba(185,186,184,1);
+  background-color: transparent 
+  }
+    
+.carousel-control:hover { 
+  color:#6EB000;
+  color:rgba(110,176,0,1); 
+  }
 
 /**/
 
@@ -50,5 +90,5 @@ hr { background-color:rgba(248,247,247,1); }
 .overlay div.text.green {
   background: #A2B952 !important;
   background: rgba(162,185,82,.75) !important;
-}
+  }
 
