@@ -17,52 +17,43 @@ layout : default
   
   <div class="row-fluid">
   
-<!-- this will need to be auto-created; and then also auto-place classes in each whatwedo div -->
+    <!-- this will need to be auto-created; and then also auto-place classes in each whatwedo div -->
     <div class="span2">
       <ul class="side-nav" id="filters">
         <li class="active"><div><p><a href="#" data-filter="*">View All Categories</a></p></div></li>
         <li>
           <div>
             <a href="#" data-filter=".science">
-              <img class="icongreen iconsidenav" src="{{urls:theme}}/media/category_science.png">
+              <img class="icongreen sidenav" src="{{urls.theme}}/media/category_science.png">
               <p>Science &amp; Tech</p>
               </a>
           </div>
         </li>
         <li>
           <div>
-            <a href="#" data-filter=".scholars">
-              <img class="icongreen iconsidenav" src="{{urls:theme}}/media/category_scholars.png">
-              <p>Scholars &amp; Fellows</p>
-              </a>
+            <img class="icongreen sidenav" src="{{urls.theme}}/media/category_scholars.png">
+            <p><a href="#" data-filter=".scholars">Scholars &amp; Fellows</a></p>
           </div>
         </li>
         <li>
           <div>
-            <a href="#" data-filter=".arts">
-              <img class="icongreen iconsidenav" src="{{urls:theme}}/media/category_arts.png">
-              <p>Arts &amp; Culture</p>
-              </a>
+            <img class="icongreen sidenav" src="{{urls.theme}}/media/category_arts.png">
+            <p><a href="#" data-filter=".arts">Arts &amp; Culture</a></p>
           </div>
         </li>
         <li>
           <div>
-            <a href="#" data-filter=".justice">
-              <img class="icongreen iconsidenav" src="{{urls:theme}}/media/category_justice.png">
-              <p>Social Justice</p>
-              </a>
+            <img class="icongreen sidenav" src="{{urls.theme}}/media/category_justice.png">
+            <p><a href="#" data-filter=".justice">Social Justice</a></p>
           </div>
         </li>
         <li>
           <div>
-            <a href="#" data-filter=".community">
-              <img class="icongreen iconsidenav" src="{{urls:theme}}/media/category_community.png">
-              <p>Community</p>
-              </a>
+            <img class="icongreen sidenav" src="{{urls.theme}}/media/category_community.png">
+            <p><a href="#" data-filter=".community">Community</a></p>
           </div>
         </li>
       </ul>
-
 <!--
       {{# whatwedo.categories.all }}
         {{> categories_list }}
