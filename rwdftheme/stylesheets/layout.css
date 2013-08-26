@@ -515,7 +515,8 @@ label {
 
 .sidenav {
   height:24px;
-  
+  float:left;
+  margin-right:5px;  
   }
 
 

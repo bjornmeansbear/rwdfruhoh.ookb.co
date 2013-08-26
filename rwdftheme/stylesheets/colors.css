@@ -58,7 +58,7 @@ hr {
   background-color:rgba(248,247,247,1); 
   }
   
-.iconblue { 
+.icongreen { 
   background-color:#6EB000;
   background-color:rgba(110,176,0,1); 
   }
@@ -68,7 +68,7 @@ hr {
   background-color:rgba(185,186,184,1); 
   }
 
-.iconblue:hover, .icongray:hover, { 
+.icongreen:hover, .icongray:hover, { 
   background-color:#009AC9;
   background-color:rgba(0,154,201,1); 
   }
