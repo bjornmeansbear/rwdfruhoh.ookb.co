@@ -68,7 +68,7 @@ hr {
   background-color:rgba(185,186,184,1); 
   }
 
-.icongreen:hover, .icongray:hover, { 
+.icongreen:hover , .icongray:hover { 
   background-color:#009AC9;
   background-color:rgba(0,154,201,1); 
   }
