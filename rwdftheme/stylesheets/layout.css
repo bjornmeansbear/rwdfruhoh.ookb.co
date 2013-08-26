@@ -64,6 +64,32 @@ nav.navbar > .container {
   margin:0 42px;
   padding: 30px 100px;  
   }
+  
+/* Footer */
+/*=========================*/
+.diag-divider {
+  height:40px;  
+  background: url("../media/diag.gif") repeat;
+  border-bottom: 3px solid rgba(248,247,247,1); 
+  margin-bottom: 20px;
+  } 
+
+.socialicon, .socialicon-color {
+  float:left;
+  margin: 5px 10px 20px 0;
+  }
+
+#tab-staff .socialicon-color {
+  float:none;
+  margin-top: 15px !important;
+  }
+
+#tab-staff .plain a {
+  margin: 0px 10px 10px 0;
+  display: inline-block;
+}
+
+
 
 /*=========================*/
 /*=========================*/
@@ -214,40 +240,6 @@ nav.navbar > .container {
   line-height: 1.3333;
   }
 
-/* Side Nav */
-/*=========================*/
-.side-nav {
-  list-style-type: none;
-  padding-top: 20px;
-  margin:5px 0;
-  }
-
-.side-nav li {
-  padding-bottom:15px;
-  line-height: 1.1;  
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
-  }
-  
-.side-nav li a {
-  font-size: 1.4rem;
-  padding: 5px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  }
-
-.side-nav > .active > a,
-.side-nav > .active > a:hover,
-.side-nav > .active > a:focus {
-  color: #555555;
-  cursor: default;
-  text-decoration: none;
-}
-
-.side-nav i { margin: 3px 3px 0 0 }
- 
-.side-nav > li.active { background-color: rgba(248,247,247,1); } 
 
 /* Inner Pages */
 /*=========================*/
@@ -302,29 +294,43 @@ label {
   margin:10px 0 2px 0;
   }
   
-/* Footer */
+
+/* Side Nav */
 /*=========================*/
-.diag-divider {
-  height:40px;  
-  background: url("../media/diag.gif") repeat;
-  border-bottom: 3px solid rgba(248,247,247,1); 
-  margin-bottom: 20px;
-  } 
-
-.socialicon, .socialicon-color {
-  float:left;
-  margin: 5px 10px 20px 0;
+.side-nav {
+  list-style-type: none;
+  padding-top: 20px;
+  margin:5px 0;
   }
 
-#tab-staff .socialicon-color {
-  float:none;
-  margin-top: 15px !important;
+.side-nav li {
+  padding-bottom:15px;
+  line-height: 1.1;  
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  }
+  
+.side-nav li a {
+  font-size: 1.4rem;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   }
 
-#tab-staff .plain a {
-  margin: 0px 10px 10px 0;
-  display: inline-block;
+.side-nav > .active > a,
+.side-nav > .active > a:hover,
+.side-nav > .active > a:focus {
+  color: #555555;
+  cursor: default;
+  text-decoration: none;
 }
+
+.side-nav i { margin: 3px 3px 0 0 }
+ 
+.side-nav > li.active { background-color: rgba(248,247,247,1); }   
+  
+  
 
 /* Project Pages */
 /*=========================*/
@@ -380,17 +386,6 @@ label {
   margin-right: 55px;
   }
 
-/*Icon Stuff*/
-.side-nav .icon {
-  height: 30px;
-  max-width: 36px;
-  margin-right: 2px;
-}
-
-.tags .icon {
-  width: 18%;
-  margin-left: 1.5%;
-}
 
 .minus-top .prev.disabled, .minus-top .next.disabled {
   visibility: hidden !important;
@@ -500,11 +495,14 @@ label {
 /** What We Do Page Icon Stuff... **/
 /***********************************/
 
+/*Icon Stuff*/
+
+
 .project-title h3 a { color: #0799C8; }
 
 .brick ul.categories {
   list-style: none;
-  margin: 0 0 20px;
+  margin: 0;
   padding: 0;
   }
 
@@ -512,12 +510,18 @@ label {
   display: inline-block;
   margin: 0px 10px;
   } 
+  
+.brick ul.categories li {
+  display: inline-block;
+  margin: 0px 10px;
+  } 
 
-.sidenav {
+ul.side-nav .iconsidenav {
   height:24px;
   float:left;
-  margin-right:5px;  
+  margin:12px 5px 0 0;  
   }
+  
 
 
 
