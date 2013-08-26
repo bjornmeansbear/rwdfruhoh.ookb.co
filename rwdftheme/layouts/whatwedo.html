@@ -78,7 +78,9 @@ layout : default
           </div>
         <ul class="icons categories">
           {{# categories }}
-          <li class="{{# categories }} {{name}} {{/ categories }}"><a href="{{url}}">{{name}}<img class="icongreen" src="{{urls.theme}}/media/category_justice.png"></a></li>
+          <li class="{{# categories }} {{name}} {{/ categories }}">
+            <a href="{{url}}">{{name}}<img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_justice.png"></a>
+            </li>
           {{/ categories }}
           </ul>
         <div class="project-content">
