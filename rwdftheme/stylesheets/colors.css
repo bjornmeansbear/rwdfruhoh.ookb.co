@@ -58,28 +58,17 @@ hr {
   background-color:rgba(248,247,247,1); 
   }
   
-.categoryicon { 
-  background-color: #009AC9;
-  background-color: rgba(0,154,201,1);
-  }
-
-.categoryicon:hover { 
+.icon-blue { 
   background-color:#6EB000;
   background-color:rgba(110,176,0,1); 
   }
   
-  
-.socialicon { 
+.icon-gray { 
   background-color: #B9BAB8;
   background-color:rgba(185,186,184,1); 
   }
 
-.socialicon-color { 
-  background-color:#6EB000;
-  background-color:rgba(110,176,0,1); 
-  }
-
-.socialicon:hover, .socialicon-color:hover { 
+.icon-blue:hover, .icon-gray:hover, { 
   background-color:#6EB000;
   background-color:rgba(110,176,0,1); 
   }
