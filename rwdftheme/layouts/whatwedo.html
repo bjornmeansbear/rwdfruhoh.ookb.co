@@ -20,7 +20,15 @@ layout : default
     <!-- this will need to be auto-created; and then also auto-place classes in each whatwedo div -->
     <div class="span2">
       <ul class="side-nav" id="filters">
-        <li class="active"><div><p><a href="#" data-filter="*">View All Categories</a></p></div></li>
+      
+        <li class="active">
+          <div>
+            <a href="#" data-filter="*">
+              <p>View All Categories</p>
+            </a>
+          </div>
+        </li>
+        
         <li>
           <div>
             <a href="#" data-filter=".science">
@@ -29,6 +37,7 @@ layout : default
             </a>
           </div>
         </li>
+        
         <li>
           <div>
             <a href="#" data-filter=".scholars">
@@ -37,6 +46,7 @@ layout : default
             </a>
           </div>
         </li>
+        
         <li>
           <div>
             <a href="#" data-filter=".arts">
@@ -45,6 +55,7 @@ layout : default
             </a>
           </div>
         </li>
+        
         <li>
           <div>
             <a href="#" data-filter=".justice">
@@ -53,6 +64,7 @@ layout : default
             </a>
           </div>
         </li>
+        
         <li>
           <div>
             <a href="#" data-filter=".community">
@@ -61,6 +73,7 @@ layout : default
             </a>
           </div>
         </li>
+        
       </ul><!--
       {{# whatwedo.categories.all }}
         {{> categories_list }}

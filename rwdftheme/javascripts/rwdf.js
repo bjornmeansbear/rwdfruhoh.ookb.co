@@ -41,8 +41,10 @@ $(document.documentElement).keyup(function (event) {
   }
 });
 
+
+//Working on making sidebar navigation follow active trail.
 $("#filters a").click(function() {
-  $(this).parent().parent().parent().find('li.active').removeClass('active');
+  $("#filters").find('li.active').removeClass('active');
   $(this).parent().parent().addClass('active');
 });
 
