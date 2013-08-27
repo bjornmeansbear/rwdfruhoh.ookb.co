@@ -22,11 +22,13 @@ layout : default
         </div>
         <h2>{{ page.title }}</h2>
         {{{ page.content }}}
-        <div class="tags bottom text-center">
+
+        <div class="icons categories bottom text-center">
           {{# page.categories }}
-            <p><a href="{{url}}">{{name}}</a></p>
+            <a href="TK" class="{{name}}">{{name}}</a>
           {{/ page.categories }}
         </div>
+
       </article>
     </div>
     
