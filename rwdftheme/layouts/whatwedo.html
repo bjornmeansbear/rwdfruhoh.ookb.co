@@ -19,14 +19,14 @@ layout : default
   
     <!-- this will need to be auto-created; and then also auto-place classes in each whatwedo div -->
     <div class="span2">
-            <ul class="side-nav" id="filters">
+      <ul class="side-nav" id="filters">
         <li class="active"><div><p><a href="#" data-filter="*">View All Categories</a></p></div></li>
         <li>
           <div>
             <a href="#" data-filter=".science">
               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_science.png">
               <p>Science &amp; Tech</p>
-              </a>
+            </a>
           </div>
         </li>
         <li>
@@ -34,7 +34,7 @@ layout : default
             <a href="#" data-filter=".scholars">
               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_scholars.png">
               <p>Scholars &amp; Fellows</p>
-              </a>
+            </a>
           </div>
         </li>
         <li>
@@ -42,7 +42,7 @@ layout : default
             <a href="#" data-filter=".arts">
               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_arts.png">
               <p>Arts &amp; Culture</p>
-              </a>
+            </a>
           </div>
         </li>
         <li>
@@ -50,7 +50,7 @@ layout : default
             <a href="#" data-filter=".justice">
               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_justice.png">
               <p>Social Justice</p>
-              </a>
+            </a>
           </div>
         </li>
         <li>
@@ -58,7 +58,7 @@ layout : default
             <a href="#" data-filter=".community">
               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_community.png">
               <p>Community</p>
-              </a>
+            </a>
           </div>
         </li>
       </ul><!--
@@ -74,14 +74,14 @@ layout : default
       <div class="project brick {{# categories }} {{name}} {{/ categories }}">
         <div class="project-title">
           <h3><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
-          </div>
+        </div>
         <ul class="icons categories">
           {{# categories }}
-          <li class="{{# categories }} {{name}} {{/ categories }}">
+          <li class="{{name}}">
             <a href="{{url}}">{{name}}</a>
-            </li>
+          </li>
           {{/ categories }}
-          </ul>
+        </ul>
         <div class="project-content">
           {{{ summary }}}
           </div>
