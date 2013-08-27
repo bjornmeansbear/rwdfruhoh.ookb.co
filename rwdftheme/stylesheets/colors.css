@@ -68,7 +68,8 @@ hr {
   background-color:rgba(185,186,184,1); 
   }
 
-.icongreen:hover , .icongray:hover { 
+.icongreen:hover, .icongray:hover,
+li:hover .icongreen, li:hover .icongray { 
   background-color:#009AC9;
   background-color:rgba(0,154,201,1); 
   }
@@ -93,6 +94,14 @@ hr {
   color:#6EB000;
   color:rgba(110,176,0,1); 
   }
+
+ul.side-nav .active p {
+  color: #555555;
+}
+
+ul.side-nav .active img {
+  background-color: #555555;
+}
 
 /**/
 
