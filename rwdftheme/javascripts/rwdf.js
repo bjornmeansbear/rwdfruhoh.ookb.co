@@ -42,7 +42,7 @@ $(document.documentElement).keyup(function (event) {
 });
 
 $("#filters a").click(function() {
-  $(this).parent().parent().parent().parent().find('li.active').removeClass('active');
-  $(this).parent().parent().parent().addClass('active');
+  $(this).parent().parent().parent().find('li.active').removeClass('active');
+  $(this).parent().parent().addClass('active');
 });
 
