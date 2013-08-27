@@ -8,10 +8,20 @@ $(document).ready(function() {
   var wh = $(window).height();
   $('#slideshow').height(wh-300);
 
+  //prepare whatwedo feed for isotope...
+
+  //isotope stuff
   var $container = $('#projects');
   $container.isotope({
   })
-  $('#filters a').click(function(){
+  $('#filters a').click(function(event){
+    event.preventDefault();
+    var selector = $(this).attr('data-filter');
+    $container.isotope({ filter: selector });
+    return false;
+  });
+  $('.icons.categories a').click(function(event){
+    event.preventDefault();
     var selector = $(this).attr('data-filter');
     $container.isotope({ filter: selector });
     return false;

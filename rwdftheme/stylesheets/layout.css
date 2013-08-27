@@ -518,49 +518,40 @@ ul.side-nav .iconsidenav {
   margin:12px 5px 0 0;  
   }
   
-.icons.categories .arts {
+.icons.categories li,
+.icons.categories li a {
+  display: inline-block;
+  height: 40px;
+}
+
+.icons.categories li a {
+  text-indent: -9000px;
+  overflow: hidden;
+}
+
+.icons.categories .arts a {
   background:url('../media/category_arts_40.png') no-repeat;
-  text-indent: -9000px;
-  overflow: hidden;
-  height: 40px;
   width:40px !important;
-  float: left;
   }
   
-.icons.categories .community {
+.icons.categories .community a {
   background:url('../media/category_community_40.png') no-repeat;
-  text-indent: -9000px;
-  overflow: hidden;
-  height: 40px;
   width:37px !important;
-  float: left;
   }
   
-.icons.categories .justice {
+.icons.categories .justice a {
   background:url('../media/category_justice_40.png') no-repeat;
-  text-indent: -9000px;
-  overflow: hidden;
-  height: 40px;
   width:44px !important;
-  float: left;
   }
   
-.icons.categories .science {
+.icons.categories .science a {
   background:url('../media/category_science_40.png') no-repeat;
-  text-indent: -9000px;
-  overflow: hidden;
-  height: 40px;
   width:35px !important;
-  float: left;
   }
   
-.icons.categories .scholars {
+.icons.categories .scholars a {
   background:url('../media/category_scholars_40.png') no-repeat;
-  text-indent: -9000px;
-  overflow: hidden;
-  height: 40px;
   width:40px !important;
-  float: left;
   }
 
 
