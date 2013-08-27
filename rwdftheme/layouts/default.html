@@ -32,6 +32,13 @@
     <!--[if lt IE 10]>
     <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!--[if lt IE 9]>
+    {{# javascripts.load }}
+      respond.min.js
+    {{/ javascripts.load }}
+    <![endif]-->
+
   
   </head>
 
