@@ -16,7 +16,9 @@ layout : default
     </div>
     <div class="span4 tagline">
       <div class="text">
-        <h1>Great People. <br/>Great Ideas. <br/>Great Projects.</h1>
+        {{# homepage.find_by_name.hed }}
+          <h1> {{{content}}} </h1>
+        {{/ homepage.find_by_name.hed }}
       </div>
     </div>
   </div>
