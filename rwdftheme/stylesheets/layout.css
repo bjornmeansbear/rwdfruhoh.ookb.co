@@ -527,31 +527,39 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  
+  display:block;
   }
   
 .icons.categories .community {
   background:url('../media/category_community_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
+  height: 40px;
+  display:block;
   }
   
 .icons.categories .justice {
   background:url('../media/category_justice_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
+  height: 40px;
+  display:block;
   }
   
 .icons.categories .scholars {
   background:url('../media/category_scholars_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
+  height: 40px;
+  display:block;
   }
   
 .icons.categories .science {
   background:url('../media/category_science_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
+  height: 40px;
+  display:block;
   }
 
 
