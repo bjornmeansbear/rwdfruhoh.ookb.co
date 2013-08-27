@@ -73,12 +73,12 @@ hr {
   background-color:rgba(0,154,201,1); 
   }
   
-.science , .arts , .justice, .scholars, .community {
+.icons.categories .science , .icons.categories .arts , .icons.categories .justice, .icons.categories .scholars, .icons.categories .community {
   background-color: #B9BAB8;
   background-color:rgba(185,186,184,1); 
   }
   
-.science:hover , .arts:hover , .justice:hover , .scholars:hover , .community:hover {
+.icons.categories .science:hover , .icons.categories .arts:hover , .icons.categories .justice:hover , .icons.categories .scholars:hover , .icons.categories .community:hover {
   background-color:#009AC9;
   background-color:rgba(0,154,201,1); 
   }

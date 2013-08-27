@@ -523,31 +523,33 @@ ul.side-nav .iconsidenav {
   }
   
 .icons.categories .arts {
-  background-image:url('../media/category_arts_40.png');
+  background:url('../media/category_arts_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
+  height: 40px;
+  
   }
   
 .icons.categories .community {
-  background-image:url('../media/category_community_40.png');
+  background:url('../media/category_community_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
   }
   
 .icons.categories .justice {
-  background-image:url('../media/category_justice_40.png');
+  background:url('../media/category_justice_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
   }
   
 .icons.categories .scholars {
-  background-image:url('../media/category_scholars_40.png');
+  background:url('../media/category_scholars_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
   }
   
 .icons.categories .science {
-  background-image:url('../media/category_science_40.png');
+  background:url('../media/category_science_40.png') no-repeat;
   text-indent: -9000px;
   overflow: hidden;
   }
