@@ -527,7 +527,7 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  width:40px;
+  width:40px !important;
   float: left;
   }
   
@@ -536,7 +536,7 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  width:37px;
+  width:37px !important;
   float: left;
   }
   
@@ -545,7 +545,7 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  width:44px;
+  width:44px !important;
   float: left;
   }
   
@@ -554,7 +554,7 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  width:35px;
+  width:35px !important;
   float: left;
   }
   
@@ -563,7 +563,7 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  width:40px;
+  width:40px !important;
   float: left;
   }
 
