@@ -9,6 +9,10 @@ $(document).ready(function() {
   $('#slideshow').height(wh-300);
 
   //prepare whatwedo feed for isotope...
+  $('.icons.categories .science a').attr('data-filter', '.science');
+  $('.icons.categories .scholars a').attr('data-filter', '.scholars');
+  $('.icons.categories .arts a').attr('data-filter', '.arts');
+  $('.icons.categories .justice a').attr('data-filter', '.justice');
 
   //isotope stuff
   var $container = $('#projects');
