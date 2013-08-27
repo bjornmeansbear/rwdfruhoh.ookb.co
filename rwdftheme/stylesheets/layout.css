@@ -522,6 +522,35 @@ ul.side-nav .iconsidenav {
   margin:12px 5px 0 0;  
   }
   
+.arts {
+  background-image:url('../media/category_arts_40.png');
+  text-indent: -9000px;
+  overflow: hidden;
+  }
+  
+.community {
+  background-image:url('../media/category_community_40.png');
+  text-indent: -9000px;
+  overflow: hidden;
+  }
+  
+.justice {
+  background-image:url('../media/category_justice_40.png');
+  text-indent: -9000px;
+  overflow: hidden;
+  }
+  
+.scholars {
+  background-image:url('../media/category_scholars_40.png');
+  text-indent: -9000px;
+  overflow: hidden;
+  }
+  
+.science {
+  background-image:url('../media/category_science_40.png');
+  text-indent: -9000px;
+  overflow: hidden;
+  }
 
 
 

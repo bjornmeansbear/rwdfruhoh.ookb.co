@@ -72,6 +72,16 @@ hr {
   background-color:#009AC9;
   background-color:rgba(0,154,201,1); 
   }
+  
+.science , .arts , .justice, .scholars, .community {
+  background-color: #B9BAB8;
+  background-color:rgba(185,186,184,1); 
+  }
+  
+.science:hover , .arts:hover , .justice:hover , .scholars:hover , .community:hover {
+  background-color:#009AC9;
+  background-color:rgba(0,154,201,1); 
+  }
 
 .carousel-control { 
   color: #B9BAB8;
