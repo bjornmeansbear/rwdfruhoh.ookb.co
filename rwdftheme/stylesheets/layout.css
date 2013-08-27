@@ -508,13 +508,9 @@ label {
 
 .brick ul.categories li {
   display: inline-block;
-  margin: 0px 10px;
+  margin: 0 5px 15px 0;
   } 
   
-.brick ul.categories li {
-  display: inline-block;
-  margin: 0px 10px;
-  } 
 
 ul.side-nav .iconsidenav {
   height:24px;
