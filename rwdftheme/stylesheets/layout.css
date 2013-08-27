@@ -527,7 +527,7 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  display:block;
+  float: left;
   }
   
 .icons.categories .community {
@@ -535,7 +535,7 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  display:block;
+  float: left;
   }
   
 .icons.categories .justice {
@@ -543,15 +543,7 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  display:block;
-  }
-  
-.icons.categories .scholars {
-  background:url('../media/category_scholars_40.png') no-repeat;
-  text-indent: -9000px;
-  overflow: hidden;
-  height: 40px;
-  display:block;
+  float: left;
   }
   
 .icons.categories .science {
@@ -559,7 +551,15 @@ ul.side-nav .iconsidenav {
   text-indent: -9000px;
   overflow: hidden;
   height: 40px;
-  display:block;
+  float: left;
+  }
+  
+.icons.categories .scholars {
+  background:url('../media/category_scholars_40.png') no-repeat;
+  text-indent: -9000px;
+  overflow: hidden;
+  height: 40px;
+  float: left;
   }
 
 
