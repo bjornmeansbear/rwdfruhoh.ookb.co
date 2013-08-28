@@ -89,6 +89,14 @@ nav.navbar > .container {
   display: inline-block;
 }
 
+.tab-pane h3 {
+  margin-top: 22px;
+}
+
+#tab-staff .span6 {
+  margin-top: 15px;
+}
+
 
 
 /*=========================*/
@@ -310,7 +318,7 @@ label {
      -moz-border-radius: 5px;
           border-radius: 5px;
   }
-.side-nav li:first-child {
+#filters li:first-child {
   text-align: center;
 }
   
