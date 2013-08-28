@@ -1,7 +1,7 @@
 ---
 layout: textonly
 title: "BioFab at UMCP"
-year: "2000"
+year: "2006"
 month: "01"
 categories :
   - "science and tech"

@@ -1,7 +1,7 @@
 ---
 layout: textonly
 title: "Media Democracy Fund"
-year: "2000"
+year: "2010"
 month: "01"
 categories: 
   - "science and tech"
