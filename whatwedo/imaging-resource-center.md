@@ -1,6 +1,12 @@
 ---
-layout: textonly
+layout: slideshow
 title: "The Imaging Resource Center"
+image:
+  - "http://rwdfruhoh.ookb.co/assets/media/irc/dan-nmca.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/irc/dyer-balloon.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/irc/irc-pan-small.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/irc/nas-domeipad.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/irc/strongartstrongyouth.jpg"
 categories :
   - "science and tech"
   - "arts and culture"
