@@ -2,13 +2,10 @@
 layout: "slideshow"
 title: "Deutsch Fellows – Masters of Social Design at MICA"
 image: 
-  - "http://rwdfruhoh.ookb.co/assets/media/briony-wide.jpg"
-  - "http://rwdfruhoh.ookb.co/assets/media/masd/1009395_10151534127515787_407399027_o-1.jpg"
-  - "http://rwdfruhoh.ookb.co/assets/media/masd/funday2.jpg"
-  - "http://rwdfruhoh.ookb.co/assets/media/masd/funday3.jpg"
-  - "http://rwdfruhoh.ookb.co/assets/media/masd/funday4.jpg"
-  - "http://rwdfruhoh.ookb.co/assets/media/masd/funday5.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/masd/winterworkday.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/masd/funday2.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/masd/funday5.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/masd/1009395_10151534127515787_407399027_o-1.jpg"
 year: "2013"
 month: "01"
 categories :

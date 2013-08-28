@@ -411,9 +411,9 @@ label {
 /*=========================*/
 
 #slideshow {
+  border-radius: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 0;
 }
 
 #slideshow .cycle-slideshow, 
