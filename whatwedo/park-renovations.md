@@ -1,8 +1,7 @@
 ---
 layout: textonly
 title: "Park Renovations"
-year: "2013"
-month: "04"
+date: "2013-04-01"
 categories :
   - "arts and culture"
   - "social justice"

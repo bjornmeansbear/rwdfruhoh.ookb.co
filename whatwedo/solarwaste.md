@@ -1,8 +1,7 @@
 ---
 layout: textonly
-title: North Avenue Big Belly Solar Waste System
-year: "2013"
-month: "04"
+title: "North Avenue Big Belly Solar Waste System"
+date: "2013-04-01"
 categories :
   - "arts and culture"
   - "social justice"

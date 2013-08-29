@@ -41,7 +41,9 @@ h3, h4 { /* Subheads */
   color:#6EB000;
   color:rgba(110,176,0,1);
   }
-  
+
+h3.project-title a { color: #0799C8; }
+
 footer {
   color: #B9BAB8;
   color: rgba(185,186,184,1);

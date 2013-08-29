@@ -1,8 +1,7 @@
 ---
 layout: slideshow
 title: "The Imaging Resource Center"
-year: "2007"
-month: "01"
+date: "2007-01-01"
 image:
   - "http://rwdfruhoh.ookb.co/assets/media/irc/dan-nmca.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/irc/dyer-balloon.jpg"

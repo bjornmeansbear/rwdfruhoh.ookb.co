@@ -1,8 +1,7 @@
 ---
 layout: slideshow
 title: "The Allosphere at UC-Santa Barbara"
-year: "2012"
-month: "01"
+date: "2012-01-01"
 categories: 
   - science and tech
   - arts and culture

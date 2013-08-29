@@ -1,8 +1,7 @@
 ---
 layout: textonly
 title: "Media Democracy Fund"
-year: "2010"
-month: "01"
+date: "2010-01-01"
 categories: 
   - "science and tech"
   - "social justice"

@@ -1,8 +1,7 @@
 ---
 layout: slideshow
 title: "Station North Tool Library"
-year: "2012"
-month: "10"
+date: "2012-10-01"
 categories :
   - "community"
 image:
@@ -15,6 +14,6 @@ image:
   - "http://farm8.staticflickr.com/7456/8976874233_862b5d50ec_h.jpg"
 ---
 
-The Station North Tool Library’s mission is to empower individuals, through affordable access to tools, skills, and workspace, to positively direct development, rehabilitation, and construction of their environment and their lives. Read more about the tool library on our blog [link TK]
+The Station North Tool Library’s mission is to empower individuals, through affordable access to tools, skills, and workspace, to positively direct development, rehabilitation, and construction of their environment and their lives. [Read more about the tool library on our blog](http://rwdfblog.com/2013/06/25/keeping-it-local-and-doing-it-yourself-the-station-north-tool-library/)
 
 [www.stationnorthtoollibrary.org](http://www.stationnorthtoollibrary.org)

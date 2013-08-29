@@ -85,19 +85,17 @@ layout : default
       {{# whatwedo.all }}
       
       <div class="project brick {{# categories }} {{name}} {{/ categories }}">
-        <div class="project-title">
-          <h3><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
-        </div>
-        <ul class="icons categories">
+        <ul class="icons categories pull-right">
           {{# categories }}
           <li class="{{name}}">
             <a href="#" data-filter=".{{name}}">{{name}}</a>
           </li>
           {{/ categories }}
         </ul>
+        <h3 class="project-title"><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
         <div class="project-content">
           {{{ summary }}}
-          </div>
+        </div>
       </div>
       
       {{/ whatwedo.all }}

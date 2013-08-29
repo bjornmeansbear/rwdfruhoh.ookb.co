@@ -1,8 +1,7 @@
 ---
 layout: textonly
 title: "The Center for Community Technology Services"
-year: "2010"
-month: "01"
+date: "2010-01-01"
 categories :
   - "science and tech"
   - "community"
