@@ -10,7 +10,8 @@ image:
   - "http://rwdf.ookb.co/img/ss01.png"
   - "http://rwdf.ookb.co/img/ss12.png"
   - "http://rwdf.ookb.co/img/allosphere.png"
-published: true
+featuretitle: "The Allosphere"
+featureimg: "http://rwdf.ookb.co/img/ss01.png"
 ---
 
 _Imagine_ diagnosing a neurological disease by flying through the cortex of a human brain, examining data about brain activity presented beautifully through color or music.

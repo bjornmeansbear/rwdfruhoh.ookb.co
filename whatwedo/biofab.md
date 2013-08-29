@@ -4,6 +4,8 @@ title: "BioFab at UMCP"
 date: "2006-01-01"
 categories :
   - "science and tech"
+featuretitle: "BioFab"
+featureimg: "http://www.ibbr.umd.edu/sites/default/files/styles/page_highlight/public/page/Biofab.png"
 ---
 
 Researchers at the University of Maryland are creating microscale "living laboratories" to investigate biochemical reaction pathways, and "biological nanofactories" capable of initiating communications between bacteria in a major, multi-disciplinary research program in biofabrication.

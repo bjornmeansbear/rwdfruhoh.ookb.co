@@ -10,10 +10,9 @@ image:
 categories :
   - "scholars and fellows"
   - "social justice"
-  - "community"
-  
+  - "community"  
 featuretitle: "Briony Hynson"
-featuresummary: "Social Design Fellow and visionary behind the Bethel Street Playscape."
+featureblurb: "Social Design Fellow and visionary behind the Bethel Street Playscape."
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/briony-wide.jpg"
 ---
 
