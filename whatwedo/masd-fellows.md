@@ -1,6 +1,6 @@
 ---
 layout: "slideshow"
-title: "Deutsch Fellows – Masters of Social Design at MICA"
+title: "Deutsch Fellows: Masters of Social Design at MICA"
 date: "2012-06-01"
 image: 
   - "http://rwdfruhoh.ookb.co/assets/media/masd/winterworkday.jpg"
