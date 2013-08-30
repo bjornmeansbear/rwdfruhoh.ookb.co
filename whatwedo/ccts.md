@@ -5,7 +5,7 @@ date: "2010-01-01"
 categories :
   - "science and tech"
   - "community"
-featuretitle: "TK"
+featuretitle: "CCTS"
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 ---
 

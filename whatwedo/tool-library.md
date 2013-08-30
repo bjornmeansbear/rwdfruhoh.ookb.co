@@ -13,6 +13,7 @@ image:
   - "http://farm8.staticflickr.com/7402/8976880279_7c1d90cac7_h.jpg"
   - "http://farm8.staticflickr.com/7456/8976874233_862b5d50ec_h.jpg"
 featuretitle: "The Tool Library"
+featureblurb: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet."
 featureimg: "http://farm4.staticflickr.com/3771/8976873293_3318e01b17_h.jpg"
 ---
 

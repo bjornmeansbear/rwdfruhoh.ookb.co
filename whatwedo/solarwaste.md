@@ -6,7 +6,7 @@ categories :
   - "arts and culture"
   - "social justice"
   - "community"
-featuretitle: "TK"
+featuretitle: "Solar Waste System"
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 ---
 

@@ -6,7 +6,7 @@ categories :
   - "arts and culture"
   - "social justice"
   - "community"
-featuretitle: "TK"
+featuretitle: "Park Renovations"
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 ---
 
