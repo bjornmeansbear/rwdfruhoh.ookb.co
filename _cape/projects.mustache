@@ -14,11 +14,10 @@
 
       <div class="row">
 
+          <!-- LISTING OF RWDF PROJECTS -->
         {{#pages}}
           <div class="col-12 col-sm-6 col-med-4 col-lg-3">
 
-            <!-- LISTING OF RWDF PROJECTS -->
-<!--             <h2>{{title}}</h2> -->
             <h3>{{featuretitle}}</h3>
             {{# featureimg }}
               <img src="{{{featureimg}}}" alt="{{featuretitle}}" class="img-thumbnail" />
@@ -26,6 +25,8 @@
             {{# featureblurb }}
               <p>{{featureblurb}}</p>
             {{/ featureblurb }}
+            <small>{{title}}</small>
+
 
             <!-- CAPE Promote/Demote buttons -->
             <a href="{{{cape_io.flag_url}}}removed&id={{_id}}&index={{_index}}&type={{_type}}&result=json" class="remove" title="REMOVE">
