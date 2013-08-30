@@ -15,15 +15,15 @@
       <div class="row">
 
         {{#hits.hits}}
-          <div class="col-6 col-sm-4 col-lg-2 {{#_source.tags}}{{.}} {{/_source.tags}}" id="{{_index}}-{{_type}}-{{_id}}">
+          <div class="col-6 col-sm-4 col-lg-2">
 
             <!-- LISTING OF RWDF PROJECTS -->
-            <h2>{{_source.title}}</h2>
-            <h3>{{_source.featuretitle}}</h3>
+            <h2>{{title}}</h2>
+            <h3>{{featuretitle}}</h3>
             <img src="{{{_source.featureimg}}}" alt="{{_source.featuretitle}}" class="img-thumbnail" />
-            {{# _source.featureblurb }}
-              <p>{{_source.featureblurb}}</p>
-            {{/ _source.featureblurb }}
+            {{# featureblurb }}
+              <p>{{featureblurb}}</p>
+            {{/ featureblurb }}
 
             <!-- CAPE Promote/Demote buttons -->
             <a href="{{{cape_io.flag_url}}}removed&id={{_id}}&index={{_index}}&type={{_type}}&result=json" class="remove" title="REMOVE">
