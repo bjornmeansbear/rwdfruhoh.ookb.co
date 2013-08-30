@@ -6,7 +6,7 @@ categories:
   - "science and tech"
   - "social justice"
 featuretitle: "TK"
-featureimg: "rwdf-square.png"
+featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 ---
 
 America's ongoing experiment with democracy has depended for over two hundred years on the rights of free speech, the vibrancy of a free press, access to information for all citizens and equal opportunity for all to be heard and to participate in public debates and forums.

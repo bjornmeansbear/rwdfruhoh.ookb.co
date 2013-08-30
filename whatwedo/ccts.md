@@ -6,7 +6,7 @@ categories :
   - "science and tech"
   - "community"
 featuretitle: "TK"
-featureimg: "rwdf-square.png"
+featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 ---
 
 Over the past decade, web technologies have become a "must have" for every type of business, government agency, community association and nonprofit organization.   Now an organization's website may include a blog, an RSS feed, a link to the organization's Facebook page, a place to view "tweets" submitted by staff or other contributors, and many other functional elements that make it a one-stop place for information, engagement and communications.
