@@ -14,7 +14,7 @@ body {
   font-size:1.5rem;
   }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6{
   font-family: 'Playfair Display', Georgia, serif;
   line-height: 1.25em;  
   }
@@ -34,74 +34,76 @@ ul.nav li {
 
 @media (min-width: 979px) {
 
-.jumbo-text h1 { /* Homepage */
-  font-size:7.5rem;
-  margin-bottom:20px;
-  padding:0 100px;
-  line-height: 1.125;
-  }
-
+  .jumbo-text h1 { /* Homepage */
+    font-size:7.5rem;
+    margin-bottom:20px;
+    padding:0 100px;
+    line-height: 1.125;
+    }
+  
+      
+  .jumbo-text.inner h1 { /* Inner Pages */
+    font-size:5rem;
+    margin-bottom: 10px;
+    padding:0 50px;
+    } 
+          
+  .jumbo-text .lead {
+    font-size:2.4rem;
+    font-weight:300;
+    line-height:1.33;
+    }
     
-.jumbo-text.inner h1 { /* Inner Pages */
-  font-size:5rem;
-  margin-bottom: 10px;
-  padding:0 50px;
-  } 
-        
-.jumbo-text .lead {
-  font-size:2.4rem;
-  font-weight:300;
-  line-height:1.33;
+  .jumbo-text.inner .lead {
+    font-size:2.0rem;
+    }
+    
+  .hero h1 { /* Homepage */
+    font-size:4rem;
+    margin-bottom:0;
+    line-height: 1.125;
+    }
+    
+  .hero .lead {
+    font-size:2rem;
+    font-weight:300;
+    line-height:1.33;
+    }
+    
+  .hero-caption {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size:1.3rem;
+    color:rgba(185,186,184,1);
+    text-align: right;
+    margin-top: 10px;
+    }
+    
+  .hero .tagline h1 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 5.1rem;
   }
   
-.jumbo-text.inner .lead {
-  font-size:2.0rem;
-  }
+  /* Jumbotron Styles */
+  .jumbotron {
+    text-align: center;
+    }
+    
+  /* Page Styles */
+  h3 { /* Inner Page Head */
+    font-size:2.4rem;
+    margin:30px 0 10px 0;
+    }  
   
-.hero h1 { /* Homepage */
-  font-size:4rem;
-  margin-bottom:0;
-  line-height: 1.125;
-  }
+  h4 { /* Inner Page Subhead */
+    font-size:1.8rem;
+    margin: 15px 0 5px 0;
+    }
   
-.hero .lead {
-  font-size:2rem;
-  font-weight:300;
-  line-height:1.33;
-  }
+  footer {
+    font-size:1.2rem;
+    line-height: 1.5;
+    }
   
-.hero-caption {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size:1.3rem;
-  color:rgba(185,186,184,1);
-  text-align: right;
-  margin-top: 10px;
-  }
-  
-.hero .tagline h1 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 5.1rem;
 }
-
-/* Jumbotron Styles */
-.jumbotron {
-  text-align: center;
-  }
-  
-/* Page Styles */
-h3 { /* Inner Page Head */
-  font-size:2.4rem;
-  margin:30px 0 10px 0;
-  }  
-
-h4 { /* Inner Page Subhead */
-  font-size:1.8rem;
-  margin: 15px 0 5px 0;
-  }
-
-footer {
-  font-size:1.2rem;
-  line-height: 1.5;
-  }
 
