@@ -78,5 +78,20 @@
       });
     </script>
 
+    <!-- make all the bios the same height with JS, not CSS -->
+    <!-- from here: http://stackoverflow.com/questions/6781031/use-jquery-css-to-find-the-tallest-of-all-elements -->
+    <script>
+      $(document).ready(function() {
+        var maxHeight = -1;
+        $('.block').each(function() {
+          maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+        });
+        $('.block').each(function() {
+          $(this).height(maxHeight);
+        });
+      });
+    </script>
+
+
   </body>
 </html>
