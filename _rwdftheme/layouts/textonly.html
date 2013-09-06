@@ -1,0 +1,54 @@
+---
+layout : default
+---
+
+<!-- Main Content
+================================================== -->
+<div class="container inner">
+  
+<!--
+  <div class="e-breadcrumb">
+    <a href="whatwedo">&larr; Back to All Projects</a>
+  </div>
+-->
+  
+  <!-- Content -->
+  <div class="row-fluid">
+  
+    <div class="span8 offset2">
+      <article class="project">
+        <h2>{{ page.title }}</h2>
+        {{{ page.content }}}
+        
+        <div class="icons categories bottom text-center">
+          {{# page.categories }}
+            <a href="TK" class="{{name}}">{{name}}</a>
+          {{/ page.categories }}
+        </div>
+      </article>
+    </div>
+    
+  </div>
+      
+  <div class="row-fluid minus-top">
+  
+    {{# page.previous }}
+      <div class="prev previous span2 pager"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></div>
+    {{/ page.previous }}
+    {{^ page.previous }}
+      <div class="prev disabled previous span2 pager"><a>&larr; Previous</a></div>
+    {{/ page.previous }}
+  
+    {{# page.next }}
+      <div class="next span2 pager offset8"><a href="{{ url }}" title="{{ title }}">Next &rarr;</a></div>
+    {{/ page.next }}
+    {{^ page.next }}
+      <div class="next disabled span2 pager offset8"><a>Next &rarr;</a></div>
+    {{/ page.next }}
+          
+  </div>
+  <!-- this is presumably for each individual post -->
+  
+</div>
+<!-- END Main Content
+================================================== -->

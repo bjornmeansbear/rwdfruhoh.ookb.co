@@ -1,0 +1,107 @@
+---
+layout : default
+---
+
+<!-- Main Content
+================================================== -->
+<div class="container inner">
+
+  <!-- Top Hero -->
+  <div class="jumbotron">
+  <div class="jumbo-text inner">
+     <h1>{{ page.jumbohed }}</h1>
+     <p class="lead">{{ page.jumbodek }}</p>
+     </div>
+  </div>
+  
+  
+  <div class="row-fluid">
+  
+    <!-- this will need to be auto-created; and then also auto-place classes in each whatwedo div -->
+    <div class="span2">
+      <ul class="side-nav" id="filters">
+      
+        <li class="active">
+          <div>
+            <a href="#" data-filter="*">
+              <p>View All Categories</p>
+            </a>
+          </div>
+        </li>
+        
+        <li>
+          <div>
+            <a href="#" data-filter=".science">
+              <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_science.png">
+              <p>Science &amp; Tech</p>
+            </a>
+          </div>
+        </li>
+        
+        <li>
+          <div>
+            <a href="#" data-filter=".scholars">
+              <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_scholars.png">
+              <p>Scholars &amp; Fellows</p>
+            </a>
+          </div>
+        </li>
+        
+        <li>
+          <div>
+            <a href="#" data-filter=".arts">
+              <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_arts.png">
+              <p>Arts &amp; Culture</p>
+            </a>
+          </div>
+        </li>
+        
+        <li>
+          <div>
+            <a href="#" data-filter=".justice">
+              <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_justice.png">
+              <p>Social Justice</p>
+            </a>
+          </div>
+        </li>
+        
+        <li>
+          <div>
+            <a href="#" data-filter=".community">
+              <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_community.png">
+              <p>Community</p>
+            </a>
+          </div>
+        </li>
+        
+      </ul><!--
+      {{# whatwedo.categories.all }}
+        {{> categories_list }}
+      {{/ whatwedo.categories.all }}
+-->
+    </div>
+          
+    <div class="span10 isotope-area" id="projects">
+      {{# whatwedo.all }}
+      
+      <div class="project brick {{# categories }} {{name}} {{/ categories }}">
+        <ul class="icons categories pull-right">
+          {{# categories }}
+          <li class="{{name}}">
+            <a href="#" data-filter=".{{name}}">{{name}}</a>
+          </li>
+          {{/ categories }}
+        </ul>
+        <h3 class="project-title"><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></h3>
+        <div class="project-content">
+          {{{ summary }}}
+        </div>
+      </div>
+      
+      {{/ whatwedo.all }}
+    </div>
+  </div>
+
+</div>
+<!-- END Main Content
+================================================== -->

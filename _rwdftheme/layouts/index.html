@@ -1,0 +1,84 @@
+---
+layout : default
+---
+
+<!-- INDEX Page Content
+================================================== -->
+<!-- Image Hero -->
+<div class="hero container">
+  <div class="row">
+    <div class="span8 feature">
+      <img src="{{urls.media}}/briony-wide.jpg">
+      <div class="text overlay span8">
+        <h2>Briony Hynson</h2>
+        <p class="lead"><a href="project-sample-text.html">Social Design Fellow and visionary behind the Bethel Street Playscape. &rarr;</a></p>
+      </div>
+    </div>
+    <div class="span4 tagline">
+      <div class="text">
+        {{# homepage.find_by_name.hed }}
+          <h1> {{{content}}} </h1>
+        {{/ homepage.find_by_name.hed }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Triptych -->
+<div class="triptych container">
+  <div class="row">
+    <div class="span4 overlay trio">
+      <img src="{{urls.media}}/h2-stationnorth.jpg">
+      <div class="text span4">
+        <h3><a href="project-sample-imgs.html">Station North &rarr;</a></h3>
+      </div>
+    </div>
+    <div class="span4 overlay trio">
+      <img src="{{urls.media}}/allosphere.png">
+      <div class="text span4">
+        <h3><a href="project-sample-lrgimg.html">The Allosphere &rarr;</a></h3>
+      </div>
+    </div>
+    <div class="span4 overlay trio">
+      <img src="{{urls.media}}/h4-toollibrary.jpg">
+      <div class="text span4">
+        <h3><a href="project-sample-lrgimg-tl.html">The Tool Library &rarr;</a></h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Jumbo Text -->
+<div class="index jumbotron container">
+  <div class="diag-divider"></div>
+  <div class="row">
+    {{# homepage.find_by_name.dek }}
+      <div class="span12 lead">
+        {{{content}}}
+      </div>
+    {{/ homepage.find_by_name.dek }}
+  </div>
+</div>
+
+<!-- Page -->
+<div class="container add-bottom">
+  <div class="row-fluid home-content">
+    {{# homepage.find_by_name.legacy }}
+      <div class="span6">
+        <h3><a href="whoweare">{{ title }}</a></h3>
+        {{{content}}}
+      </div>
+    {{/ homepage.find_by_name.legacy }}
+    {{# homepage.find_by_name.tellus }}
+      <div class="span6">
+        <h3><a href="tellusaboutyou">{{ title }}</a></h3>
+        {{{content}}}
+      </div>
+    {{/ homepage.find_by_name.tellus }}
+  </div>
+</div>
+
+<!-- /Page -->
+<!-- /INDEX Page Content
+================================================== -->
+
