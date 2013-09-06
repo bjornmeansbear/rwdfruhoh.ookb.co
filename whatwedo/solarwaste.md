@@ -4,8 +4,6 @@ title: "North Avenue Big Belly Solar Waste System"
 date: "2013-04-01"
 image: "/assets/media/spruceup/bigbellysolar-600px.jpg"
 categories :
-  - "arts and culture"
-  - "social justice"
   - "community"
 featuretitle: "Solar Waste System"
 featureimg: "/assets/media/spruceup/bigbellysolar-600px.jpg"
