@@ -1,7 +1,8 @@
 ---
-layout: textonly
+layout: singleimage
 title: "Penn Station Plaza"
 date: "2013-04-01"
+image: "/assets/media/spruceup/pennplaza2-600px.jpg"
 categories :
   - "arts and culture"
   - "social justice"

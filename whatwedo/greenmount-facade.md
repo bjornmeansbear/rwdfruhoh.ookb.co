@@ -1,7 +1,8 @@
 ---
-layout: textonly
+layout: singleimage
 title: "Greenmount West Facade Improvement Project"
 date: "2013-04-01"
+image: "http://farm8.staticflickr.com/7290/8950684979_f1d02c6cc8_z.jpg"
 categories :
   - "arts and culture"
   - "social justice"

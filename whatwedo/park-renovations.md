@@ -1,7 +1,8 @@
 ---
-layout: textonly
+layout: singleimage
 title: "Park Renovations"
 date: "2013-04-01"
+image: "/assets/media/spruceup/park-renov4-600px.jpg"
 categories :
   - "arts and culture"
   - "social justice"

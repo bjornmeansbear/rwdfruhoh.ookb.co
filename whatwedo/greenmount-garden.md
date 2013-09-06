@@ -1,7 +1,8 @@
 ---
-layout: textonly
+layout: singleimage
 title: "Greenmount North Garden"
 date: "2013-04-01"
+image: "http://rwdfoundation.files.wordpress.com/2013/05/fenceweave4.jpg"
 categories :
   - "arts and culture"
   - "social justice"
