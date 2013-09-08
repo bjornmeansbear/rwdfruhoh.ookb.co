@@ -51,20 +51,46 @@ nav.navbar > .container {
 /*=========================*/
 .jumbotron {
   background: url("../media/diag.gif") repeat;
-  border-bottom: 3px solid rgba(248,247,247,1); 
+  border-bottom: 3px solid rgba(248,247,247,1);
+  text-align: center;
+  }
+
+@media (max-width: 479px) {  
+  .jumbo-text {
+    margin: 0 42px;
+    padding: 10px;
+    background-color: #fff;  
+    }
+    
+  .jumbo-text.inner {
+    margin: 0 20px;
+    padding: 10px;  
+    }
+
+  .jumbo-text h1 {
+    font-size: 2.25rem;
+  }
+
+  .jumbo-text .lead {
+    font-size: 1.75rem;
+    line-height: 1.33;
   }
   
-.jumbo-text {
-  margin:0 42px;
-  padding: 50px 140px;
-  background-color: #fff;  
-  }
-  
-.jumbo-text.inner {
-  margin:0 42px;
-  padding: 30px 100px;  
-  }
-  
+}
+
+@media (min-width: 480px) {  
+  .jumbo-text {
+    margin:0 42px;
+    padding: 50px 140px;
+    background-color: #fff;  
+    }
+    
+  .jumbo-text.inner {
+    margin:0 42px;
+    padding: 30px 100px;  
+    }
+}
+
 /* Footer */
 /*=========================*/
 .diag-divider {
@@ -95,6 +121,10 @@ nav.navbar > .container {
 
 #tab-staff .span6 {
   margin-top: 15px;
+}
+
+footer ul.menu {
+  list-style: none;
 }
 
 /*=========================*/
@@ -394,7 +424,6 @@ label {
   
 .brick p {
   clear:both;
-  margin-right: 55px;
   }
 
 
@@ -510,7 +539,7 @@ label {
 
 .brick ul.categories {
   list-style: none;
-  margin: 30px 30px 0 0 ;
+  margin: 20px 0 0 0 ;
   padding: 0;
   }
 
@@ -519,6 +548,9 @@ label {
   margin: 0 5px 15px 0;
   } 
   
+.brick .project-content {
+  margin-right: 170px;
+}
 
 ul.side-nav .iconsidenav {
   height:24px;

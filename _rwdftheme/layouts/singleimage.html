@@ -6,11 +6,12 @@ layout : default
 ================================================== -->
 <div class="container inner">
 
-<!--
-  <div class="e-breadcrumb">
-    <a href="../whatwedo">&larr; Back to All Projects</a>
-  </div>
--->
+  <div class="row-fluid">
+    <div class="e-breadcrumb offset2">
+      <a href="/whatwedo/">&larr; Back to All Projects</a>
+    </div>
+  </div>  
+
   
   <!-- Content -->
   <div class="row-fluid">
@@ -18,14 +19,16 @@ layout : default
     <div class="span8 offset2">
       <article class="project">
         <div class="leadimage top text-center clearfix">
-          <img class="img-circle span4 offset4" src="{{ page.image }}" />
+          {{# page.image }}
+            <img class="img-circle span4 offset4" src="{{ page.image }}" />
+          {{/ page.image }}
         </div>
         <h2>{{ page.title }}</h2>
         {{{ page.content }}}
 
         <div class="icons categories bottom text-center">
           {{# page.categories }}
-            <a href="TK" class="{{name}}">{{name}}</a>
+            <a href="../whatwedo/" class="{{name}}" >{{name}}</a>
           {{/ page.categories }}
         </div>
 
