@@ -4,7 +4,7 @@
 /***** Base Styles ************************************/
 /*=========================*/
 .e-breadcrumb {
-  margin:30px 0 10px 0;
+  margin:0 0 10px 0;
   }
   
 body {
@@ -55,7 +55,7 @@ nav.navbar > .container {
   text-align: center;
   }
 
-@media (max-width: 479px) {  
+@media (max-width: 779px) {  
   .jumbo-text {
     margin: 0 42px;
     padding: 10px;
@@ -78,7 +78,7 @@ nav.navbar > .container {
   
 }
 
-@media (min-width: 480px) {  
+@media (min-width: 780px) {  
   .jumbo-text {
     margin:0 42px;
     padding: 50px 140px;
@@ -209,7 +209,7 @@ footer ul.menu {
 }
 
 .triptych .overlay img {
-  height: 100%;
+  min-height: 100%;
   width: auto;
 }
 
@@ -349,7 +349,40 @@ label {
 #filters li:first-child {
   text-align: center;
 }
+ 
+@media (max-width: 760px) {
+  #filters {
+    border-bottom: 3px solid rgb(248, 247, 247);
+    margin-bottom: 15px;
+    padding: 3px 0;
+  }
   
+  #filters li.icons  {
+    display: inline-block;
+    width: 19%;
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #filters li.icons div, #filters li.icons a { margin: 0; padding: 0; }
+  #filters li.icons a { padding: 5px 0; }
+  
+  #filters li.icons img  {
+    float: none;
+  }
+
+  #filters li.icons p  {
+    display: none;
+  }
+
+  #filters li:first-child {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+} 
+ 
 .side-nav li a {
   clear: both;
   display: block;
@@ -369,9 +402,7 @@ label {
 
 .side-nav i { margin: 3px 3px 0 0 }
  
-.side-nav > li.active { background-color: rgba(248,247,247,1); }   
-  
-  
+.side-nav > li.active { background-color: rgba(248,247,247,1); }
 
 /* Project Pages */
 /*=========================*/
@@ -548,8 +579,25 @@ label {
   margin: 0 5px 15px 0;
   } 
   
-.brick .project-content {
-  margin-right: 170px;
+@media (max-width: 767px) {
+  .brick .project-title {
+    margin-top: 30px;
+  }
+  .brick .project-content {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .brick .project-content {
+    margin-right: 104px;
+  }
+}
+
+@media (min-width: 960px) {
+  .brick .project-content {
+    margin-right: 170px;
+  }
 }
 
 ul.side-nav .iconsidenav {
