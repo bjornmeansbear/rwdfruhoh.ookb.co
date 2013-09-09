@@ -42,7 +42,7 @@ whoweare:
   base_path: "/whoweare/"
 
 whatwedo:
-  sort: ["date", "title"]
+  sort: ["title"]
   summary_lines: 1
   latest: 5
   rss:
