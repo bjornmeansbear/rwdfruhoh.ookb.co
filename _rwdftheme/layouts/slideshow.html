@@ -13,10 +13,11 @@ layout : default
     data-cycle-pager=".cycle-pager"
     data-cycle-prev=".cycle-prev"
     data-cycle-next=".cycle-next"
+    data-cycle-slides="> .slide"
     >
     <!-- IMAGES in the slideshow -->
     {{# page.image }}
-      <img src="{{ . }}" />
+      <div class="slide"><img src="{{ . }}" /></div>
     {{/ page.image }}
   </div>
 </div>

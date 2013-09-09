@@ -7,6 +7,8 @@ categories :
   - "arts and culture"
   - "social justice"
   - "community"
+tags:
+  - "spruce-up"
 featuretitle: "Greenmount North Garden"
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 ---

@@ -7,7 +7,9 @@ categories :
   - "arts and culture"
   - "social justice"
   - "community"
-featuretitle: "Penn Station Plaza"
+tags:
+  - "spruce-up"
+featuretitle: "Spruce-Ups"
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 ---
 

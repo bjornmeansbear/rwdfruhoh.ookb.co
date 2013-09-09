@@ -514,6 +514,13 @@ ul.side-nav .active i {
 }
 
 #slideshow .cycle-slideshow, 
+#slideshow .slide {
+  height: 100%;
+  overflow: hidden;
+}
+
+#slideshow .cycle-slideshow, 
+#slideshow .slide, 
 #slideshow .cycle-slideshow img {
   width: 100%;
 }

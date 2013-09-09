@@ -7,7 +7,9 @@ categories :
   - "arts and culture"
   - "social justice"
   - "community"
-featuretitle: "Facade Improvements"
+tags:
+  - "spruce-up"
+featuretitle: "Spruce-Ups"
 featureimg: "http://farm8.staticflickr.com/7290/8950684979_f1d02c6cc8_c.jpg"
 ---
 

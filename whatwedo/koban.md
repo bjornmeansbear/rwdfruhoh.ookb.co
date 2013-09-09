@@ -5,7 +5,9 @@ date: "2013-04-01"
 image: "http://rwdfoundation.files.wordpress.com/2013/04/photo-1.jpg?w=600"
 categories :
   - "arts and culture"
-featuretitle: "The Koban Project"
+tags:
+  - "spruce-up"
+featuretitle: "Spruce-Ups"
 featureimg: "http://rwdfoundation.files.wordpress.com/2013/04/photo-1.jpg?w=600"
 ---
 

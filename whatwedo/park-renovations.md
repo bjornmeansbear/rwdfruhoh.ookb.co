@@ -7,7 +7,9 @@ categories :
   - "arts and culture"
   - "social justice"
   - "community"
-featuretitle: "Park Renovations"
+tags:
+  - "spruce-up"
+featuretitle: "Spruce-Ups"
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 ---
 

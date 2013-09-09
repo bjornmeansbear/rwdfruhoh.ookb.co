@@ -5,7 +5,9 @@ date: "2013-04-01"
 image: "/assets/media/spruceup/bigbellysolar-600px.jpg"
 categories :
   - "community"
-featuretitle: "Solar Waste System"
+tags:
+  - "spruce-up"
+featuretitle: "Spruce-Ups"
 featureimg: "/assets/media/spruceup/bigbellysolar-600px.jpg"
 ---
 
