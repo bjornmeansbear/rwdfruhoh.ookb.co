@@ -193,31 +193,44 @@ footer ul.menu {
   background: rgba(0,156,193,1);
   display: table;
   vertical-align: middle;
+  width: 100%;
 }
 
 .hero .row .tagline div.text h1 {
   display: table-cell;
   vertical-align: middle;
+  font-size: 3em;
+}
+
+.hero .other {
+  margin-top: 30px;
 }
 
 /* Triptych info */
-.triptych .trio { overflow: hidden; }
+.hero .other, 
+.triptych .trio { 
+  overflow: hidden; 
+  position: relative;
+}
 
 .triptych .span4 img {
   height: auto;
   width: 100%;
 }
 
+.hero .other img,
 .triptych .overlay img {
   min-height: 100%;
   width: auto;
 }
 
+.hero .other .overlay div.text,
 .triptych .overlay div.text {
   top: 0;
   height: 50px;
 }
 
+.hero .other .overlay div.text h3,
 .triptych .overlay div.text h3 {
   color: white;
   margin: 0;
@@ -227,24 +240,6 @@ footer ul.menu {
 
 .trio h3 { margin: .25em 0; }
 .trio h3 a { color: white; font-weight: 400; }
-
-.triptych .no-overlay div.text {
-  top: 0;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-.triptych .no-overlay div.text h3, 
-.no-overlay h3 a {
-  color: #77A41D;
-  margin: 0 0 10px 0;
-  padding: 0;
-  font-weight: 400;
-}
-
-.triptych .no-overlay .tags {margin-bottom: 10px;}
-.triptych .no-overlay .tags .icon { width: 100px; }
 
 /* lower, more general stuff */
 .row-fluid {
