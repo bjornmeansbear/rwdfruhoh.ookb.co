@@ -52,7 +52,7 @@ whatwedo:
   base_path: "/whatwedo/"
 
 tellusaboutyou:
-  sort: ["date","title"]
+  sort: ["title"]
   rss:
     enable: false
   paginator:
