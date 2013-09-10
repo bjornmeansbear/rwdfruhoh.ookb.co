@@ -17,6 +17,13 @@ featureblurb: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Inte
 featureimg: "http://farm4.staticflickr.com/3771/8976873293_3318e01b17_h.jpg"
 ---
 
-The Station North Tool Library’s mission is to empower individuals, through affordable access to tools, skills, and workspace, to positively direct development, rehabilitation, and construction of their environment and their lives. [Read more about the tool library on our blog](http://rwdfblog.com/2013/06/25/keeping-it-local-and-doing-it-yourself-the-station-north-tool-library/)
+“…it's just like a book library, but with tools!” That’s the tagline when you go to The Station North Tool Library’s website. Under the vision of John Shea and with the help of partner Piper Watson, the tool library has created an outlet for Baltimore area folks to borrow tools of all kinds from hammers to circular saws, for a small, affordable yearly membership. That coupled with the classes that will soon start, The Station North Tool Library is an innovative incubator for making, designing, and sustaining.
 
-[www.stationnorthtoollibrary.org](http://www.stationnorthtoollibrary.org)
+Find out more info about the library on their [website](http://www.stationnorthtoollibrary.org) or head to our blog to read about the origins of John and Piper’s [innovative idea](http://rwdfblog.com/2013/06/25/keeping-it-local-and-doing-it-yourself-the-station-north-tool-library/). 
+
+417 E Oliver St.  
+Baltimore, MD 21202  
+410-371-4303  
+WED - FRI 5p -9p  
+SAT - SUN 9a - 5p  
+

@@ -4,10 +4,10 @@ title: "Imaging Resource Center"
 date: "2007-01-01"
 image:
   - "http://rwdfruhoh.ookb.co/assets/media/irc/dan-nmca.jpg"
-  - "http://rwdfruhoh.ookb.co/assets/media/irc/dyer-balloon.jpg"
-  - "http://rwdfruhoh.ookb.co/assets/media/irc/irc-pan-small.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/irc/nas-domeipad.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/irc/strongartstrongyouth.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/irc/dyer-balloon.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/irc/irc-pan-small.jpg"
 categories :
   - "science and tech"
   - "arts and culture"
