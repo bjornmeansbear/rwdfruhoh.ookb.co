@@ -39,12 +39,16 @@
 
             <div class="choose">
               <!-- CAPE Promote/Demote buttons -->
-              <a href="{{flag}}/{{_id}}/removed" class="remove" title="REMOVE">
-                <i class="icon-ban-circle"></i>
-              </a>
-              <a href="{{flag}}/{{_id}}/added" class="add" title="ADD">
-                <i class="icon-thumbs-up"></i>
-              </a>
+              {{^admin.list_type.removed}}
+                <a href="{{flag}}/{{_id}}/removed" class="remove" title="REMOVE">
+                  <i class="icon-ban-circle"></i>
+                </a>
+              {{/admin.list_type.removed}}
+              {{#admin.list_type.pending}}
+                <a href="{{flag}}/{{_id}}/added" class="add" title="ADD">
+                  <i class="icon-thumbs-up"></i>
+                </a>
+              {{/admin.list_type.pending}}
             </div>
           </div>
         {{/data}}
@@ -63,18 +67,16 @@
         var list_type = '{{list_type}}'
         $("a.remove").click(function(e) {
           var url = $(this).attr('href');
-          $(this).parent().remove();
+          $(this).parent().parent().remove();
           $.get(url);
           return false;
         });
-        if ('pending' == list_type) {
-          $("a.add").click(function(e) {
-            var url = $(this).attr('href');
-            $(this).parent().remove();
-            $.get(url);
-            return false;
-          });
-        }
+        $("a.add").click(function(e) {
+          var url = $(this).attr('href');
+          $(this).parent().parent().remove();
+          $.get(url);
+          return false;
+        });
       });
     </script>
 
