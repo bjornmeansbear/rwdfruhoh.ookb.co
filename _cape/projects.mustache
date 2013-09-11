@@ -44,11 +44,11 @@
                   <i class="icon-ban-circle"></i>
                 </a>
               {{/admin.list_types.removed}}
-              {{#admin.list_types.pending}}
+              {{^admin.list_types.added}}
                 <a href="{{flag}}/{{_id}}/added" class="add" title="ADD">
                   <i class="icon-thumbs-up"></i>
                 </a>
-              {{/admin.list_types.pending}}
+              {{/admin.list_types.added}}
             </div>
           </div>
         {{/data}}
