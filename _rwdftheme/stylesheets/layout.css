@@ -386,7 +386,7 @@ label {
   padding: 5px;
   margin-top: 2px;
   margin-bottom: 2px;
-  }
+}
 
 .side-nav > .active > a,
 .side-nav > .active > a:hover,
@@ -433,26 +433,45 @@ ul.side-nav .active i {
 /* Project Pages */
 /*=========================*/
 
-.minus-top { padding-top: 0; }
-.minus-top, .minus-top .pager { position: relative; }
-.minus-top .pager a { position: absolute; display: block; width: 100%; }
+.minus-top { 
+  padding-top: 0; 
+}
+
+.minus-top, .minus-top .pager { 
+  position: relative; z-index: 999; }
+
 .minus-top .pager { 
   margin-top:0; 
   margin-bottom: 0; 
   }
 
+.minus-top .pager a { 
+  position: absolute; 
+  display: block; 
+  width: 100%; 
+  z-index: 999; 
+}
+
+.minus-top .prev.disabled, 
+.minus-top .next.disabled {
+  visibility: hidden !important;
+}
+
 .pager a {
-  background: url("../media/proj-n.png") center center no-repeat;
-  text-indent: -999999999px;
+  text-indent: 100%;
+  white-space: nowrap;
   overflow: hidden;
-  }
+}
+
+.next.pager a {
+  background: url("../media/proj-n.png") center center no-repeat;
+}
 
 .prev.pager a {
   background: url("../media/proj-p.png") center center no-repeat;
-  }
+}
 
 .pager a:hover {
-  background: url("../media/proj-n-white.png") center center no-repeat;
   background-color: #009AC9;
   background-color: rgba(0,154,201,1);
   color: white;
@@ -461,18 +480,21 @@ ul.side-nav .active i {
   transition: all 300ms;
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
-  }
+}
+
+.next.pager a:hover {
+  background-image: url("../media/proj-n-white.png");
+}
 
 .prev.pager a:hover {
   background-image: url("../media/proj-p-white.png");
-  }
+}
 
 .brick {
   padding-bottom:20px;
   border-bottom: 3px solid rgba(248,247,247,1); 
-  }
+}
   
-
 .brick:last-child {
   padding-bottom:60px;
   border-bottom: none; 
@@ -482,15 +504,10 @@ ul.side-nav .active i {
   display: block;
   text-align: right;
   margin-top: 34px;
-  }
-  
+}
+
 .brick p {
   clear:both;
-  }
-
-
-.minus-top .prev.disabled, .minus-top .next.disabled {
-  visibility: hidden !important;
 }
 
 /* JUST TEXT PAGES */
