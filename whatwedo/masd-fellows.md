@@ -22,9 +22,9 @@ For the past two academic years, The Robert W. Deutsch Foundation has selected t
 
 Last year’s fellows included Briony Hynson and Becky Slogeris. Hynson focusing on safe urban play in underserved communities designed and implemented an urban playscape in East Baltimore. She is still overseeing her original playscape on Bethel St. while helping create two new sites in Johnson Square and Greenmount West. She is also the Deputy Director of The Neighborhood Design Center as of June 2013. 
 
-Slogeris’ thesis work focused on curriculum design in Baltimore classrooms and includes a BMore Fit Teacher Toolkit and a Baltimore Textbook, which explores the city’s many facets – physical, socio-economic, etc. Slogeris is the Graphic Administrator for the Baltimore Urban Debate League. 
+Slogeris’ thesis work focused on curriculum design in Baltimore classrooms and includes a BMore Fit Teacher Toolkit and a Baltimore Textbook, which explores the city’s many facets – physical, socio-economic, etc. Slogeris is a Social Design Associate at the Center for Social Design at MICA. She still works with Baltimore Urban Debate League doing freelance graphic design.  
 
-The current Deutsch Fellows are Jonathan Erwin, who works improving urban heating and Mira Azarm, who works to improve Baltimore’s “food-desert” neighborhoods. More info on their progress will be posted on the blog.
+The current Deutsch Fellows are Jonathan Erwin, who works to improve urban climate resiliency in underserved communities and Mira Azarm, who works to improve Baltimore’s “food-desert” neighborhoods. More info on their progress will be posted on the blog. 
 
 ### Read more detailed info about our MASD Fellows:
 - [Becky Slogeris 2012](http://rwdfblog.com/2013/05/31/designing-a-better-baltimore/)
