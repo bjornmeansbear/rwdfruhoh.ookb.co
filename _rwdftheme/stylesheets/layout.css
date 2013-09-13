@@ -458,13 +458,6 @@ ul.side-nav .active i {
 
 @media (max-width: 767px) {
 
-.row-fluid.project {
-	padding-bottom: 100px;
-  }
-	
-.minus-top { 
-  height:100px; 
-  }
 
 /*
 
