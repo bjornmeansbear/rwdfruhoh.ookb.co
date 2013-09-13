@@ -9,3 +9,4 @@ The Foundation does not accept unsolicited proposals or requests for grants. Ple
 Want to learn more about the kind of projects we love? [Take a look at some of our other projects][proj].
 
 [proj]: /whatwedo/
+

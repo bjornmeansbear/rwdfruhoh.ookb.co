@@ -30,3 +30,4 @@ After one year of graduate studies at M.I.T., Robert went back to New York where
 
 Robert and Florence’s first child, Jane, was born in Berkeley. Three years later, their second child, David, was born. Completing his doctoral degree that year, Robert elected to pursue a career in the rapidly developing nuclear industry, joining the nuclear power division of General Electric in Schenectady, New York. After several corporate relocations, the family settled in Baltimore in 1964.
 
+

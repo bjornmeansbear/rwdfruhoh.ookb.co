@@ -23,7 +23,7 @@ layout : default
       
         <li class="active textonly">
           <div>
-            <a href="#" data-filter="*">
+            <a href="#filter=*" data-filter="*">
               <p>View All Categories</p>
             </a>
           </div>
@@ -31,7 +31,7 @@ layout : default
         
         <li class="icons">
           <div>
-            <a href="#" data-filter=".science">
+            <a href="#filter=.science" >
               <i class="icon-science icongreen iconsidenav"></i>
 <!--               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_science.png"> -->
               <p>Science &amp; Tech</p>
@@ -41,7 +41,7 @@ layout : default
         
         <li class="icons">
           <div>
-            <a href="#" data-filter=".scholars">
+            <a href="#filter=.scholars" >
               <i class="icon-scholars icongreen iconsidenav"></i>
 <!--               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_scholars.png"> -->
               <p>Scholars &amp; Fellows</p>
@@ -51,7 +51,7 @@ layout : default
         
         <li class="icons">
           <div>
-            <a href="#" data-filter=".arts">
+            <a href="#filter=.arts" >
               <i class="icon-arts icongreen iconsidenav"></i>
 <!--               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_arts.png"> -->
               <p>Arts &amp; Culture</p>
@@ -61,7 +61,7 @@ layout : default
         
         <li class="icons">
           <div>
-            <a href="#" data-filter=".justice">
+            <a href="#filter=.justice" >
               <i class="icon-justice icongreen iconsidenav"></i>
 <!--               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_justice.png"> -->
               <p>Social Justice</p>
@@ -71,7 +71,7 @@ layout : default
         
         <li class="icons">
           <div>
-            <a href="#" data-filter=".community">
+            <a href="#filter=.community">
               <i class="icon-community icongreen iconsidenav"></i>
 <!--               <img class="icongreen iconsidenav" src="{{urls.theme}}/media/category_community.png"> -->
               <p>Community</p>
@@ -90,7 +90,7 @@ layout : default
         <ul class="icons categories pull-right">
           {{# categories }}
           <li class="{{name}}">
-            <a href="#" data-filter=".{{name}}">{{name}}</a>
+            <a href="#">{{name}}</a>
           </li>
           {{/ categories }}
         </ul>
