@@ -20,8 +20,7 @@ $(document).ready(function() {
 
   //isotope stuff
   var $container = $('#projects');
-  $container.isotope({
-  })
+  $container.isotope({ layoutMode : 'fitRows' });
   $('#filters a').click(function(event){
     event.preventDefault();
     var selector = $(this).attr('data-filter');
