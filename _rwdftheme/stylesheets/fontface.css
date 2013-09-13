@@ -141,14 +141,15 @@ ul.nav li {
 
   .jumbo-text.inner h1 { /* Inner Page Hero Head */
     font-size: 3.0rem;
+    padding: 0;
     } 
 
   .jumbo-text.inner .lead { /* Inner Page Hero Subhead */
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.33;
     }
     
-  .index.jumbotron .lead{ /* Homepage Subhead */
+  .index.jumbotron .lead, .hero .row .tagline div.text h1 { /* Homepage Subheads */
     font-size: 3.0rem;
     line-height: 1.33;
     text-align: left;
