@@ -101,6 +101,17 @@ ul.nav li {
     font-size:1.2rem;
     line-height: 1.5;
     }
+    
+.hero .row .tagline div.text h1 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 3em;
+}
+
+.index.jumbotron .lead {
+  font-size: 4.4rem;
+  line-height: 1.3333;
+  }
   
   
 
@@ -128,11 +139,11 @@ ul.nav li {
     }
 
   .jumbo-text.inner h1 { /* Inner Page Hero Head */
-    font-size: 2.25rem;
+    font-size: 3.0rem;
     } 
 
   .jumbo-text.inner .lead { /* Inner Page Hero Subhead */
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 1.33;
     }
     

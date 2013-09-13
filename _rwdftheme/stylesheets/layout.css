@@ -164,7 +164,6 @@ footer ul.menu {
 .hero .row .tagline div.text h1 {
   display: table-cell;
   vertical-align: middle;
-  font-size: 3em;
 }
 
 .hero .other {
@@ -229,11 +228,6 @@ footer ul.menu {
 
 .index.jumbotron .diag-divider {
   margin-bottom: 70px;
-  }
-
-.index.jumbotron .lead {
-  font-size: 4.4rem;
-  line-height: 1.3333;
   }
 
 
