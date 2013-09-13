@@ -6,6 +6,6 @@ The Deutsch Foundation welcomes innovative ideas from individuals and organizati
 
 The Foundation does not accept unsolicited proposals or requests for grants. Please do not submit any formal request directly to the Foundation. Just submit the information requested in this form via this website. Foundation staff will review all materials submitted via this website that comply with these guidelines. Please limit your response to each question with 500 words or less. Receipt of submitted materials will be acknowledged by return email sent by a staff member. We try to respond quickly as possible!
 
-Want to learn more about the kind of projects we love? [Take a look at some of our favorites][proj].
+Want to learn more about the kind of projects we love? [Take a look at some of our other projects][proj].
 
 [proj]: /whatwedo/
