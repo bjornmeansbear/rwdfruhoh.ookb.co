@@ -6,15 +6,15 @@ $(document).ready(function() {
 
   //prepare whatwedo feed for isotope...
   $('.icons.categories .science a').attr('href', '#filter=.science');
-  $('.icons.categories a.science').attr('href', '#filter=.science');
+  $('.icons.categories a.science').attr('href', '/whatwedo/#filter=.science');
   $('.icons.categories .scholars a').attr('href', '#filter=.scholars');
-  $('.icons.categories a.scholars').attr('href', '#filter=scholars');
+  $('.icons.categories a.scholars').attr('href', '/whatwedo/#filter=scholars');
   $('.icons.categories .arts a').attr('href', '#filter=.arts');
-  $('.icons.categories a.arts').attr('href', '#filter=.arts');
+  $('.icons.categories a.arts').attr('href', '/whatwedo/#filter=.arts');
   $('.icons.categories .justice a').attr('href', '#filter=.justice');
-  $('.icons.categories a.justice').attr('href', '#filter=.justice');
+  $('.icons.categories a.justice').attr('href', '/whatwedo/#filter=.justice');
   $('.icons.categories .community a').attr('href', '#filter=.community');
-  $('.icons.categories a.community').attr('href', '#filter=.community');
+  $('.icons.categories a.community').attr('href', '/whatwedo/#filter=.community');
 
   var $container = $('#projects');
   $container.isotope({ layoutMode : 'fitRows' });
