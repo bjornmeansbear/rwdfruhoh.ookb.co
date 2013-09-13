@@ -55,41 +55,6 @@ nav.navbar > .container {
   text-align: center;
   }
 
-@media (max-width: 779px) {  
-  .jumbo-text {
-    margin: 0 42px;
-    padding: 10px;
-    background-color: #fff;  
-    }
-    
-  .jumbo-text.inner {
-    margin: 0 20px;
-    padding: 10px;  
-    }
-
-  .jumbo-text h1 {
-    font-size: 2.25rem;
-  }
-
-  .jumbo-text .lead {
-    font-size: 1.75rem;
-    line-height: 1.33;
-  }
-  
-}
-
-@media (min-width: 780px) {  
-  .jumbo-text {
-    margin:0 42px;
-    padding: 50px 140px;
-    background-color: #fff;  
-    }
-    
-  .jumbo-text.inner {
-    margin:0 42px;
-    padding: 30px 100px;  
-    }
-}
 
 /* Footer */
 /*=========================*/
@@ -378,6 +343,7 @@ label {
     width: 100%;
   }
 } 
+
  
 .side-nav li a {
   clear: both;

@@ -35,23 +35,12 @@ ul.nav li {
     font-weight: 300;
   }
   
-  
-
-/** tweaks for @media queries */
-/* 980-1200 // Sm. Browser, Landscape Tablet */
-/* 768-979 // Portrait Tablet // BEGIN COLLAPSED NAV */
-/* 481-767 // Landscape Smartphone */
-/* 480 AND UNDER // Portrait Smartphone */
-
-@media (min-width: 979px) {
-
   .jumbo-text h1 { /* Homepage */
     font-size:7.5rem;
     margin-bottom:20px;
     padding:0 100px;
     line-height: 1.125;
-    }
-  
+    } 
       
   .jumbo-text.inner h1 { /* Inner Pages */
     font-size:5rem;
@@ -81,10 +70,6 @@ ul.nav li {
     line-height:1.33;
     }
     
-
-    
-
-  
   /* Jumbotron Styles */
   .jumbotron {
     text-align: center;
@@ -106,9 +91,31 @@ ul.nav li {
     line-height: 1.5;
     }
   
+  
+
+/** tweaks for @media queries */
+/* 1200 AND ABOVE // Biggie Browser */
+/* 980-1200 // Sm. Browser, Landscape Tablet */
+/* ----------- BEGIN COLLAPSED NAV ----------- */
+/* 768-979 // Portrait Tablet */
+/* 481-767 // Landscape Smartphone */
+/* 480 AND UNDER // Portrait Smartphone */
+
+
+@media (min-width: 768px) {  
+  .jumbo-text {
+    margin:0 42px;
+    padding: 50px 140px;
+    background-color: #fff;  
+    }
+    
+  .jumbo-text.inner {
+    margin:0 42px;
+    padding: 30px 100px;  
+    }
 }
 
-@media (max-width: 779px) {  
+@media (max-width: 767px) {  
   .jumbo-text {
     margin: 0 42px;
     padding: 10px;
@@ -131,18 +138,6 @@ ul.nav li {
   
 }
 
-@media (min-width: 780px) {  
-  .jumbo-text {
-    margin:0 42px;
-    padding: 50px 140px;
-    background-color: #fff;  
-    }
-    
-  .jumbo-text.inner {
-    margin:0 42px;
-    padding: 30px 100px;  
-    }
-}
 
 
 
