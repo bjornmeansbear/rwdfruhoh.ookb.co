@@ -5,54 +5,15 @@ $(document).ready(function() {
   $('#slideshow .slide').height(wh-250);
 
   //prepare whatwedo feed for isotope...
-/*
-  $('.icons.categories .science a').attr('data-filter', '.science');
-  $('.icons.categories .scholars a').attr('data-filter', '.scholars');
-  $('.icons.categories .arts a').attr('data-filter', '.arts');
-  $('.icons.categories .justice a').attr('data-filter', '.justice');
-  $('.icons.categories .community a').attr('data-filter', '.community');
-
-*/
-  //prepare whatwedo feed for isotope...
-/*
-  $('.icons.categories a.science').attr('data-filter', '.science');
-  $('.icons.categories a.scholars').attr('data-filter', '.scholars');
-  $('.icons.categories a.arts').attr('data-filter', '.arts');
-  $('.icons.categories a.justice').attr('data-filter', '.justice');
-  $('.icons.categories a.community').attr('data-filter', '.community');
-*/
-
-  //isotope stuff
-/*
-  var $container = $('#projects');
-  $container.isotope({ layoutMode : 'fitRows' });
-  $('#filters a').click(function(event){
-    event.preventDefault();
-    var selector = $(this).attr('data-filter');
-    $container.isotope({ filter: selector });
-    return false;
-  });
-  $('#projects .icons.categories a').click(function(event){
-    event.preventDefault();
-    var selector = $(this).attr('data-filter');
-    $container.isotope({ filter: selector });
-    return false;
-  });
-*/ //comment out temporarily to try hashtag solution
-
-
-  //prepare whatwedo feed for isotope...
   $('.icons.categories .science a').attr('href', '#filter=.science');
-  $('.icons.categories .scholars a').attr('href', '#filter=.scholars');
-  $('.icons.categories .arts a').attr('href', '#filter=.arts');
-  $('.icons.categories .justice a').attr('href', '#filter=.justice');
-  $('.icons.categories .community a').attr('href', '#filter=.justice');
-
-  //prepare whatwedo feed for isotope...
   $('.icons.categories a.science').attr('href', '#filter=.science');
+  $('.icons.categories .scholars a').attr('href', '#filter=.scholars');
   $('.icons.categories a.scholars').attr('href', '#filter=scholars');
+  $('.icons.categories .arts a').attr('href', '#filter=.arts');
   $('.icons.categories a.arts').attr('href', '#filter=.arts');
+  $('.icons.categories .justice a').attr('href', '#filter=.justice');
   $('.icons.categories a.justice').attr('href', '#filter=.justice');
+  $('.icons.categories .community a').attr('href', '#filter=.community');
   $('.icons.categories a.community').attr('href', '#filter=.community');
 
   var $container = $('#projects');
