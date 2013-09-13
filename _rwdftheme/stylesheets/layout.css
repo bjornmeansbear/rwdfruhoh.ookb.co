@@ -257,6 +257,7 @@ footer ul.menu {
   
 #tab-staff .plain img {
   visibility:hidden;
+  height:0;
   }
   
 .plain p {
