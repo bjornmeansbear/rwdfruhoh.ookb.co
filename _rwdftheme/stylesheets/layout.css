@@ -448,6 +448,10 @@ ul.side-nav .active i {
   background-image: url("../media/proj-p-white.png");
 }
 
+.leadimage {
+  margin-bottom:25px;
+  }
+
 
  /** tweaks for @media queries */
 /* 1200 AND ABOVE // Biggie Browser */
