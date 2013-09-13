@@ -85,8 +85,8 @@ textarea {
   width:100% !important;
   }
   
-.controls .controls-row .span6, .controls .controls-row .span8 {
-  margin-left:0 !important;
+.controls.controls-row.span6, .controls.controls-row.span8 {
+  margin:0 !important;
   }  
   
 }
