@@ -85,7 +85,7 @@ textarea {
   width:100% !important;
   }
   
-.controls.controls-row.span6, .controls.controls-row.span8 {
+.row-fluid .controls-row [class*="span"] + [class*="span"] {
   margin:0 !important;
   }  
   
