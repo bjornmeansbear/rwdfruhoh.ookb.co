@@ -130,12 +130,13 @@ ul.nav li {
   .jumbo-text {
     margin: 0 42px;
     padding: 10px;
-    background-color: #fff;  
+    background-color: #fff; 
+    text-align: left;  
     }
     
   .jumbo-text.inner {
     margin: 0 20px;
-    padding: 10px;  
+    padding: 10px; 
     }
 
   .jumbo-text.inner h1 { /* Inner Page Hero Head */
@@ -150,7 +151,13 @@ ul.nav li {
   .index.jumbotron .lead{ /* Homepage Subhead */
     font-size: 3.0rem;
     line-height: 1.33;
+    text-align: left;
     }
+    
+  h3 { /* Inner Page Head, List Item Head */
+    font-size:1.8rem;
+    margin:26px 0 10px 0;
+    }  
 
   
 }
