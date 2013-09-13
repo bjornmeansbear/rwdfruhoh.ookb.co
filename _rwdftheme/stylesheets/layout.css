@@ -461,6 +461,8 @@ ul.side-nav .active i {
 
 /*
 
+height: 100px !important;
+
 .minus-top, .minus-top .pager { 
   position: relative; z-index: 999; }
 
