@@ -258,7 +258,12 @@ footer ul.menu {
 #tab-staff .plain img {
   visibility:hidden;
   height:0;
+  width:0;
   }
+  
+ #tab-staff .plain .span8 {
+ width:100% !important;    
+ }
   
 .plain p {
   padding-right:15px;
