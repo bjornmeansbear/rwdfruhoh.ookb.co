@@ -50,7 +50,6 @@ $(document).ready(function() {
     // trigger hashchange to capture any hash data on init
     .trigger('hashchange');
 
-
 });
 
 $(window).bind("load", function() {
