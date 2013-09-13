@@ -604,7 +604,6 @@ div.spruceup {
   }
   .brick .project-content {
     margin-right: 0;
-  .
   }
 }
 
@@ -669,15 +668,6 @@ div.spruceup {
   background-repeat: no-repeat;
   width:40px !important;
   }
-  
-@media (max-width: 767px){
-.icons.categories li,
-.icons.categories li a, 
-.icons.categories.bottom a {
-  display: inline-block;
-  height: 29px;
-  }
-}
 
 
 
