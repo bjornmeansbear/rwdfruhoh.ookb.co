@@ -462,7 +462,7 @@ ul.side-nav .active i {
 .minus-top .pager { 
   position: static; 
   z-index: 999; 
-  height:150px;
+  height:200px;
   margin-bottom: -30px;
 
   }
