@@ -422,15 +422,6 @@ ul.side-nav .active i {
   white-space: nowrap;
   overflow: hidden;
 }
-
-.next.pager a {
-  background: url("../media/proj-n.png") center center no-repeat;
-}
-
-.prev.pager a {
-  background: url("../media/proj-p.png") center center no-repeat;
-}
-
 .pager a:hover {
   background-color: #009AC9;
   background-color: rgba(0,154,201,1);
@@ -442,13 +433,89 @@ ul.side-nav .active i {
   -webkit-transition: all 300ms;
 }
 
+.next.pager a {
+  background: url("../media/proj-n.png") center center no-repeat;
+}
 .next.pager a:hover {
   background-image: url("../media/proj-n-white.png");
 }
 
+.prev.pager a {
+  background: url("../media/proj-p.png") center center no-repeat;
+}
 .prev.pager a:hover {
   background-image: url("../media/proj-p-white.png");
 }
+
+
+ /** tweaks for @media queries */
+/* 1200 AND ABOVE // Biggie Browser */
+/* 980-1200 // Sm. Browser, Landscape Tablet */
+/* ----------- BEGIN COLLAPSED NAV ----------- */
+/* 768-979 // Portrait Tablet */
+/* 481-767 // Landscape Smartphone */
+/* 480 AND UNDER // Portrait Smartphone */
+
+
+.minus-top { 
+  padding-top: 0; 
+}
+
+.minus-top, .minus-top .pager { 
+  position: relative; z-index: 999; }
+
+.minus-top .pager { 
+  margin-top:0; 
+  margin-bottom: 0; 
+  }
+
+.minus-top .pager a { 
+  position: absolute; 
+  display: block; 
+  width: 100%; 
+  z-index: 999; 
+}
+
+.minus-top .prev.disabled, 
+.minus-top .next.disabled {
+  visibility: hidden !important;
+}
+
+.pager a {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.pager a:hover {
+  background-color: #009AC9;
+  background-color: rgba(0,154,201,1);
+  color: white;
+  text-decoration: none;
+  /**/
+  transition: all 300ms;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+}
+
+.next.pager a {
+  background: url("../media/proj-n.png") center center no-repeat;
+}
+.next.pager a:hover {
+  background-image: url("../media/proj-n-white.png");
+}
+
+.prev.pager a {
+  background: url("../media/proj-p.png") center center no-repeat;
+}
+.prev.pager a:hover {
+  background-image: url("../media/proj-p-white.png");
+}
+
+
+
+
+
+/*--- End Responsive Pager Business --*/
 
 .brick {
   padding-bottom:20px;
@@ -668,6 +735,7 @@ div.spruceup {
   background-repeat: no-repeat;
   width:40px !important;
   }
+
 
 
 
