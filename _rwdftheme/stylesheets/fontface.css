@@ -115,26 +115,32 @@ ul.nav li {
 
 
 @media (max-width: 767px) {  
+
   .jumbo-text {
     margin: 0 42px;
     padding: 10px;
     background-color: #fff;  
     }
     
-    
   .jumbo-text.inner {
     margin: 0 20px;
     padding: 10px;  
     }
 
-  .jumbo-text h1 {
+  .jumbo-text.inner h1 { /* Inner Page Hero Head */
     font-size: 2.25rem;
-  }
+    } 
 
-  .jumbo-text .lead {
+  .jumbo-text.inner .lead { /* Inner Page Hero Subhead */
     font-size: 1.75rem;
     line-height: 1.33;
-  }
+    }
+    
+  .index.jumbotron .lead{ /* Homepage Subhead */
+    font-size: 1.75rem;
+    line-height: 1.33;
+    }
+
   
 }
 
