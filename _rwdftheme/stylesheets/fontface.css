@@ -14,7 +14,7 @@ body {
   font-size:1.5rem;
   }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', Georgia, serif;
   line-height: 1.25em;  
   }
@@ -29,8 +29,19 @@ ul.nav li {
 .side-nav ul li {
   font-size: 1.4rem; 
   }
+  
+.hero .tagline h1 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+  }
+  
+  
 
 /** tweaks for @media queries */
+/* 980-1200 // Sm. Browser, Landscape Tablet */
+/* 768-979 // Portrait Tablet // BEGIN COLLAPSED NAV */
+/* 481-767 // Landscape Smartphone */
+/* 480 AND UNDER // Portrait Smartphone */
 
 @media (min-width: 979px) {
 
@@ -70,18 +81,9 @@ ul.nav li {
     line-height:1.33;
     }
     
-  .hero-caption {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size:1.3rem;
-    color:rgba(185,186,184,1);
-    text-align: right;
-    margin-top: 10px;
-    }
+
     
-  .hero .tagline h1 {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-  }
+
   
   /* Jumbotron Styles */
   .jumbotron {
@@ -105,4 +107,44 @@ ul.nav li {
     }
   
 }
+
+@media (max-width: 779px) {  
+  .jumbo-text {
+    margin: 0 42px;
+    padding: 10px;
+    background-color: #fff;  
+    }
+    
+  .jumbo-text.inner {
+    margin: 0 20px;
+    padding: 10px;  
+    }
+
+  .jumbo-text h1 {
+    font-size: 2.25rem;
+  }
+
+  .jumbo-text .lead {
+    font-size: 1.75rem;
+    line-height: 1.33;
+  }
+  
+}
+
+@media (min-width: 780px) {  
+  .jumbo-text {
+    margin:0 42px;
+    padding: 50px 140px;
+    background-color: #fff;  
+    }
+    
+  .jumbo-text.inner {
+    margin:0 42px;
+    padding: 30px 100px;  
+    }
+}
+
+
+
+
 

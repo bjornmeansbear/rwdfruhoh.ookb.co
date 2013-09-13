@@ -108,6 +108,7 @@
   }
 }
 
+/* 980-1200 // Sm. Browser, Landscape Tablet */
 @media (min-width: 1200px) {
   .row {
     margin-left: -30px;
@@ -458,7 +459,9 @@
   }
 }
 
+/* 768-979 // Portrait Tablet */
 @media (min-width: 768px) and (max-width: 979px) {
+
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -799,6 +802,8 @@
   }
 }
 
+
+/* 481-767 // Landscape Smartphone */
 @media (max-width: 767px) {
   body {
     padding-right: 20px;
@@ -897,7 +902,9 @@
   }
 }
 
+/* 480 AND UNDER // Portrait Smartphone */
 @media (max-width: 480px) {
+
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
@@ -949,7 +956,9 @@
   }
 }
 
+/* Visible navbar content for anything 980 and above */
 @media (max-width: 979px) {
+
   body {
     padding-top: 0;
   }
@@ -967,12 +976,7 @@
   .navbar-fixed-bottom .navbar-inner {
     padding: 5px;
   }
-/* commented out by ESF for fixed width
-  .navbar .container {
-    width: auto;
-    padding: 0;
-  }
-*/
+
   .navbar .brand {
     padding-right: 10px;
     padding-left: 10px;
@@ -1109,7 +1113,9 @@
   }
 }
 
+/* Collapsed navbar content for anything below 980 */
 @media (min-width: 980px) {
+
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
