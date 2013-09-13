@@ -305,7 +305,7 @@ label {
   text-align: center;
 }
  
-@media (max-width: 760px) {
+@media (max-width: 767px) {
   #filters {
     border-bottom: 3px solid rgb(248, 247, 247);
     margin-bottom: 15px;
@@ -336,6 +336,7 @@ label {
     display: block;
     width: 100%;
   }
+
 } 
 
  
@@ -605,6 +606,8 @@ div.spruceup {
   .brick .project-content {
     margin-right: 0;
   }
+    
+  .pull-right {float:none} /*drops icons in project list*/
 }
 
 @media (min-width: 768px) {
