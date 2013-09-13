@@ -54,6 +54,17 @@ ul.nav li {
     line-height:1.33;
     }
     
+  .jumbo-text {
+    margin:0 42px;
+    padding: 50px 140px;
+    background-color: #fff;  
+    }
+    
+  .jumbo-text.inner {
+    margin:0 42px;
+    padding: 30px 100px;  
+    }
+    
   .jumbo-text.inner .lead {
     font-size:2.0rem;
     }
@@ -102,18 +113,6 @@ ul.nav li {
 /* 480 AND UNDER // Portrait Smartphone */
 
 
-@media (min-width: 768px) {  
-  .jumbo-text {
-    margin:0 42px;
-    padding: 50px 140px;
-    background-color: #fff;  
-    }
-    
-  .jumbo-text.inner {
-    margin:0 42px;
-    padding: 30px 100px;  
-    }
-}
 
 @media (max-width: 767px) {  
   .jumbo-text {
@@ -121,6 +120,7 @@ ul.nav li {
     padding: 10px;
     background-color: #fff;  
     }
+    
     
   .jumbo-text.inner {
     margin: 0 20px;
