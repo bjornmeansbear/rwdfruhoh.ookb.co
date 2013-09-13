@@ -305,7 +305,7 @@ label {
   text-align: center;
 }
  
-@media (max-width: 760px) {
+@media (max-width: 767px) {
   #filters {
     border-bottom: 3px solid rgb(248, 247, 247);
     margin-bottom: 15px;
@@ -456,10 +456,17 @@ ul.side-nav .active i {
 /* 481-767 // Landscape Smartphone */
 /* 480 AND UNDER // Portrait Smartphone */
 
+@media (max-width: 767px) {
 
+.row-fluid.project {
+	padding-bottom: 100px;
+  }
+	
 .minus-top { 
-  padding-top: 0; 
-}
+  height:100px; 
+  }
+
+/*
 
 .minus-top, .minus-top .pager { 
   position: relative; z-index: 999; }
@@ -491,7 +498,6 @@ ul.side-nav .active i {
   background-color: rgba(0,154,201,1);
   color: white;
   text-decoration: none;
-  /**/
   transition: all 300ms;
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
@@ -511,9 +517,7 @@ ul.side-nav .active i {
   background-image: url("../media/proj-p-white.png");
 }
 
-
-
-
+}
 
 /*--- End Responsive Pager Business --*/
 
@@ -680,7 +684,7 @@ div.spruceup {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .brick .project-content {
     margin-right: 170px;
   }
