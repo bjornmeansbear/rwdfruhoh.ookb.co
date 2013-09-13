@@ -255,6 +255,10 @@ footer ul.menu {
   min-height: 350px;
   }
   
+#tab-staff .plain img {
+  visibility:hidden;
+  }
+  
 .plain p {
   padding-right:15px;
   }
