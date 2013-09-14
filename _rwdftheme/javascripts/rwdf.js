@@ -8,7 +8,7 @@ $(document).ready(function() {
   $('.icons.categories .science a').attr('href', '#filter=.science');
   $('.icons.categories a.science').attr('href', '/whatwedo/#filter=.science');
   $('.icons.categories .scholars a').attr('href', '#filter=.scholars');
-  $('.icons.categories a.scholars').attr('href', '/whatwedo/#filter=scholars');
+  $('.icons.categories a.scholars').attr('href', '/whatwedo/#filter=.scholars');
   $('.icons.categories .arts a').attr('href', '#filter=.arts');
   $('.icons.categories a.arts').attr('href', '/whatwedo/#filter=.arts');
   $('.icons.categories .justice a').attr('href', '#filter=.justice');

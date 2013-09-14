@@ -39,20 +39,20 @@ layout : default
       
   <div class="row-fluid minus-top">
   
-    {{# page.previous }}
-      <div class="prev previous span2 pager"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></div>
-    {{/ page.previous }}
-    {{^ page.previous }}
-      <div class="prev disabled previous span2 pager"><a>&larr; Previous</a></div>
-    {{/ page.previous }}
-  
     {{# page.next }}
-      <div class="next span2 pager offset8"><a href="{{ url }}" title="{{ title }}">Next &rarr;</a></div>
+      <div class="next span2 pager"><a href="{{ url }}" title="{{ title }}">Next &rarr;</a></div>
     {{/ page.next }}
     {{^ page.next }}
-      <div class="next disabled span2 pager offset8"><a>Next &rarr;</a></div>
+      <div class="next disabled span2 pager"><a>Next &rarr;</a></div>
     {{/ page.next }}
           
+    {{# page.previous }}
+      <div class="prev previous span2 offset8 pager"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></div>
+    {{/ page.previous }}
+    {{^ page.previous }}
+      <div class="prev disabled previous span2 offset8pager"><a>&larr; Previous</a></div>
+    {{/ page.previous }}
+  
   </div>
   <!-- this is presumably for each individual post -->
   
