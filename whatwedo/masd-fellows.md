@@ -11,7 +11,7 @@ categories:
   - scholars and fellows
   - social justice
   - community
-featuretitle: "Briony & Jonathon"
+featuretitle: "Briony & Jonathan"
 featureblurb: MASD Fellows at work improving Baltimore.
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/masd/winterworkday.jpg"
 published: true
