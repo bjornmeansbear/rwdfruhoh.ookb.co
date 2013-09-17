@@ -1,5 +1,5 @@
 ---
-layout: "slideshow"
+layout: slideshow
 title: "Deutsch Fellows: Masters of Social Design at MICA"
 date: "2012-06-01"
 image: 
@@ -7,13 +7,14 @@ image:
   - "http://rwdfruhoh.ookb.co/assets/media/masd/funday2.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/masd/funday5.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/masd/1009395_10151534127515787_407399027_o-1.jpg"
-categories :
-  - "scholars and fellows"
-  - "social justice"
-  - "community"  
-featuretitle: "Briony Hynson"
-featureblurb: "Social Design Fellow and visionary behind the Bethel Street Playscape."
-featureimg: "http://rwdfruhoh.ookb.co/assets/media/briony-wide.jpg"
+categories: 
+  - scholars and fellows
+  - social justice
+  - community
+featuretitle: "Briony & Jonathon"
+featureblurb: MASD Fellows at work improving Baltimore.
+featureimg: "http://rwdfruhoh.ookb.co/assets/media/masd/winterworkday.jpg"
+published: true
 ---
 
 This new graduate program integrates art with design while stressing the importance of civic engagement. The program “prepares students to grow their skills, examine the designer’s role and responsibility in society, and bring about social change through design.” 
@@ -31,4 +32,3 @@ The current Deutsch Fellows are Jonathan Erwin, who works to improve urban clima
 - [Briony Hynson 2012](http://rwdfblog.com/2013/04/30/revitalizing-baltimore-one-playground-at-a-time/)
 - Jonathan Erwin 2013
 - Mira Azarm 2013
-
