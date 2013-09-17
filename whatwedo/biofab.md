@@ -1,12 +1,13 @@
 ---
 layout: singleimage
-title: "BioFab at UMCP"
+title: BioFab at UMCP
 date: "2006-01-01"
 image: "http://rwdfoundation.files.wordpress.com/2013/08/p1000640.jpg?w=600"
-categories :
-  - "science and tech"
-featuretitle: "BioFab"
+categories: 
+  - science and tech
+featuretitle: BioFab
 featureimg: "http://rwdfoundation.files.wordpress.com/2013/08/p1000640.jpg?w=600"
+published: true
 ---
 
 Researchers at the University of Maryland are creating microscale "living laboratories" to investigate biochemical reaction pathways, and "biological nanofactories" capable of initiating communications between bacteria in a major, multi-disciplinary research program in biofabrication.
@@ -21,5 +22,4 @@ To solve this problem, the team sought support from the Deutsch Foundation for p
 
 Over the past seven years, the research results and published papers of these faculty collaborators and their graduate and postdoctoral students have elevated their research program in biofabrication to the forefront of the field in the United States. Dollars supplied by the Deutsch Foundation have been doubled, tripled and quadrupled as the senior faculty and their research fellows have garnered ever-increasing recognition in the field and support for their work.
 
-[Read more about specific Biofab projects on our blog](http://rwdfblog.com/2013/09/03/lab-on-a-chip-and-other-breakthrough-work-to-help-patients-with-mental-illness/). 
-
+[Read more about specific Biofab projects on our blog](http://rwdfblog.com/2013/09/03/lab-on-a-chip-and-other-breakthrough-work-to-help-patients-with-mental-illness/).
