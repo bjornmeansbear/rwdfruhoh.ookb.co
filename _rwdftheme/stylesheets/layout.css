@@ -32,6 +32,19 @@ body {
 nav.navbar a.logo {
   display: block;
   float:left;
+  height: auto;
+  width: 139px;
+}
+nav.navbar a.logo img {
+  display: block;
+  height: 72px;
+  width: 139px;
+}
+
+.biglogo nav.navbar a.logo. 
+.biglogo nav.navbar a.logo img {
+  height: auto;
+  width: 180px;
 }
 
 nav.navbar > .container {
