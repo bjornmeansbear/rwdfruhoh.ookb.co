@@ -2,7 +2,8 @@
 title: Robert and Florence
 tags: founders
 image: "robert-and-florence-deutsch-picture_large.jpg"
-sortorder: "a"
+sortorder: a
+published: true
 ---
 
 ### Career
@@ -19,7 +20,7 @@ Throughout his career, Dr. Deutsch remained true to his commitment to invest in 
 
 ### Robert and Florence
 
-Robert Deutsch was born in New York City in 1924 to a family of modest means. He graduated from Far Rockaway High School in the top of his class.
+Robert Deutsch was born in New York City in 1924 to a family of modest means. He graduated from Flushing High School in the top of his class.
 
 In 1939, Robert enrolled at the City University of New York (CUNY) tuition-free due to his high academic standing. With the arrival of World War II, Bob left his studies to join the Army to fight for his country in Europe.
 
@@ -30,5 +31,3 @@ Florence and Robert first met in 1947 at Tamiment in the Pocono Mountains of Pen
 After one year of graduate studies at M.I.T., Robert went back to New York where he and Florence were married in the summer of 1949. They moved to Berkeley where Florence was studying and Robert completed his doctoral degree.
 
 Robert and Florence’s first child, Jane, was born in Berkeley. Three years later, their second child, David, was born. Completing his doctoral degree that year, Robert elected to pursue a career in the rapidly developing nuclear industry, joining the nuclear power division of General Electric in Schenectady, New York. After several corporate relocations, the family settled in Baltimore in 1964.
-
-
