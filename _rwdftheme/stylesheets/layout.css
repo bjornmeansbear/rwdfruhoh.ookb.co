@@ -126,7 +126,7 @@ footer ul.menu {
 .hero {
   margin-top: 5px;
   overflow: hidden;
-  max-height: 500px;
+  height: 480px;
   position: relative;
   }
   
@@ -136,11 +136,9 @@ footer ul.menu {
 }
 
 .hero .row,
-.hero .feature,
-.hero .tagline {
+.hero .feature {
   overflow: hidden;
-  max-height: 500px;
-  position: relative;
+  height: 480px;
 }
 
 .feature .text {
@@ -152,6 +150,7 @@ footer ul.menu {
   
 .hero .row,
 .hero .row img,
+.hero .feature,
 .triptych .trio,
 .triptych .span4 img {
   position: relative;
@@ -183,14 +182,17 @@ footer ul.menu {
   width: 100%;
 }
 
-.hero .row .tagline div.text h1 {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 .hero .biglogo, 
 .hero .other {
   margin-top: 30px;
+}
+
+.hero .tagline,
+.hero .tagline .text,
+.hero .other,
+.triptych .trio {
+  overflow: hidden;
+  height: 225px;
 }
 
 /* Triptych info */
@@ -229,6 +231,18 @@ footer ul.menu {
 .trio h3 { margin: .25em 0; }
 .trio h3 a { color: white; font-weight: 400; }
 
+ /** tweaks for @media queries */
+/* 1200 AND ABOVE // Biggie Browser */
+/* 980-1200 // Sm. Browser, Landscape Tablet */
+/* ----------- BEGIN COLLAPSED NAV ----------- */
+/* 768-979 // Portrait Tablet */
+/* 481-767 // Landscape Smartphone */
+/* 480 AND UNDER // Portrait Smartphone */
+
+@media (max-width: 767px) {
+
+}
+
 /* lower, more general stuff */
 .row-fluid {
   padding-top:25px;
@@ -253,7 +267,6 @@ footer ul.menu {
 .index.jumbotron .diag-divider {
   margin-bottom: 70px;
   }
-
 
 /* Inner Pages */
 /*=========================*/
@@ -317,7 +330,6 @@ textarea {
 label {
   margin:10px 0 2px 0;
   }
-  
 
 /* Side Nav */
 /*=========================*/
@@ -372,7 +384,6 @@ label {
   }
 } 
 
- 
 .side-nav li a {
   clear: both;
   display: block;
@@ -472,13 +483,13 @@ ul.side-nav .active i {
   background: url("../media/proj-p.png") center center no-repeat;
 }
 .prev.pager a:hover {
-  background-image: url("../media/proj-p-white.png");
+  background-image: url("../media/proj-p-wh.png");
 }
 .next.pager a {
   background: url("../media/proj-n.png") center center no-repeat;
 }
 .next.pager a:hover {
-  background-image: url("../media/proj-n-white.png");
+  background-image: url("../media/proj-n-wh.png");
 }
 
 .leadimage {

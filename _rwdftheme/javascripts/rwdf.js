@@ -53,17 +53,6 @@ $(document).ready(function() {
 });
 
 $(window).bind("load", function() {
-  // set common height of triptych blocks on homepage
-  var fh = $('.hero .feature').height();
-  var blockwidth = $('.triptych .span4').width();
-  // var blockheight = blockwidth/1.32;
-  var blockheight = ((fh-30)/2);
-  $('.triptych .trio').height(blockheight);
-  $('.hero .other').height(blockheight);
-  // make tagline the same height as the lead feature
-  $('.hero .tagline .text').height(blockheight);
-
-
   // subtract height of projects so prev/next buttons show up in right places
   var containerheight = $('.container.inner').height();
   var btnheight     = containerheight+30;
