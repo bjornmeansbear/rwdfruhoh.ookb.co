@@ -472,7 +472,7 @@ ul.side-nav .active i {
   background: url("../media/proj-p.png") center center no-repeat;
 }
 .prev.pager a:hover {
-  background-image: url("../media/proj-p-wh.png");
+  background-image: url("../media/proj-p-white.png");
 }
 .next.pager a {
   background: url("../media/proj-n.png") center center no-repeat;
