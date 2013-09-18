@@ -468,18 +468,17 @@ ul.side-nav .active i {
   -webkit-transition: all 300ms;
 }
 
+.prev.pager a {
+  background: url("../media/proj-p.png") center center no-repeat;
+}
+.prev.pager a:hover {
+  background-image: url("../media/proj-p-wh.png");
+}
 .next.pager a {
   background: url("../media/proj-n.png") center center no-repeat;
 }
 .next.pager a:hover {
   background-image: url("../media/proj-n-white.png");
-}
-
-.prev.pager a {
-  background: url("../media/proj-p.png") center center no-repeat;
-}
-.prev.pager a:hover {
-  background-image: url("../media/proj-p-white.png");
 }
 
 .leadimage {

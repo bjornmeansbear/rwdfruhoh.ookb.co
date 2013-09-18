@@ -1,0 +1,76 @@
+---
+layout : default
+---
+
+<!-- Main Content
+================================================== -->
+<div class="container inner">
+
+  <div class="row-fluid">
+    <div class="e-breadcrumb offset2">
+      <a href="/whatwedo/">&larr; Back to All Projects</a>
+    </div>
+  </div>  
+
+  
+  <!-- Content -->
+  <div class="row-fluid">
+  
+    <div class="span8 offset2">
+      <article class="project">
+        <div class="leadimage top text-center clearfix">
+          {{# page.image }}
+            <img class="img-circle span4 offset4" src="{{ page.image }}" />
+          {{/ page.image }}
+        </div>
+        <h2>{{ page.title }}</h2>
+        {{{ page.content }}}
+
+        <div class="icons categories bottom text-center">
+          {{# page.categories }}
+            <a href="../whatwedo/" class="{{name}}" >{{name}}</a>
+          {{/ page.categories }}
+        </div>
+
+      </article>
+
+      <div class="spruceup">
+        <p class="span6">coordinated by the Central Baltimore Partnership</p>
+        {{# whatwedo.tags.spruce-up }}
+          <div class="spruceuplist span6">
+            <h4>All Spruce-Up Grants</h4>
+            <ul>
+            {{# whatwedo?to_whatwedo }}
+              <li><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></li>
+            {{/ whatwedo?to_whatwedo }}
+            </ul>
+          </div>
+        {{/ whatwedo.tags.spruce-up }}
+      </div>
+
+    </div>
+    
+  </div>
+      
+  <div class="row-fluid minus-top">
+  
+    {{# page.next }}
+      <div class="next span2 pager"><a href="{{ url }}" title="{{ title }}">Next &rarr;</a></div>
+    {{/ page.next }}
+    {{^ page.next }}
+      <div class="next disabled span2 pager"><a>Next &rarr;</a></div>
+    {{/ page.next }}
+          
+    {{# page.previous }}
+      <div class="prev previous span2 offset8 pager"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></div>
+    {{/ page.previous }}
+    {{^ page.previous }}
+      <div class="prev disabled previous span2 offset8pager"><a>&larr; Previous</a></div>
+    {{/ page.previous }}
+  
+  </div>
+  <!-- this is presumably for each individual post -->
+      
+</div>
+<!-- END Main Content
+================================================== -->

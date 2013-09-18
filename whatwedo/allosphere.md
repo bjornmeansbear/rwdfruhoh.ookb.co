@@ -5,7 +5,6 @@ date: "2012-01-01"
 categories: 
   - "science and tech"
   - "arts and culture"
-  - "community"
 image: 
   - "http://rwdf.ookb.co/img/ss01.png"
   - "http://rwdf.ookb.co/img/ss12.png"
