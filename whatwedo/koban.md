@@ -1,10 +1,10 @@
 ---
 layout: singleimage
-title: The Koban Project
+title: "The Koban Project"
 date: "2013-04-01"
 image: "http://rwdfoundation.files.wordpress.com/2013/04/photo-1.jpg?w=600"
 categories: 
-  - arts and culture
+  - "arts and culture"
 tags: 
   - "spruce-up"
 featuretitle: "Spruce-Ups"

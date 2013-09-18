@@ -1,15 +1,15 @@
 ---
 layout: singleimage
-title: Greenmount North Garden
+title: "Greenmount North Garden"
 date: "2013-04-01"
 image: "http://rwdfoundation.files.wordpress.com/2013/05/fenceweave4.jpg"
 categories: 
-  - arts and culture
-  - social justice
-  - community
+  - "arts and culture"
+  - "social justice"
+  - "community"
 tags: 
   - "spruce-up"
-featuretitle: Greenmount North Garden
+featuretitle: "Greenmount North Garden"
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 published: true
 ---

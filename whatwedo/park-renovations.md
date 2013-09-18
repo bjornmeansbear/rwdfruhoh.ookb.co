@@ -1,12 +1,12 @@
 ---
 layout: singleimage
-title: Park Renovations
+title: "Park Renovations"
 date: "2013-04-01"
 image: "/assets/media/spruceup/park-renov4-600px.jpg"
 categories: 
-  - arts and culture
-  - social justice
-  - community
+  - "arts and culture"
+  - "social justice"
+  - "community"
 tags: 
   - "spruce-up"
 featuretitle: "Spruce-Ups"

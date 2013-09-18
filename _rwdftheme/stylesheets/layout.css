@@ -37,14 +37,14 @@ nav.navbar a.logo {
 }
 nav.navbar a.logo img {
   display: block;
-  height: 72px;
+  height: auto;
   width: 139px;
 }
 
-.biglogo nav.navbar a.logo. 
-.biglogo nav.navbar a.logo img {
+.largelogosize nav.navbar a.logo,
+.largelogosize nav.navbar a.logo img {
   height: auto;
-  width: 180px;
+  width: 180px !important;
 }
 
 nav.navbar > .container {
@@ -58,6 +58,15 @@ nav.navbar > .container {
   top: 54px;
 }
 
+.largelogosize .navbar ul.nav {
+  top: 77px;
+}
+
+.biglogo .hero .biglogo img {
+  width: 90% !important;
+  height: auto !important;
+  min-height: auto !important;
+}
 
 /* Jumbotron */
 /* This is the big text areas on each of the sub-pages */
@@ -179,11 +188,13 @@ footer ul.menu {
   vertical-align: middle;
 }
 
+.hero .biglogo, 
 .hero .other {
   margin-top: 30px;
 }
 
 /* Triptych info */
+.hero .biglogo, 
 .hero .other, 
 .triptych .trio { 
   overflow: hidden; 

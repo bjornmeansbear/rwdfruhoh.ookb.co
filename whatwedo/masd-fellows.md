@@ -8,9 +8,9 @@ image:
   - "http://rwdfruhoh.ookb.co/assets/media/masd/funday5.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/masd/1009395_10151534127515787_407399027_o-1.jpg"
 categories: 
-  - scholars and fellows
-  - social justice
-  - community
+  - "scholars and fellows"
+  - "social justice"
+  - "community"
 featuretitle: "Briony & Jonathan"
 featureblurb: MASD Fellows at work improving Baltimore.
 featureimg: "http://rwdfruhoh.ookb.co/assets/media/masd/winterworkday.jpg"

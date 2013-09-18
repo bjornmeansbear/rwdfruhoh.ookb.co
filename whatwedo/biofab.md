@@ -1,10 +1,10 @@
 ---
 layout: singleimage
-title: BioFab at UMCP
+title: "BioFab at UMCP"
 date: "2006-01-01"
 image: "http://rwdfoundation.files.wordpress.com/2013/08/p1000640.jpg?w=600"
 categories: 
-  - science and tech
+  - "science and tech"
 featuretitle: BioFab
 featureimg: "http://rwdfoundation.files.wordpress.com/2013/08/p1000640.jpg?w=600"
 published: true

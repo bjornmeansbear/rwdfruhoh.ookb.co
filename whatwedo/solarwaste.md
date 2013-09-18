@@ -1,10 +1,10 @@
 ---
 layout: singleimage
-title: North Avenue Big Belly Solar Waste System
+title: "North Avenue Big Belly Solar Waste System"
 date: "2013-04-01"
 image: "/assets/media/spruceup/bigbellysolar-600px.jpg"
 categories: 
-  - community
+  - "community"
 tags: 
   - "spruce-up"
 featuretitle: "Spruce-Ups"

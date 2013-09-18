@@ -1,12 +1,12 @@
 ---
 layout: singleimage
-title: The Chicken Box
+title: "The Chicken Box"
 image: "http://farm8.staticflickr.com/7324/9256158912_0bd89e142f.jpg"
 date: "2013-05-01"
 categories: 
-  - arts and culture
-  - social justice
-  - community
+  - "arts and culture"
+  - "social justice"
+  - "community"
 tags: 
   - "spruce-up"
 featuretitle: "Spruce-Ups"
