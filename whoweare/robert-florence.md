@@ -3,7 +3,6 @@ title: "Robert and Florence"
 tags: "founders"
 image: "robert-and-florence-deutsch-picture_large.jpg"
 sortorder: "a"
-published: true
 ---
 
 ### Career
