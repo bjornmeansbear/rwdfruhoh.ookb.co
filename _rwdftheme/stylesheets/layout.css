@@ -19,6 +19,32 @@ body {
 .add-top    { margin-top: 75px; }
 .add-bottom { margin-bottom: 75px; }
 
+/* lower, more general stuff */
+.row-fluid {
+  padding-top:25px;
+  padding-bottom:0;
+  }
+
+.home-content h3 {
+  padding-bottom:10px;
+  border-bottom: 3px solid rgba(248,247,247,1); 
+  }
+  
+.home-content p {
+  margin-top:10px;
+  }
+  
+.index.jumbotron {
+  background: none;
+  border-bottom: none;
+  margin: 0 auto;
+  }
+
+.index.jumbotron .diag-divider {
+  margin-bottom: 70px;
+  }
+  
+
 /* Navbar */
 .navbar {
   margin-top: 30px;
@@ -54,9 +80,7 @@ nav.navbar > .container {
   top: 54px;
 }
 
-.largelogosize .navbar ul.nav {
-  top: 77px;
-}
+.largelogosize .navbar ul.nav { top: 77px; }
 
 /* Jumbotron */
 /* This is the big text areas on each of the sub-pages */
@@ -67,7 +91,6 @@ nav.navbar > .container {
   text-align: center;
   }
 
-
 /* Footer */
 /*=========================*/
 .diag-divider {
@@ -77,11 +100,14 @@ nav.navbar > .container {
   margin-bottom: 20px;
   } 
 
+footer ul.menu { list-style: none; }
+
 .socialicon, .socialicon-color {
   float:left;
   margin: 5px 10px 20px 0;
   }
 
+/*** WHO WE ARE PAGE? ***/
 #tab-staff .socialicon-color {
   float:none;
   margin-top: 15px !important;
@@ -92,17 +118,8 @@ nav.navbar > .container {
   display: inline-block;
 }
 
-.tab-pane h3 {
-  margin-top: 22px;
-}
-
-#tab-staff .span6 {
-  margin-top: 15px;
-}
-
-footer ul.menu {
-  list-style: none;
-}
+.tab-pane h3 { margin-top: 22px; }
+#tab-staff .span6 { margin-top: 15px; }
 
 /*=========================*/
 /*=========================*/
@@ -295,31 +312,6 @@ footer ul.menu {
 
 }
 
-/* lower, more general stuff */
-.row-fluid {
-  padding-top:25px;
-  padding-bottom:0;
-  }
-
-.home-content h3 {
-  padding-bottom:10px;
-  border-bottom: 3px solid rgba(248,247,247,1); 
-  }
-  
-.home-content p {
-  margin-top:10px;
-  }
-  
-.index.jumbotron {
-  background: none;
-  border-bottom: none;
-  margin: 0 auto;
-  }
-
-.index.jumbotron .diag-divider {
-  margin-bottom: 70px;
-  }
-  
 /*=========================*/
 /* /END HOMEPAGE STYLES */
 /*=========================*/
@@ -604,29 +596,9 @@ ul.side-nav .active i {
 
 }
 /*--- End Responsive Pager Business --*/
-
-.brick {
-  padding-bottom:20px;
-  border-bottom: 3px solid rgba(248,247,247,1); 
-}
-  
-.brick:last-child {
-  padding-bottom:60px;
-  border-bottom: none; 
-  }
-
-.brick .tags {
-  display: block;
-  text-align: right;
-  margin-top: 34px;
-}
-
-.brick p {
-  clear:both;
-}
+/**************************************/
 
 /* JUST TEXT PAGES */
-
 .project .tags,
 .project .tags .icon {
   height: 60px;
@@ -640,108 +612,23 @@ div.spruceup {
   margin-top: 60px;
 }
 
-/* Slideshow Stuff */
-/*=========================*/
-
-#slideshow {
-  border-radius: 0;
-  overflow: hidden;
-  position: relative;
-}
-
-#slideshow .cycle-slideshow, 
-#slideshow .slide {
-  height: 100%;
-  overflow: hidden;
-}
-
-#slideshow .cycle-slideshow, 
-#slideshow .slide, 
-#slideshow .cycle-slideshow img {
-  width: 100%;
-}
-
-#slideshow:before,
-#slideshow:after {
-  position: absolute;
-  right: 0;
-  left: 0;
-  z-index: 777;
-  display: block;
-  content: "";
-  height: 40px;
-}
-#slideshow:before {
-  top:0;
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,0));
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,0));
-}
-#slideshow:after {
-  bottom: 0;
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
-}
-
-/* next/prev */
-.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 888; height: 100%; cursor: pointer; }
-.cycle-prev { left: 0;  background: url("../media/prev2.png") 50% 50% no-repeat;}
-.cycle-next { right: 0; background: url("../media/next2.png") 50% 50% no-repeat;}
-.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
-
-/* pager */
-.cycle-pager { 
-  text-align: center; width: 100%; z-index: 999; position: absolute; bottom: 10px; overflow: hidden;
-}
-.cycle-pager span { 
-  font-family: arial; font-size: 80px; width: 30px; height: 30px; line-height: 30px;
-  display: inline-block; color: #F3F3F3; cursor: pointer; 
-}
-.cycle-pager span:hover { color: #0799C8; }
-.cycle-pager span.cycle-pager-active { color: #77A41D;}
-.cycle-pager > * { cursor: pointer;}
-
-
-/**** Isotope CSS3 transitions ****/
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-.isotope,
-.isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-     -moz-transition-duration: 0.8s;
-      -ms-transition-duration: 0.8s;
-       -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
-}
-
-.isotope  .isotope-item {
-  -webkit-transition-property: height, width;
-     -moz-transition-property: height, width;
-      -ms-transition-property: height, width;
-       -o-transition-property: height, width;
-          transition-property: height, width;
-}
-
-.isotope .isotope-item {
-  -webkit-transition-property: opacity;
-     -moz-transition-property: opacity;
-      -ms-transition-property: opacity;
-       -o-transition-property: opacity;
-          transition-property: opacity;
-}
-
 /***********************************/
-/** What We Do Page Icon Stuff... **/
-/***********************************/
+/** What We Do Page & Icon Stuff... **/
+/***********************************/ 
+@media (max-width: 767px) {
+  .brick .project-title { margin-top: 30px; }
+  .brick .project-content { margin-right: 0; }
+}
+
+@media (min-width: 768px) {
+  .brick .project-content { margin-right: 104px; }
+}
+
+@media (min-width: 980px) {
+  .brick .project-content { margin-right: 170px; }
+}
 
 /*Icon Stuff*/
-
 .brick ul.categories {
   list-style: none;
   margin: 20px 0 0 0 ;
@@ -753,27 +640,6 @@ div.spruceup {
   margin: 0 5px 15px 0;
   } 
   
-@media (max-width: 767px) {
-  .brick .project-title {
-    margin-top: 30px;
-  }
-  .brick .project-content {
-    margin-right: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .brick .project-content {
-    margin-right: 104px;
-  }
-}
-
-@media (min-width: 980px) {
-  .brick .project-content {
-    margin-right: 170px;
-  }
-}
-
 .icons.categories.bottom { margin-top: 75px;}
   
 .icons.categories li,
@@ -824,6 +690,98 @@ div.spruceup {
   width:40px !important;
   }
 
+/**************************************/
+.brick {
+  padding-bottom:20px;
+  border-bottom: 3px solid rgba(248,247,247,1); 
+}
+  
+.brick:last-child {
+  padding-bottom:60px;
+  border-bottom: none; 
+  }
 
+.brick .tags {
+  display: block;
+  text-align: right;
+  margin-top: 34px;
+}
 
+.brick p {
+  clear:both;
+}
 
+/**** Isotope CSS3 transitions ****/
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+.isotope, .isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+.isotope  .isotope-item {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: opacity;
+     -moz-transition-property: opacity;
+      -ms-transition-property: opacity;
+       -o-transition-property: opacity;
+          transition-property: opacity;
+}
+/**** /END Isotope CSS3 transitions ****/
+
+/* Slideshow Stuff */
+/*=========================*/
+#slideshow { border-radius: 0; position: relative; }
+#slideshow .cycle-slideshow, #slideshow .slide { height: 100%; }
+#slideshow, #slideshow .cycle-slideshow, #slideshow .slide { overflow: hidden; }
+#slideshow .cycle-slideshow, #slideshow .slide, #slideshow .cycle-slideshow img { width: 100%; }
+
+#slideshow:before,
+#slideshow:after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 777;
+  display: block;
+  content: "";
+  height: 40px;
+}
+
+#slideshow:before {
+  top:0;
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,0));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,0));
+}
+
+#slideshow:after {
+  bottom: 0;
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
+}
+
+/* next/prev */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 888; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url("../media/prev2.png") 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url("../media/next2.png") 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+/* pager */
+.cycle-pager { 
+  text-align: center; width: 100%; z-index: 999; position: absolute; bottom: 10px; overflow: hidden;
+}
+.cycle-pager span { 
+  font-family: arial; font-size: 80px; width: 30px; height: 30px; line-height: 30px;
+  display: inline-block; color: #F3F3F3; cursor: pointer; 
+}
+.cycle-pager span:hover { color: #0799C8; }
+.cycle-pager span.cycle-pager-active { color: #77A41D;}
+.cycle-pager > * { cursor: pointer;}
+/** /END SLIDESHOW STUFF **/
