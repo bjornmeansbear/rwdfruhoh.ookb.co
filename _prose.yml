@@ -21,3 +21,27 @@ prose:
         field:
           element: "text"
           label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Main Image URL"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Choose Categories"
+          placeholder: "Choose Categories"
+          options:
+            - name: "Science and Tech"
+              value: "science and tech"
+            - name: "Scholars and Fellows"
+              value: "scholars and fellows"
+            - name: "Arts and Culture"
+              value: "arts and culture"
+            - name: "Social Justice"
+              value: "social justice"
+            - name: "Community"
+              value: "community"
