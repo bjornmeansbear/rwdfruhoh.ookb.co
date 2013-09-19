@@ -10,12 +10,12 @@ prose:
           label: "Select a layout"
           placeholder: "Default"
           options:
-            - name: "textonly"
-              value: "Text Only"
-            - name: "singleimage"
-              value: "One Main Image"
-            - name: "slideshow"
-              value: "Slideshow"
+            - name: "Text Only"
+              value: "textonly"
+            - name: "One Main Image"
+              value: "singleimage"
+            - name: "Slideshow"
+              value: "slideshow"
           selected: "basic"
       - name: "title"
         field:
