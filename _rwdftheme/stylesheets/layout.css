@@ -11,19 +11,15 @@ body {
   padding-bottom:100px;
   }
 
-/***** Modules ************************************/
+/***** Main Stuff ************************************/
 /*=========================*/
 /* this needs to be tweaked based on the media-queries from the responsive CSS file */
 /* right now it is not optimal */
-.container {
-  margin: 0 auto 30px auto;
-  }  
-
+.container { margin: 0 auto 30px auto; }
 .add-top    { margin-top: 75px; }
 .add-bottom { margin-bottom: 75px; }
 
 /* Navbar */
-
 .navbar {
   margin-top: 30px;
   margin-bottom: 0;
@@ -60,12 +56,6 @@ nav.navbar > .container {
 
 .largelogosize .navbar ul.nav {
   top: 77px;
-}
-
-.biglogo .hero .biglogo img {
-  width: 90% !important;
-  height: auto !important;
-  min-height: auto !important;
 }
 
 /* Jumbotron */
@@ -123,14 +113,10 @@ footer ul.menu {
 /* Hero */
 /* This is the big image area on the homepage */
 /*=========================*/
-.hero {
-  margin-top: 5px;
-  }
-  
-.hero .text * {
-  color: white;
-  margin: 0;
-}
+.hero { margin-top: 5px; }
+.hero .text * { color: white;   margin: 0; }
+.tagline .text h1 { padding: 15px; }
+.hero .other { margin-top: 30px; }
 
 .hero,
 .hero .row,
@@ -162,33 +148,37 @@ footer ul.menu {
   padding: 15px;
 }
 
+.tagline div.text,
 .feature .overlay,
 .overlay div.text {
   background: #009CC1;
+}
+
+.feature .overlay,
+.overlay div.text {
   background: rgba(0,156,193,.5);
+}
+
+.tagline div.text {
+  background: rgba(0,156,193,1);
+}
+
+.feature .overlay,
+.overlay div.text {
   position: absolute;
   bottom: 0;
   margin: 0;
 }
 
 .hero .row div.span8 h2 {
-  padding-bottom: 0;
+  padding-bottom: 5px;
   margin-bottom: 0;
 }
 
 .hero .row .tagline div.text {
-  background: #009CC1;
-  background: rgba(0,156,193,1);
   display: table;
   vertical-align: middle;
   width: 100%;
-}
-
-.tagline .text h1 { padding: 15px; }
-
-.hero .biglogo, 
-.hero .other {
-  margin-top: 30px;
 }
 
 .triptych .span4 img,
@@ -198,21 +188,21 @@ footer ul.menu {
   width: 100%;
 }
 
-.other.overlay div.text,
-.triptych .overlay div.text {
+.overlay div.text {
   top: 0;
   height: 50px;
 }
 
-.hero .other.overlay div.text h3,
-.triptych .overlay div.text h3 {
-  color: white;
+.overlay div.text h3 {
   margin: 0;
   padding: 10px;
-  font-weight: 400;
 }
 
-.trio h3 a { color: white; font-weight: 400; }
+.overlay div.text h3,
+.trio h3 a { 
+  color: white; 
+  font-weight: 400; 
+}
 
  /** tweaks for @media queries */
 @media (max-width: 767px) {
@@ -269,10 +259,6 @@ footer ul.menu {
 
   .hero .row .tagline div.text h1 { font-size: 1.5em; }
 
-  .other.overlay div.text {
-    bottom: 0 !important;
-  }
-
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -291,10 +277,6 @@ footer ul.menu {
 
   .hero .row .tagline div.text h1 { font-size: 2em; }
 
-  .other.overlay div.text {
-    bottom: 0 !important;
-  }
-
 }
 
 @media (min-width: 1200px) {
@@ -309,10 +291,6 @@ footer ul.menu {
   .hero .other,
   .triptych .trio {
     height: 225px;
-  }
-
-  .other.overlay div.text {
-    bottom: 0 !important;
   }
 
 }
@@ -341,6 +319,11 @@ footer ul.menu {
 .index.jumbotron .diag-divider {
   margin-bottom: 70px;
   }
+  
+/*=========================*/
+/* /END HOMEPAGE STYLES */
+/*=========================*/
+
 
 /* Inner Pages */
 /*=========================*/
@@ -349,13 +332,9 @@ footer ul.menu {
   margin-top: 30px;
   }
 
-.top-15 {
-  padding-top:15px;
-  }
-  
-.top-25 {
-  padding-top:25px;
-  }
+.top-15 { padding-top:15px; }
+.top-25 { padding-top:25px; }
+.plain p { padding-right:15px; }
   
 .plain {
   margin-right:0 !important;
@@ -372,14 +351,10 @@ footer ul.menu {
   width:0;
   }
   
- #tab-staff .plain .span8 {
- width:100% !important;    
- }
-  
-.plain p {
-  padding-right:15px;
+#tab-staff .plain .span8 {
+  width:100% !important;
   }
-
+  
 .sidebar {
   background-color:#f2f2f2;
   border: #eee solid 1px;
