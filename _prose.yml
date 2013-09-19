@@ -45,11 +45,11 @@ prose:
               value: "social justice"
             - name: "Community"
               value: "community"
-      - name: "Featured Homepage Title"
+      - name: "featuretitle"
         field:
           element: "text"
           label: "Featured Homepage Title"
-      - name: "Homepage/Featured Image"
+      - name: "featureimg"
         field:
           element: "text"
           label: "Homepage/Featured Image URL"
