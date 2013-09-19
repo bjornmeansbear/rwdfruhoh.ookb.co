@@ -1,6 +1,6 @@
 ---
 layout: slideshow
-title: "Imaging Resource Center"
+title: "Imaging Research Center"
 date: "2007-01-01"
 image:
   - "http://rwdfruhoh.ookb.co/assets/media/irc/dan-nmca.jpg"
