@@ -28,7 +28,7 @@ prose:
       - name: "image"
         field:
           element: "text"
-          label: "Main Image URL"
+          label: "Main Image URL(s)"
       - name: "categories"
         field:
           element: "multiselect"
@@ -45,3 +45,11 @@ prose:
               value: "social justice"
             - name: "Community"
               value: "community"
+      - name: "Featured Homepage Title"
+        field:
+          element: "text"
+          label: "Featured Homepage Title"
+      - name: "Homepage/Featured Image"
+        field:
+          element: "text"
+          label: "Homepage/Featured Image URL"
