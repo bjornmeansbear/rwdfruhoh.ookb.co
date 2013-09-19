@@ -1,0 +1,23 @@
+---
+prose:
+  media: /media
+  metadata:
+
+    whatwedo:
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Select a layout"
+          placeholder: "Default"
+          options:
+            - name: "textonly"
+              value: "Text Only"
+            - name: "singleimage"
+              value: "One Main Image"
+            - name: "slideshow"
+              value: "Slideshow"
+          selected: "basic"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
