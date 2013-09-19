@@ -1,16 +1,20 @@
 ---
-layout: slideshow
+layout: 
+  - Slideshow
+  - slideshow
 title: "The Allosphere at UC-Santa Barbara"
 date: "2012-01-01"
 categories: 
-  - "science and tech"
-  - "arts and culture"
+  - science and tech
+  - arts and culture
 image: 
   - "http://rwdf.ookb.co/img/ss01.png"
   - "http://rwdf.ookb.co/img/ss12.png"
   - "http://rwdf.ookb.co/img/allosphere.png"
-featuretitle: "The Allosphere"
+  - "http://rwdf.ookb.co/img/ss01.png,http://rwdf.ookb.co/img/ss12.png,http://rwdf.ookb.co/img/allosphere.png"
+featuretitle: The Allosphere
 featureimg: "http://rwdf.ookb.co/img/ss01.png"
+published: true
 ---
 
 _Imagine_ diagnosing a neurological disease by flying through the cortex of a human brain, examining data about brain activity presented beautifully through color or music.
