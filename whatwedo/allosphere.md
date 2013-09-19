@@ -1,5 +1,6 @@
 ---
-layout: slideshow
+layout: 
+  - slideshow
 title: "The Allosphere at UC-Santa Barbara"
 date: "2012-01-01"
 categories: 
