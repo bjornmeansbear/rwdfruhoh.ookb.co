@@ -125,8 +125,6 @@ footer ul.menu {
 /*=========================*/
 .hero {
   margin-top: 5px;
-  overflow: hidden;
-  position: relative;
   }
   
 .hero .text * {
@@ -134,9 +132,26 @@ footer ul.menu {
   margin: 0;
 }
 
+.hero,
 .hero .row,
-.hero .feature {
+.hero .feature, 
+.hero .tagline,
+.hero .tagline .text,
+.hero .biglogo, 
+.hero .other, 
+.triptych .trio {
   overflow: hidden;
+}
+
+.hero,
+.hero .row,
+.hero .row img,
+.hero .feature,
+.hero .biglogo, 
+.hero .other, 
+.triptych .trio,
+.triptych .span4 img { 
+  position: relative;
 }
 
 .feature .text {
@@ -144,14 +159,7 @@ footer ul.menu {
   bottom: 0;
   left: 0;
   margin: 0;
-}
-  
-.hero .row,
-.hero .row img,
-.hero .feature,
-.triptych .trio,
-.triptych .span4 img {
-  position: relative;
+  padding: 15px;
 }
 
 .feature .overlay,
@@ -161,10 +169,6 @@ footer ul.menu {
   position: absolute;
   bottom: 0;
   margin: 0;
-}
-
-.hero .row div.text > * {
-  padding: 15px;
 }
 
 .hero .row div.span8 h2 {
@@ -180,44 +184,27 @@ footer ul.menu {
   width: 100%;
 }
 
+.tagline .text h1 { padding: 15px; }
+
 .hero .biglogo, 
 .hero .other {
   margin-top: 30px;
 }
 
-.hero .tagline,
-.hero .tagline .text,
-.hero .other,
-.triptych .trio {
-  overflow: hidden;
-}
-
-/* Triptych info */
-.hero .biglogo, 
-.hero .other, 
-.triptych .trio { 
-  overflow: hidden; 
-  position: relative;
-}
-
-.triptych .span4 img {
+.triptych .span4 img,
+.hero .other img,
+.triptych .overlay img  {
   height: auto;
   width: 100%;
 }
 
-.hero .other img,
-.triptych .overlay img {
-  min-height: 100%;
-  width: auto;
-}
-
-.hero .other.overlay div.text,
+.other.overlay div.text,
 .triptych .overlay div.text {
   top: 0;
   height: 50px;
 }
 
-.hero .other .overlay div.text h3,
+.hero .other.overlay div.text h3,
 .triptych .overlay div.text h3 {
   color: white;
   margin: 0;
@@ -225,7 +212,6 @@ footer ul.menu {
   font-weight: 400;
 }
 
-.trio h3 { margin: .25em 0; }
 .trio h3 a { color: white; font-weight: 400; }
 
  /** tweaks for @media queries */
@@ -261,10 +247,6 @@ footer ul.menu {
     width: 100%;
   }
   
-  .other.overlay div.text {
-    top: 0;
-  }
-
   .pull-right {
     float: none;
   }
@@ -287,6 +269,10 @@ footer ul.menu {
 
   .hero .row .tagline div.text h1 { font-size: 1.5em; }
 
+  .other.overlay div.text {
+    bottom: 0 !important;
+  }
+
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -305,6 +291,10 @@ footer ul.menu {
 
   .hero .row .tagline div.text h1 { font-size: 2em; }
 
+  .other.overlay div.text {
+    bottom: 0 !important;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -320,6 +310,11 @@ footer ul.menu {
   .triptych .trio {
     height: 225px;
   }
+
+  .other.overlay div.text {
+    bottom: 0 !important;
+  }
+
 }
 
 /* lower, more general stuff */
