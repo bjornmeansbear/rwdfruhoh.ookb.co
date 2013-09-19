@@ -126,7 +126,6 @@ footer ul.menu {
 .hero {
   margin-top: 5px;
   overflow: hidden;
-  height: 480px;
   position: relative;
   }
   
@@ -138,7 +137,6 @@ footer ul.menu {
 .hero .row,
 .hero .feature {
   overflow: hidden;
-  height: 480px;
 }
 
 .feature .text {
@@ -192,7 +190,6 @@ footer ul.menu {
 .hero .other,
 .triptych .trio {
   overflow: hidden;
-  height: 225px;
 }
 
 /* Triptych info */
@@ -214,7 +211,7 @@ footer ul.menu {
   width: auto;
 }
 
-.hero .other .overlay div.text,
+.hero .other.overlay div.text,
 .triptych .overlay div.text {
   top: 0;
   height: 50px;
@@ -232,15 +229,97 @@ footer ul.menu {
 .trio h3 a { color: white; font-weight: 400; }
 
  /** tweaks for @media queries */
-/* 1200 AND ABOVE // Biggie Browser */
-/* 980-1200 // Sm. Browser, Landscape Tablet */
-/* ----------- BEGIN COLLAPSED NAV ----------- */
-/* 768-979 // Portrait Tablet */
-/* 481-767 // Landscape Smartphone */
-/* 480 AND UNDER // Portrait Smartphone */
-
 @media (max-width: 767px) {
+  .hero {
+    margin-bottom: 0;
+  }
 
+  .hero,
+  .hero .row,
+  .hero .feature {
+    height: auto;
+  }
+  
+  .hero .tagline,
+  .hero .tagline .text,
+  .hero .other,
+  .triptych .trio {
+    height: 150px;
+  }
+
+  .hero .tagline,
+  .hero .other,
+  .triptych .trio {
+    margin-top: 10px;
+  }
+
+  .hero .row .tagline div.text h1 { font-size: 2em; }
+
+  .hero img,
+  .hero .other img, 
+  .triptych .overlay img {
+    width: 100%;
+  }
+  
+  .other.overlay div.text {
+    top: 0;
+  }
+
+  .pull-right {
+    float: none;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .hero,
+  .hero .row,
+  .hero .feature {
+    height: 250px;
+  }
+  
+  .hero .tagline,
+  .hero .tagline .text,
+  .hero .other,
+  .triptych .trio {
+    height: 110px;
+  }
+
+  .hero .row .tagline div.text h1 { font-size: 1.5em; }
+
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  .hero,
+  .hero .row,
+  .hero .feature {
+    height: 350px;
+  }
+  
+  .hero .tagline,
+  .hero .tagline .text,
+  .hero .other,
+  .triptych .trio {
+    height: 160px;
+  }
+
+  .hero .row .tagline div.text h1 { font-size: 2em; }
+
+}
+
+@media (min-width: 1200px) {
+  .hero,
+  .hero .row,
+  .hero .feature {
+    height: 480px;
+  }
+  
+  .hero .tagline,
+  .hero .tagline .text,
+  .hero .other,
+  .triptych .trio {
+    height: 225px;
+  }
 }
 
 /* lower, more general stuff */
