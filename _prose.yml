@@ -16,7 +16,7 @@ prose:
               value: "singleimage"
             - name: "Slideshow"
               value: "slideshow"
-          selected: "basic"
+          selected: "textonly"
       - name: "title"
         field:
           element: "text"
