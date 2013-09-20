@@ -59,6 +59,9 @@ $(window).bind("load", function() {
   var relpos        = (containerheight-30)*-1;
   $('.minus-top .pager a').css('top',relpos);
   $('.minus-top .pager a').height(btnheight);
+  
+  $('.spruceuptabs .spruceuplist ul li').first().addClass('active');
+  $('.spruceuptabs .tab-content > div.tab-pane').first().addClass('active');
 });
 
 //gallery keyboard events
@@ -69,7 +72,6 @@ $(document.documentElement).keyup(function (event) {
     $('.cycle-slideshow').cycle('next')
   }
 });
-
 
 //Working on making sidebar navigation follow active trail.
 $("#filters a").click(function() {

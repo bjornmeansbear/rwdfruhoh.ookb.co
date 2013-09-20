@@ -12,10 +12,8 @@ layout : default
     </div>
   </div>  
 
-  
   <!-- Content -->
   <div class="row-fluid">
-  
     <div class="span8 offset2">
       <article class="project">
         <div class="leadimage top text-center clearfix">
@@ -34,22 +32,7 @@ layout : default
 
       </article>
 
-      <div class="spruceup">
-        <p class="span6">coordinated by the Central Baltimore Partnership</p>
-        {{# whatwedo.tags.spruce-up }}
-          <div class="spruceuplist span6">
-            <h4>All Spruce-Up Grants</h4>
-            <ul>
-            {{# whatwedo?to_whatwedo }}
-              <li><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></li>
-            {{/ whatwedo?to_whatwedo }}
-            </ul>
-          </div>
-        {{/ whatwedo.tags.spruce-up }}
-      </div>
-
     </div>
-    
   </div>
       
   <div class="row-fluid minus-top">
@@ -71,6 +54,50 @@ layout : default
   </div>
   <!-- this is presumably for each individual post -->
       
+</div>
+
+<hr class="container"/>
+
+<div class="container">
+  <!-- Spruce Up Projects Tabs!
+  ================================================== -->
+  <div class="row-fluid">
+    <div class="tabbable span8 offset2 spruceuptabs">
+      {{# whatwedo.tags.spruce-up }}
+      <div class="spruceuplist span4" id="myTab">
+        <h3 class="minus-top">Grant Recipients</h3>
+        <ul class="side-nav">
+        {{# whatwedo?to_whatwedo }}
+          <li><a href="#tab-{{tabid}}" data-disqus-identifier="{{url}}" data-toggle="tab">{{ title }}</a></li>
+        {{/ whatwedo?to_whatwedo }}
+        </ul>
+      </div>
+      {{/ whatwedo.tags.spruce-up }}
+
+      <!-- start tabbed "pages" column... -->
+      <div class="tab-content span8 add-top">
+  
+        <!-- VALUES!
+        ================================================== -->
+        {{# whatwedo.tags.spruce-up }}
+          {{# whatwedo?to_whatwedo }}
+          <div class="tab-pane" id="tab-{{tabid}}">        
+            <div class="">
+              <div class="clearfix"><img class="img-circle span6 offset3 " src="{{ image }}" /></div>
+              <h3>{{title}}</h3>
+              {{{ content }}}
+            </div>
+          </div>
+          {{/ whatwedo?to_whatwedo }}
+        {{/ whatwedo.tags.spruce-up }}
+
+      </div>
+      <!-- end tabbed "pages" column... -->
+
+    </div><!-- / END tabbable -->
+
+  </div><!-- / END row-fluid -->
+  
 </div>
 <!-- END Main Content
 ================================================== -->

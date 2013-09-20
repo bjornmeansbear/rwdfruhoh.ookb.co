@@ -19,7 +19,7 @@ layout: default
   <div class="row-fluid">
     <div class="tabbable">
       <!-- THIS WILL PROBABLY NEED TO BE AUTO CREATED? -->
-      <ul class="side-nav span2 id="myTab"">
+      <ul class="side-nav span2" id="myTab">
         <li class="active"><a href="#tab-values" data-toggle="tab">Our Values</a></li>
         <li><a href="#tab-founders" data-toggle="tab">Robert &amp; Florence</a></li>
         <li><a class="staff" href="#tab-staff" data-toggle="tab">Directors &amp; Staff</a></li>
@@ -30,7 +30,7 @@ layout: default
   
         <!-- VALUES!
         ================================================== -->
-        <div class="tab-pane active" id="tab-values">        
+        <div class="tab-pane active" id="tab-values">
           {{# whoweare.find_by_name.our-values }}
             <div class="span8">
               <h3>{{title}}</h3>
