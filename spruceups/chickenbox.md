@@ -3,14 +3,6 @@ layout: textonly
 title: "The Chicken Box"
 image: "http://farm8.staticflickr.com/7324/9256158912_0bd89e142f.jpg"
 date: "2013-05-01"
-categories: 
-  - "arts and culture"
-  - "social justice"
-  - "community"
-tags: 
-  - "spruce-up"
-featuretitle: "Spruce-Ups"
-featureimg: "http://rwdfruhoh.ookb.co/assets/media/rwdf-square.png"
 tabid: chicken
 ---
 

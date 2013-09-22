@@ -63,24 +63,21 @@ layout : default
   ================================================== -->
   <div class="row-fluid">
     <div class="tabbable span8 offset2 spruceuptabs">
-      {{# whatwedo.tags.spruce-up }}
       <div class="spruceuplist span4" id="myTab">
         <h3 class="minus-top">Grant Recipients</h3>
         <ul class="side-nav">
-        {{# whatwedo?to_whatwedo }}
+        {{# spruceups.all }}
           <li><a href="#tab-{{tabid}}" data-disqus-identifier="{{url}}" data-toggle="tab">{{ title }}</a></li>
-        {{/ whatwedo?to_whatwedo }}
+        {{/ spruceups.all }}
         </ul>
       </div>
-      {{/ whatwedo.tags.spruce-up }}
 
       <!-- start tabbed "pages" column... -->
       <div class="tab-content span8 add-top">
   
         <!-- VALUES!
         ================================================== -->
-        {{# whatwedo.tags.spruce-up }}
-          {{# whatwedo?to_whatwedo }}
+        {{# spruceups.all }}
           <div class="tab-pane" id="tab-{{tabid}}">        
             <div class="">
               <div class="clearfix"><img class="img-circle span6 offset3 " src="{{ image }}" /></div>
@@ -88,8 +85,7 @@ layout : default
               {{{ content }}}
             </div>
           </div>
-          {{/ whatwedo?to_whatwedo }}
-        {{/ whatwedo.tags.spruce-up }}
+        {{/ spruceups.all }}
 
       </div>
       <!-- end tabbed "pages" column... -->

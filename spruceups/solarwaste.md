@@ -3,12 +3,6 @@ layout: textonly
 title: "North Avenue Big Belly Solar Waste System"
 date: "2013-04-01"
 image: "/assets/media/spruceup/bigbellysolar-600px.jpg"
-categories: 
-  - "community"
-tags: 
-  - "spruce-up"
-featuretitle: "Spruce-Ups"
-featureimg: "/assets/media/spruceup/bigbellysolar-600px.jpg"
 tabid: solarwaste
 ---
 

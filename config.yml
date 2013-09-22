@@ -51,6 +51,14 @@ whatwedo:
     enable: false
   base_path: "/whatwedo/"
 
+spruceups:
+  sort: ["title"]
+  rss:
+    enable: false
+  paginator:
+    enable: false
+  base_path: "/whatwedo/spruceups/"
+
 tellusaboutyou:
   sort: ["title"]
   rss:
