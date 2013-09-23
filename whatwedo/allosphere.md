@@ -9,7 +9,6 @@ image:
   - "http://rwdf.ookb.co/img/ss01.png"
   - "http://rwdf.ookb.co/img/ss12.png"
   - "http://rwdf.ookb.co/img/allosphere.png"
-  - "http://rwdf.ookb.co/img/ss01.png,http://rwdf.ookb.co/img/ss12.png,http://rwdf.ookb.co/img/allosphere.png"
 featuretitle: The Allosphere
 featureimg: "http://rwdf.ookb.co/img/ss01.png"
 published: true
