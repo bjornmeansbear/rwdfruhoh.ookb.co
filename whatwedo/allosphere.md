@@ -6,9 +6,9 @@ categories:
   - science and tech
   - arts and culture
 image: 
-  - "/assets/media/allosphere/allo1-hydrogen.jpg"
-  - "/assets/media/allosphere/allo2-hydrogen.jpg"
-  - "/assets/media/allosphere/allo3.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/allosphere/allo1-hydrogen.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/allosphere/allo2-hydrogen.jpg"
+  - "http://rwdfruhoh.ookb.co/assets/media/allosphere/allo3.jpg"
 featuretitle: The Allosphere
 featureimg: "http://rwdf.ookb.co/img/ss01.png"
 published: true
