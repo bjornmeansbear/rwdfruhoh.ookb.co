@@ -16,6 +16,8 @@ prose:
               value: "singleimage"
             - name: "Slideshow"
               value: "slideshow"
+            - name: "Spruce Up"
+              value: "spruceup"
           selected: "textonly"
       - name: "title"
         field:
