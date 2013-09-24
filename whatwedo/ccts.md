@@ -1,6 +1,6 @@
 ---
 layout: textonly
-title: "The Center for Community Technology Services"
+title: "Center for Community Technology Services"
 date: "2010-01-01"
 categories :
   - "science and tech"
