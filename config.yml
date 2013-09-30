@@ -34,7 +34,7 @@ _root:
     enable: false
 
 whoweare:
-  sort: ["title"]
+  sort: ["sortorder"]
   rss:
     enable: false
   paginator:
