@@ -385,8 +385,10 @@ label {
 @media (max-width: 767px) {
   #filters {
     border-bottom: 3px solid rgb(248, 247, 247);
+    margin: 0;
     margin-bottom: 15px;
     padding: 3px 0;
+    width: 100%;
   }
   
   #filters li.icons  {
