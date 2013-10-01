@@ -1,6 +1,8 @@
 Robert W. Deutsch Foundation
 ====================================
 
+currently: http://rwdhruhoh.ookb.co
+
 ## Instructions and advice.
 
 This document is for helping you decifer what is going on with your new site.  
