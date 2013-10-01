@@ -123,8 +123,6 @@ ul.nav li {
 /* 481-767 // Landscape Smartphone */
 /* 480 AND UNDER // Portrait Smartphone */
 
-
-
 @media (max-width: 767px) {  
 
   .jumbo-text {
@@ -159,12 +157,4 @@ ul.nav li {
     font-size:1.8rem;
     margin:26px 0 10px 0;
     }  
-
-  
 }
-
-
-
-
-
-

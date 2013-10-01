@@ -397,13 +397,9 @@ label {
     text-align: center;
   }
 
-  #filters li.icons div, #filters li.icons a { margin: 0; padding: 0; }
+  #filters li.icons div, #filters li.icons a { display:block; margin: 0; padding: 0; }
   #filters li.icons a { padding: 5px 0; }
   
-  #filters li.icons img  {
-    float: none;
-  }
-
   #filters li.icons p  {
     display: none;
   }
@@ -438,9 +434,14 @@ label {
 
 ul.side-nav .iconsidenav {
   height:24px;
-  float:left;
   margin:0 5px 0 0;  
   }
+  
+@media (min-width: 767px) {
+  ul.side-nav .iconsidenav {
+    float:left;
+  }
+}
   
 ul.side-nav p { padding-top: 4px; }
 
@@ -525,8 +526,7 @@ ul.side-nav .active i {
 
 .leadimage {
   margin-bottom:25px;
-  }
-
+}
 
  /** tweaks for @media queries */
 /* 1200 AND ABOVE // Biggie Browser */
@@ -537,53 +537,43 @@ ul.side-nav .active i {
 /* 480 AND UNDER // Portrait Smartphone */
 
 @media (max-width: 767px) {
-
-.minus-top .pager { 
-  position: static; 
-  z-index: 999; 
-  height:200px;
-  margin-bottom: -30px;
-
+  .minus-top .pager { 
+    position: static; 
+    z-index: 999; 
+    height:200px;
+    margin-bottom: -30px;  
   }
-
-.minus-top .pager a { 
-  position: relative; 
-  top:0 !important;
-  display: block; 
-  z-index: 999;
-
+  .minus-top .pager a { 
+    position: relative; 
+    top:0 !important;
+    display: block; 
+    z-index: 999;
   }
-
-.pager a {
-  text-indent: 100%;
-  white-space: nowrap;
-  height: 100px !important;   
-  height: 120px !important;   
-  margin-top:80px;
-  border-top:3px solid #F8F7F7;
+  .pager a {
+    text-indent: 100%;
+    white-space: nowrap;
+    height: 100px !important;   
+    height: 120px !important;   
+    margin-top:80px;
+    border-top:3px solid #F8F7F7;
   }
-
-
-.pager::after{
+  .pager::after{
     clear:none;
-    }
-    
-.minus-top .prev, .minus-top .next {
+  }
+  .minus-top .prev, .minus-top .next {
     float:left;
     margin-top:25px;
     width: 50%;
-    }
-    
-.minus-top .pager a:hover { 
-  background-color: #009AC9;
-  background-color: rgba(0,154,201,1);
-  color: white;
-  text-decoration: none;
-  transition: all 300ms;
-  -moz-transition: all 300ms;
-  -webkit-transition: all 300ms;
-} 
-
+  }
+  .minus-top .pager a:hover { 
+    background-color: #009AC9;
+    background-color: rgba(0,154,201,1);
+    color: white;
+    text-decoration: none;
+    transition: all 300ms;
+    -moz-transition: all 300ms;
+    -webkit-transition: all 300ms;
+  } 
 }
 /*--- End Responsive Pager Business --*/
 /**************************************/
