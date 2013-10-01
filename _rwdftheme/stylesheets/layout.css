@@ -390,7 +390,6 @@ label {
     padding: 3px 0;
     width: 100%;
   }
-  
   #filters li.icons  {
     display: inline-block;
     width: 18%;
@@ -398,20 +397,21 @@ label {
     padding: 0;
     text-align: center;
   }
-
   #filters li.icons div, #filters li.icons a { display:block; margin: 0; padding: 0; }
   #filters li.icons a { padding: 5px 0; }
-  
-  #filters li.icons p  {
-    display: none;
-  }
-
+  #filters li.icons p { display: none; }
   #filters li:first-child {
     text-align: center;
     display: block;
     width: 100%;
   }
-} 
+}
+
+@media (min-width: 767px) {
+  ul.side-nav .iconsidenav {
+    float:left;
+  }
+}
 
 .side-nav li a {
   clear: both;
@@ -438,12 +438,6 @@ ul.side-nav .iconsidenav {
   height:24px;
   margin:0 5px 0 0;  
   }
-  
-@media (min-width: 767px) {
-  ul.side-nav .iconsidenav {
-    float:left;
-  }
-}
   
 ul.side-nav p { padding-top: 4px; }
 
