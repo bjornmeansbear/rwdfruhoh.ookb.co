@@ -2,10 +2,14 @@
 <div class="hero container">
   <div class="row">
     <div class="span8 feature">
-      <img src="http://rwdfruhoh.ookb.co/assets/media/masd/winterworkday.jpg">
+      <img src="{{feature.featureimg}}">
       <div class="text overlay span8">
-        <h2><a href="whatwedo/masd-fellows">Jonathan & Briony</a></h2>
-        <p class="lead"><a href="whatwedo/masd-fellows">MASD Fellows at work improving Baltimore. &rarr;</a></p>
+        <h2><a href="{{feature._no_ext}}">
+          {{feature.featuretitle}}{{^feature.featuretitle}}{{feature.title}}{{/feature.featuretitle}}
+        </a></h2>
+        <p class="lead"><a href="{{feature._no_ext}}">
+          {{feature.featureblurb}}{{^feature.featureblurb}}{{feature.title}}{{/feature.featureblurb}}
+        </a></p>
       </div>
     </div>
     <div class="span4 tagline">
@@ -16,9 +20,9 @@
       </div>
     </div>
     <div class="span4 other overlay">
-      <img src="http://rwdfoundation.files.wordpress.com/2013/08/p1000640.jpg?w=600">
+      <img src="{{other.featureimg}}">
       <div class="text span4">
-        <h3><a href="whatwedo/biofab">BioFab &rarr;</a></h3>
+        <h3><a href="{{other._no_ext}}">{{other.title}} &rarr;</a></h3>
       </div>
     </div>
   </div>
@@ -27,23 +31,13 @@
 <!-- Triptych -->
 <div class="triptych container">
   <div class="row">
-    <div class="span4 overlay trio">
-      <img src="{{urls.media}}/h2-stationnorth.jpg">
-      <div class="text span4">
-        <h3><a href="whatwedo/greenmount-facade">Spruce Ups &rarr;</a></h3>
+    {{#triptych}}
+      <div class="span4 overlay trio">
+        <img src="{{featureimg}}">
+        <div class="text span4">
+          <h3><a href="{{_no_ext}}">{{title}} &rarr;</a></h3>
+        </div>
       </div>
-    </div>
-    <div class="span4 overlay trio">
-      <img src="http://rwdfruhoh.ookb.co/assets/media/allosphere/allo1-hydrogen.jpg">
-      <div class="text span4">
-        <h3><a href="whatwedo/allosphere">The Allosphere &rarr;</a></h3>
-      </div>
-    </div>
-    <div class="span4 overlay trio">
-      <img src="{{urls.media}}/irc/dan-nmca-sm.jpg">
-      <div class="text span4">
-        <h3><a href="whatwedo/imaging-research-center">The IRC &rarr;</a></h3>
-      </div>
-    </div>
+    {{/triptych}}
   </div>
 </div>
