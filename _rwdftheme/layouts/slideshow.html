@@ -37,17 +37,33 @@ layout : default
   <div class="row-fluid">
   
     <div class="span8 offset2">
-      <article class="project">
-        <h2>{{ page.title }}</h2>
-        {{{ page.content }}}
+      <div class="row">
 
-        <div class="icons categories bottom text-center">
-          {{# page.categories }}
-            <a href="../whatwedo/" class="{{name}}" >{{name}}</a>
-          {{/ page.categories }}
+        <div class="span1 popup-fb">
+          <div class="lightbox-thumbs">    
+            <!-- IMAGES in the slideshow -->
+            {{# page.image }}
+              <a class="fancybox" data-fancybox-group="gallery" rel="=group1" href="{{ . }}">
+                <img alt="" src="{{ . }}" />
+              </a>
+            {{/ page.image }}
+          </div>
         </div>
 
-      </article>
+        <article class="project span11">
+          <h2>{{ page.title }}</h2>
+          {{{ page.content }}}
+  
+          <div class="icons categories bottom text-center">
+            {{# page.categories }}
+              <a href="../whatwedo/" class="{{name}}" >{{name}}</a>
+            {{/ page.categories }}
+          </div>
+  
+        </article>
+      
+      </div>
+      
     </div>
     
   </div>
