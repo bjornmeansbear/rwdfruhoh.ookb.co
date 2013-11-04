@@ -79,3 +79,8 @@ $("#filters a").click(function() {
   $(this).parent().parent().addClass('active');
 });
 
+// FancyBox
+$(document).ready(function() {
+  $('.fancybox').fancybox();
+});
+
