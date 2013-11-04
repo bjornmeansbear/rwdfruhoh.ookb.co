@@ -864,23 +864,6 @@ div.spruceup {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
 }
 
-/* next/prev */
-.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 888; height: 100%; cursor: pointer; }
-.cycle-prev { left: 0;  background: url("../media/prev2.png") 50% 50% no-repeat;}
-.cycle-next { right: 0; background: url("../media/next2.png") 50% 50% no-repeat;}
-.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
-
-/* pager */
-.cycle-pager { 
-  text-align: center; width: 100%; z-index: 999; position: absolute; bottom: 10px; overflow: hidden;
-}
-.cycle-pager span { 
-  font-family: arial; font-size: 80px; width: 30px; height: 30px; line-height: 30px;
-  display: inline-block; color: #F3F3F3; cursor: pointer; 
-}
-.cycle-pager span:hover { color: #0799C8; }
-.cycle-pager span.cycle-pager-active { color: #77A41D;}
-.cycle-pager > * { cursor: pointer;}
 /** /END SLIDESHOW STUFF **/
 
 /** fancy box popups */
