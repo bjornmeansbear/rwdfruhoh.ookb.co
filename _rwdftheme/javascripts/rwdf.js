@@ -1,8 +1,8 @@
 $(document).ready(function() {
   // set slideshow height cleverly
   var wh = $(window).height();
-  $('#slideshow').height(wh-300);
-  $('#slideshow .slide').height(wh-300);
+  $('#slideshow').height(wh-400);
+  $('#slideshow .slide').height(wh-400);
 
   //prepare whatwedo feed for isotope...
   $('.icons.categories .science a').attr('href', '#filter=.science');
