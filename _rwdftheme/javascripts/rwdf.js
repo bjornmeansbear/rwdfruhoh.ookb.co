@@ -64,15 +64,6 @@ $(window).bind("load", function() {
   $('.spruceuptabs .tab-content > div.tab-pane').first().addClass('active');
 });
 
-//gallery keyboard events
-$(document.documentElement).keyup(function (event) {
-  if (event.keyCode == 37){
-    $('.cycle-slideshow').cycle('prev');
-  }else if (event.keyCode == 39){
-    $('.cycle-slideshow').cycle('next')
-  }
-});
-
 //Working on making sidebar navigation follow active trail.
 $("#filters a").click(function() {
   $("#filters").find('li.active').removeClass('active');
