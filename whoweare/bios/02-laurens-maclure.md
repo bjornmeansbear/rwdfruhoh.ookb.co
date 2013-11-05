@@ -4,7 +4,6 @@ subhead: Director
 image: "rwdf-square.png"
 email: "mac@rwdfoundation.org"
 tags: director
-sortorder: b
 published: true
 ---
 

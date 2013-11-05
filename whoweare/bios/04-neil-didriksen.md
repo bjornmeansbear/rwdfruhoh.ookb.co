@@ -4,7 +4,6 @@ subhead: Chief Operating Officer
 image: "rwdf-square.png"
 email: "neil@rwdfoundation.org"
 tags: staff
-sortorder: a
 published: true
 ---
 

@@ -3,7 +3,6 @@ title: David Deutsch
 subhead: Director
 image: "rwdf-square.png"
 tags: director
-sortorder: c
 published: true
 ---
 

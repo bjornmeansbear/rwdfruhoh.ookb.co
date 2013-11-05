@@ -4,7 +4,6 @@ subhead: Executive Assistant
 image: "rwdf-square.png"
 email: "jackie@rwdfoundation.org"
 tags: staff
-sortorder: b
 published: true
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Lorem Ipsum
-sortorder: a
 tags: fellow
 published: true
 ---

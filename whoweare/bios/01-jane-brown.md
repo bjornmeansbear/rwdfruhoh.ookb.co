@@ -4,7 +4,6 @@ subhead: President and Executive Director
 image: "rwdf-square.png"
 email: "jane@rwdfoundation.org"
 tags: director
-sortorder: a
 published: true
 ---
 

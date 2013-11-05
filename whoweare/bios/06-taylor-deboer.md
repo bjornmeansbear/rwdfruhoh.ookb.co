@@ -4,7 +4,6 @@ subhead: Communications Manager
 image: "rwdf-square.png"
 email: "taylor@rwdfoundation.org"
 tags: staff
-sortorder: c
 published: true
 ---
 

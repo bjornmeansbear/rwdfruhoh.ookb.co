@@ -3,7 +3,6 @@ title: Anthony Hawkins
 subhead: Advisor
 image: "rwdf-square.png"
 tags: staff
-sortorder: d
 published: true
 ---
 
