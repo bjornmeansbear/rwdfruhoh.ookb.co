@@ -1,5 +1,6 @@
 ---
 title: Firstname Lastname
+sortorder: a
 tags: fellow
 published: true
 ---
