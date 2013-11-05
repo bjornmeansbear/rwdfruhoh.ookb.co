@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // set slideshow height cleverly
-  var wh = $(window).height();
+  var wh   = $(window).height();
   $('#slideshow').height(wh-400);
   $('#slideshow .slide').height(wh-400);
 

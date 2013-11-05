@@ -1001,10 +1001,9 @@ div.spruceup {
 
 /* Slideshow Stuff */
 /*=========================*/
-#slideshow { border-radius: 0; position: relative; }
-#slideshow div { height: 100%; vertical-align: middle;}
-#slideshow, #slideshow div { overflow: hidden; }
-#slideshow div, #slideshow img { width: 100%; }
+#slideshow, #slideshow .slide { border-radius: 0; position: relative; overflow: hidden; }
+#slideshow, #slideshow .slide, #slideshow img { width: 100%; }
+#slideshow img {position: absolute;}
 
 #slideshow:before,
 #slideshow:after {
