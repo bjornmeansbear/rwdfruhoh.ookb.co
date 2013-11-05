@@ -10,7 +10,7 @@ image:
   - "http://rwdfruhoh.ookb.co/assets/media/allosphere/allo2-hydrogen.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/allosphere/allo3.jpg"
 featuretitle: The Allosphere
-featureimg: "http://rwdf.ookb.co/img/ss01.png"
+featureimg: "http://rwdfruhoh.ookb.co/assets/media/allosphere/allo1-hydrogen.jpg"
 published: true
 ---
 

@@ -5,9 +5,9 @@ layout : default
 <div id="slideshow">
   <div>
     <!-- big image area -->
-    {{# page.image }}
+    {{# page.featureimg }}
       <div class="slide"><img src="{{ . }}" /></div>
-    {{/ page.image }}
+    {{/ page.featureimg }}
   </div>
 </div>
     
@@ -20,32 +20,28 @@ layout : default
   <div class="row-fluid">
   
     <div class="span8 offset2">
-      <div class="row">
 
-        <div class="span1 popup-fb">
-          <div class="lightbox-thumbs">    
-            <!-- IMAGES in the slideshow -->
-            {{# page.image }}
-              <a class="fancybox" data-fancybox-group="gallery" rel="=group1" href="{{ . }}">
-                <img alt="" src="{{ . }}" />
-              </a>
-            {{/ page.image }}
-          </div>
+      <article class="project">
+        <h2>{{ page.title }}</h2>
+
+        <aside class="lightbox-thumbs clearfix">    
+          <!-- IMAGES in the slideshow -->
+          {{# page.image }}
+            <a class="fancybox" data-fancybox-group="gallery" rel="=group1" href="{{ . }}">
+              <img alt="" src="{{ . }}" />
+            </a>
+          {{/ page.image }}
+        </aside>
+
+        {{{ page.content }}}
+
+        <div class="icons categories bottom text-center">
+          {{# page.categories }}
+            <a href="../whatwedo/" class="{{name}}" >{{name}}</a>
+          {{/ page.categories }}
         </div>
 
-        <article class="project span11">
-          <h2>{{ page.title }}</h2>
-          {{{ page.content }}}
-  
-          <div class="icons categories bottom text-center">
-            {{# page.categories }}
-              <a href="../whatwedo/" class="{{name}}" >{{name}}</a>
-            {{/ page.categories }}
-          </div>
-  
-        </article>
-      
-      </div>
+      </article>
       
     </div>
     
