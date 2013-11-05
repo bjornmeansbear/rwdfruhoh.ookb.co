@@ -3,15 +3,8 @@ layout : default
 ---
 
 <div id="slideshow">
-  <!-- prev/next links -->
-  <div class="cycle-prev"></div>
-  <div class="cycle-next"></div>
-  <!-- empty element for pager links -->
-  <div class="cycle-pager"></div>
-  <div class="cycle-slideshow"
-    data-cycle-timeout="0"
-    >
-    <!-- IMAGES in the slideshow -->
+  <div>
+    <!-- big image area -->
     {{# page.image }}
       <div class="slide"><img src="{{ . }}" /></div>
     {{/ page.image }}
@@ -32,11 +25,11 @@ layout : default
         <div class="span1 popup-fb">
           <div class="lightbox-thumbs">    
             <!-- IMAGES in the slideshow -->
-            {{# page.image_limit_1 }}
+            {{# page.image }}
               <a class="fancybox" data-fancybox-group="gallery" rel="=group1" href="{{ . }}">
                 <img alt="" src="{{ . }}" />
               </a>
-            {{/ page.image_limit_1 }}
+            {{/ page.image }}
           </div>
         </div>
 
