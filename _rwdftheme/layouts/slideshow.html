@@ -22,13 +22,7 @@ layout : default
 <!-- Main Content
 ================================================== -->
 <div class="container inner">
-  
-<!--
-  <div class="e-breadcrumb">
-    <a href="../whatwedo">&larr; Back to All Projects</a>
-  </div>
--->
-  
+    
   <!-- Content -->
   <div class="row-fluid">
   
@@ -38,11 +32,11 @@ layout : default
         <div class="span1 popup-fb">
           <div class="lightbox-thumbs">    
             <!-- IMAGES in the slideshow -->
-            {{# page.image }}
+            {{# page.image_limit_1 }}
               <a class="fancybox" data-fancybox-group="gallery" rel="=group1" href="{{ . }}">
                 <img alt="" src="{{ . }}" />
               </a>
-            {{/ page.image }}
+            {{/ page.image_limit_1 }}
           </div>
         </div>
 
