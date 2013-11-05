@@ -360,6 +360,7 @@ nav.navbar > .container {
 }
 
 .largelogosize .navbar ul.nav { top: 77px; }
+.largelogosize .navbar > .container { border: none; }
 
 /* Jumbotron */
 /* This is the big text areas on each of the sub-pages */
@@ -409,7 +410,7 @@ footer ul.menu { list-style: none; }
 /* Hero */
 /* This is the big image area on the homepage */
 /*=========================*/
-.hero { margin-top: 5px; }
+.hero { margin-top: 0; }
 .hero .text * { color: white;   margin: 0; }
 .tagline .text h1 { padding: 15px; }
 .hero .other { margin-top: 30px; }
