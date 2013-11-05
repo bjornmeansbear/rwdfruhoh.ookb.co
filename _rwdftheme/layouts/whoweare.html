@@ -23,6 +23,7 @@ layout: default
         <li class="active"><a href="#tab-values" data-toggle="tab">Our Values</a></li>
         <li><a href="#tab-founders" data-toggle="tab">Robert &amp; Florence</a></li>
         <li><a class="staff" href="#tab-staff" data-toggle="tab">Directors &amp; Staff</a></li>
+        <li><a class="staff" href="#tab-fellows" data-toggle="tab">Fellows</a></li>
       </ul>
         
       <!-- start tabbed "pages" column... -->
@@ -95,11 +96,24 @@ layout: default
               {{/ whoweare?to_whoweare }}
             {{/ whoweare.tags.staff }}
           </div>
-
-
         </div>
-        <!-- END VALUES, FOUNDERS, STAFF -->
+
+        <!-- STAFF -->
         <!-- ====================================== -->
+        <div class="tab-pane" id="tab-fellows">
+          {{# whoweare.tags.fellow }}
+            {{# whoweare?to_whoweare }}
+            <div class="fellow span6">
+              <h4>{{title}}</h4>
+              {{{content}}}
+            </div>
+            {{/ whoweare?to_whoweare }}
+          {{/ whoweare.tags.fellow }}
+        </div>
+        
+        <!-- END VALUES, FOUNDERS, STAFF, FELLOWS -->
+        <!-- ====================================== -->
+        
       </div>
       <!-- end tabbed "pages" column... -->
   

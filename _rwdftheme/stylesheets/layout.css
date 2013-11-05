@@ -615,7 +615,14 @@ footer ul.menu { list-style: none; }
   overflow:hidden;
   min-height: 275px; /* when images are used for staff bios make this 351px; */
   }
-    
+ 
+#tab-fellows .fellow {
+  border-bottom: 3px solid rgba(248,247,247,1);
+  margin-bottom:15px; 
+  padding-bottom: 15px;
+  min-height: 350px; /* when images are used for staff bios make this 351px; */
+  }
+     
 .sidebar {
   background-color:#f2f2f2;
   border: #eee solid 1px;
@@ -650,7 +657,7 @@ label {
   }
 
 .side-nav li {
-  padding:0;;
+  padding:0;
   line-height: 1.1;  
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
