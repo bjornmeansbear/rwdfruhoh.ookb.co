@@ -1,8 +1,14 @@
 $(document).ready(function() {
-  // set slideshow height cleverly
-  var wh   = $(window).height();
-  $('#slideshow').height(wh-400);
-  $('#slideshow .slide').height(wh-400);
+  var ww = $(window).width();
+  var wh = $(window).height();
+
+  if (ww >= 767) {// set slideshow height cleverly
+    $('#slideshow').height(wh-400);
+    $('#slideshow .slide').height(wh-400);
+  } else {
+    $('#slideshow').height(200);
+    $('#slideshow .slide').css('height','100%');
+  }
 
   //prepare whatwedo feed for isotope...
   $('.icons.categories .science a').attr('href', '#filter=.science');
@@ -50,6 +56,20 @@ $(document).ready(function() {
     // trigger hashchange to capture any hash data on init
     .trigger('hashchange');
 
+});
+
+$(window).resize(function() {
+  var ww = $(window).width();
+  var wh = $(window).height();
+
+  if (ww >= 767) {// set slideshow height cleverly
+    $('#slideshow').height(wh-400);
+    $('#slideshow .slide').height(wh-400);
+  } else {
+    $('#slideshow').height(200);
+    $('#slideshow .slide').css('height','100%');
+  }
+  
 });
 
 $(window).bind("load", function() {

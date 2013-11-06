@@ -1051,6 +1051,13 @@ div.spruceup {
 
 /** fancy box popups */
 
+.lightbox-thumbs {
+  background: #daf6ff;
+  margin: 7px -7px;
+  padding: 7px 7px 0;
+  border-radius: 7px;
+}
+
 .lightbox-thumbs,
 .lightbox-thumbs a {
   margin-bottom: 7px;
