@@ -33,73 +33,78 @@ ul.nav li {
     font-weight: 300;
   }
   
-  .jumbo-text h1 { /* Homepage */
-    font-size:7.5rem;
-    margin-bottom:20px;
-    padding:0 100px;
-    line-height: 1.125;
-    } 
-      
-  .jumbo-text.inner h1 { /* Inner Pages */
-    font-size:5rem;
-    margin-bottom: 10px;
-    padding:0 50px;
-    } 
-          
-  .jumbo-text .lead {
-    font-size:2.4rem;
-    font-weight:300;
-    line-height:1.33;
-    }
+.jumbo-text h1 { /* Homepage */
+  font-size:7.5rem;
+  margin-bottom:20px;
+  padding:0 100px;
+  line-height: 1.125;
+  } 
     
-  .jumbo-text {
-    margin:0 42px;
-    padding: 50px 140px;
-    background-color: #fff;  
-    }
-    
-  .jumbo-text.inner {
-    margin:0 42px;
-    padding: 30px 100px;  
-    }
-    
-  .jumbo-text.inner .lead {
-    font-size:2.0rem;
-    }
-    
-  .hero h1 { /* Homepage */
-    font-size:4rem;
-    margin-bottom:0;
-    line-height: 1.125;
-    }
-    
-  .hero .lead {
-    font-size:2rem;
-    font-weight:300;
-    line-height:1.33;
-    }
-    
-  /* Jumbotron Styles */
-  .jumbotron {
-    text-align: center;
-    }
-    
-  /* Page Styles */
-  h3 { /* Inner Page Head */
-    font-size:2.4rem;
-    margin:30px 0 10px 0;
-    }  
+.jumbo-text.inner h1 { /* Inner Pages */
+  font-size:5rem;
+  margin-bottom: 10px;
+  padding:0 50px;
+  } 
+        
+.jumbo-text .lead {
+  font-size:2.4rem;
+  font-weight:300;
+  line-height:1.33;
+  }
   
-  h4 { /* Inner Page Subhead */
-    font-size:1.8rem;
-    margin: 15px 0 5px 0;
-    }
+.jumbo-text {
+  margin:0 42px;
+  padding: 50px 140px;
+  background-color: #fff;  
+  }
   
-  footer {
-    font-size:1.2rem;
-    line-height: 1.5;
-    }
-    
+.jumbo-text.inner {
+  margin:0 42px;
+  padding: 30px 100px;  
+  }
+  
+.jumbo-text.inner .lead {
+  font-size:2.0rem;
+  }
+  
+.hero h1 { /* Homepage */
+  font-size:4rem;
+  margin-bottom:0;
+  line-height: 1.125;
+  }
+  
+.hero .lead {
+  font-size:2rem;
+  font-weight:300;
+  line-height:1.33;
+  }
+  
+/* Jumbotron Styles */
+.jumbotron {
+  text-align: center;
+  }
+
+p a.btn.blog {
+  width: 100%;
+  padding: 15px 0;
+}
+
+/* Page Styles */
+h3 { /* Inner Page Head */
+  font-size:2.4rem;
+  margin:30px 0 10px 0;
+  }  
+
+h4 { /* Inner Page Subhead */
+  font-size:1.8rem;
+  margin: 15px 0 5px 0;
+  }
+
+footer {
+  font-size:1.2rem;
+  line-height: 1.5;
+  }
+  
 .hero .row .tagline div.text h1 {
   display: table-cell;
   vertical-align: middle;
@@ -1043,6 +1048,7 @@ div.spruceup {
   display: block;
   width:50px;
   height:50px;
+  border-radius: 7px;
 }
 
 .lightbox-thumbs a {
@@ -1051,7 +1057,7 @@ div.spruceup {
 }
 
 /* Fixed up navbar styles */
-.navbar .btn-navbar {
+.largelogosize .navbar .btn-navbar {
   margin-top: 56px;
 }
 
