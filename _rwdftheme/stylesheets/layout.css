@@ -681,10 +681,23 @@ label {
     margin-bottom: 15px;
     padding: 3px 0;
     width: 100%;
+    zoom: 1;
   }
+  #filters:before,
+  #filters:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  
+  #filters:after {
+    clear: both;
+  }
+  
   #filters li.icons  {
-    display: inline-block;
-    width: 18%;
+    display: block;
+    float: left;
+    width: 20%;
     margin: 5px 0;
     padding: 0;
     text-align: center;
