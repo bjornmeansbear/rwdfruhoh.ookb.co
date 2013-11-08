@@ -1,6 +1,6 @@
 ---
-title: "Deutsch Fellows"
+title: Deutsch Fellows
+published: true
 ---
 
-Deutsch Fellows do different kinds of work, etc. This will be a little blurb explaining why this section is here...
-
+We have fellows whose work ranges from...
