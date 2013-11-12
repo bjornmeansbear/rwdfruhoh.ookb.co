@@ -1,10 +1,10 @@
 ---
 layout: singleimage
-title: "BioFab at UMCP"
+title: BioFab at UMCP
 date: "2006-01-01"
 image: "http://rwdfoundation.files.wordpress.com/2013/08/p1000640.jpg?w=600"
 categories: 
-  - "science and tech"
+  - science and tech
 featuretitle: BioFab
 featureimg: "http://rwdfoundation.files.wordpress.com/2013/08/p1000640.jpg?w=600"
 published: true
@@ -12,7 +12,7 @@ published: true
 
 Researchers at the University of Maryland are creating microscale "living laboratories" to investigate biochemical reaction pathways, and "biological nanofactories" capable of initiating communications between bacteria in a major, multi-disciplinary research program in biofabrication.
 
-Their work is part of the emerging field of nano-scale biotechnology that aims to create new technologies for the development of drugs, for the detection of disease and the delivery of therapeutics within living organisms.
+Their work is part of the emerging field of nano-scale biotechnology that aims to create new technologies for the development of drugs, the detection of disease and the delivery of therapeutics within living organisms.
 
 In 2006 Professor William Bentley and his colleagues, Professors Gary Rubloff, Reza Ghodssi, and Greg Payne envisioned the launch of a new research program focused on controlling biology at the nanoscale. Such a program would require their collective expertise in bioengineering, electrical engineering, material science and nanotechnology to design, build and test new devices that would function as "labs on a chip" and as microelectronic devices that monitor cellular activity.
 
