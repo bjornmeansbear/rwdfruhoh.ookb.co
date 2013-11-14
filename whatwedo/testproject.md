@@ -1,6 +1,6 @@
 ---
 title: Test Project
-layout: slideshow
+layout: singleimage
 image: "http://rwdfoundation.files.wordpress.com/2013/10/sandy-and-ellen.jpg"
 summary: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis."
 ---
