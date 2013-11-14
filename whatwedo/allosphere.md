@@ -3,8 +3,8 @@ layout: slideshow
 title: "Allosphere at UC-Santa Barbara"
 date: "2012-01-01"
 categories: 
-  - science and tech
-  - arts and culture
+  - "science and tech"
+  - "arts and culture"
 image: 
   - "http://rwdfruhoh.ookb.co/assets/media/allosphere/allo1-hydrogen.jpg"
   - "http://rwdfruhoh.ookb.co/assets/media/allosphere/allo2-hydrogen.jpg"
