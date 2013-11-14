@@ -1,6 +1,6 @@
 # Creating new files via prose.io
 
-(This goes along with the video on vimeo here: )
+(This goes along with the video on vimeo here: [https://dl.dropboxusercontent.com/u/7192159/prosevideo_lg.mp4](https://dl.dropboxusercontent.com/u/7192159/prosevideo_lg.mp4))
 
 Go to the folder you want, and then click the "new file" button up on top.
 
