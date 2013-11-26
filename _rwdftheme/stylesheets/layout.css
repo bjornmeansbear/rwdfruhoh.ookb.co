@@ -790,10 +790,12 @@ ul.side-nav .active i {
   z-index: 999; 
 }
 
+/*
 .minus-top .prev.disabled, 
 .minus-top .next.disabled {
   visibility: hidden !important;
 }
+*/
 
 .pager a {
   text-indent: 100%;

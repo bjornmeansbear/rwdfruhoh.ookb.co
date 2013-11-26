@@ -1,7 +1,7 @@
 ---
 title: Our Values
 tags: values
-image: rowhouse.jpg
+image: about_us_home_page.jpg
 published: true
 ---
 
