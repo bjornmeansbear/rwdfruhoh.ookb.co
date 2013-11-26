@@ -16,11 +16,6 @@ layout : project
   <div class="row-fluid">
     <div class="span8 offset2">
       <article class="project">
-        <div class="leadimage top text-center clearfix">
-          {{# page.image }}
-            <img class="img-circle span4 offset4" src="{{ page.image }}" />
-          {{/ page.image }}
-        </div>
         <h2>{{ page.title }}</h2>
         {{{ page.content }}}
 
@@ -28,7 +23,7 @@ layout : project
         ================================================== -->
         <div class="tabbable spruceuptabs">
           <div class="spruceuplist span4" id="myTab">
-            <h3>Grant Recipients</h3>
+            <h3 class="">Grant Recipients</h3>
             <ul class="side-nav">
             {{# spruceups.all }}
               <li><a href="#tab-{{tabid}}" data-disqus-identifier="{{url}}" data-toggle="tab">{{ title }}</a></li>
@@ -42,7 +37,7 @@ layout : project
             {{# spruceups.all }}
               <div class="tab-pane" id="tab-{{tabid}}">        
                 <div class="">
-                  <div class="clearfix"><img class="img-circle span6 offset3 " src="{{ image }}" /></div>
+                  <div class="clearfix leadimage"><img class="img-rounded span6 offset3 " src="{{ image }}" /></div>
                   <h3>{{title}}</h3>
                   {{{ content }}}
                 </div>
