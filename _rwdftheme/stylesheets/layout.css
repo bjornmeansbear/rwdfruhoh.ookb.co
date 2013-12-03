@@ -900,6 +900,25 @@ div.spruceup {
   margin-top: 60px;
 }
 
+.spruceuptabs {
+  margin-top: 15px;
+}
+
+.spruceuplist .side-nav {
+  list-style-type: none;
+  padding-top: 0;
+  margin:0 0 0 -5px;
+  }
+
+.spruceuptabs .leadimage { 
+  max-height: 266px; 
+  overflow: hidden; 
+}
+
+.spruceuptitle:hover {
+  text-decoration: underline;
+}
+
 /***********************************/
 /** What We Do Page & Icon Stuff... **/
 /***********************************/ 

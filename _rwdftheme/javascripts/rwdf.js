@@ -95,3 +95,19 @@ $(document).ready(function() {
   $('.fancybox').fancybox();
 });
 
+// spruceup box behaviors
+$(document).ready(function() {
+  $('.spruceuptabs').hide();
+  $('.spruceuptitle').click(function() {
+    $('span.togglearrow').toggle('slow');
+    $('.spruceuptabs').toggle('slow', function() {
+      // subtract height of projects so prev/next buttons show up in right places
+      var containerheight = $('.container.inner').height();
+      var btnheight     = containerheight+30;
+      var relpos        = (containerheight-30)*-1;
+      $('.minus-top .pager a').css('top',relpos);
+      $('.minus-top .pager a').height(btnheight);
+      
+    });
+  });
+});
