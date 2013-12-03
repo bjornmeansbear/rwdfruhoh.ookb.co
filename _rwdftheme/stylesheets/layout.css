@@ -372,6 +372,16 @@ nav.navbar > .container {
 .largelogosize .navbar ul.nav { top: 77px; }
 .largelogosize .navbar > .container { border: none; }
 
+.navbar .nav li.social, 
+.navbar .nav li.social a {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav li.social a {
+  padding: 0 5px;
+}
+
 /* Jumbotron */
 /* This is the big text areas on each of the sub-pages */
 /*=========================*/
