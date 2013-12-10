@@ -33,6 +33,14 @@ _root:
   paginator:
     enable: false
 
+news:
+  sort: ["date", "desc"]
+  rss:
+    enable: false
+  paginator:
+    enable: false
+  base_path: "/whoweare/"
+
 whoweare:
   sort: ["title"]
   rss:

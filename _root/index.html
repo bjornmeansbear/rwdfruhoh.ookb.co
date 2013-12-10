@@ -80,17 +80,30 @@ classes: "largelogosize"
 <div class="container add-bottom">
   <div class="row-fluid home-content">
     {{# homepage.find_by_name.legacy }}
-      <div class="span6">
+      <div class="span4">
         <h3><a href="whoweare">{{ title }}</a></h3>
         {{{content}}}
       </div>
     {{/ homepage.find_by_name.legacy }}
     {{# homepage.find_by_name.tellus }}
-      <div class="span6">
+      <div class="span4">
         <h3><a href="tellusaboutyou">{{ title }}</a></h3>
         {{{content}}}
       </div>
     {{/ homepage.find_by_name.tellus }}
+    {{# homepage.find_by_name.news }}
+      <div class="span4 news">
+        <h3><a href="news">{{ title }}</a></h3>
+        {{{content}}}
+        
+        <ul class="newslist">
+        {{# news.all }}
+          <li><p><a href="{{url}}" data-disqus-identifier="{{url}}">{{ title }}</a></p></li>
+        {{/ news.all }}
+        </ul>
+        
+      </div>
+    {{/ homepage.find_by_name.news }}
   </div>
 </div>
 
