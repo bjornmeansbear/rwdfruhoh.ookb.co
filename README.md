@@ -3,10 +3,6 @@ Robert W. Deutsch Foundation
 
 currently: http://rwdhruhoh.ookb.co
 
-[![wercker status](https://app.wercker.com/status/2288d8de0d65a43184eec96b30d84b18/m "wercker status")](https://app.wercker.com/project/bykey/2288d8de0d65a43184eec96b30d84b18)
-
-trying to figure out Wercker integration for gh-pages hosting.
-
 ## Instructions and advice.
 
 This document is for helping you decifer what is going on with your new site.  
