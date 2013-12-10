@@ -6,7 +6,7 @@ categories:
   - community
   - social justice
 featuretitle: Spruce Up Grants
-featureimg: ""
+featureimg: "http://farm9.staticflickr.com/8541/8950587363_ca1533cc67_h.jpg"
 published: true
 ---
 
