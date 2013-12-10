@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>The Robert W. Deutsch Foundation</title>
+    <description>The Robert W. Deutsch Foundation</description>
+    <link>http://rwdfruhoh.ookb.co</link>
+    <pubDate>Dec 10, 2013</pubDate>
+    <item>
+      <title>RWDF Prose Instructions</title>
+      <link>http://rwdfruhoh.ookb.co/_instructions/RWDF-prose-instructions</link>
+      <description>&lt;h1 id="toc_0"&gt;Creating new files via prose.io&lt;/h1&gt;
+
+&lt;p&gt;(This goes along with the video on vimeo here: &lt;a href="https://dl.dropboxusercontent.com/u/7192159/prosevideo_lg.mp4"&gt;https://dl.dropboxusercontent.com/u/7192159/prosevideo_lg.mp4&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Go to the folder you want, and then click the &amp;quot;new file&amp;quot; button up on top.&lt;/p&gt;
+
+&lt;p&gt;The browser should open a text editing window.&lt;/p&gt;
+
+&lt;p&gt;Change the title to the correct title, removing the date but keeping the prefix folder structure intact.&lt;/p&gt;
+
+&lt;p&gt;In the document section below, click in and delete the text that is there.&lt;/p&gt;
+
+&lt;p&gt;The document must start with at least this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;Title of Project&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is called the documents &amp;quot;Meta Data&amp;quot; and contains everything that isn&amp;#39;t just the text of the post &#x2014;&#xA0;link to images, what layout to use, which image to instead use on the featured blocks, etc.&lt;/p&gt;
+
+&lt;p&gt;here is an example of all the meta data options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+layout: slideshow
+title: Station North Tool Library
+date: &amp;quot;2012-10-01&amp;quot;
+categories: 
+  - community
+image: 
+  - &amp;quot;http://farm4.staticflickr.com/3805/8976872257_e359b45625_h.jpg&amp;quot;
+  - &amp;quot;http://farm4.staticflickr.com/3771/8976873293_3318e01b17_h.jpg&amp;quot;
+  - &amp;quot;http://farm8.staticflickr.com/7367/8978068252_56779d267f_h.jpg&amp;quot;
+  - &amp;quot;http://farm8.staticflickr.com/7384/8978069832_b195487d22_h.jpg&amp;quot;
+  - &amp;quot;http://farm8.staticflickr.com/7424/8978066812_188f1f2f88_h.jpg&amp;quot;
+  - &amp;quot;http://farm8.staticflickr.com/7402/8976880279_7c1d90cac7_h.jpg&amp;quot;
+  - &amp;quot;http://farm8.staticflickr.com/7456/8976874233_862b5d50ec_h.jpg&amp;quot;
+featuretitle: The Tool Library
+featureimg: &amp;quot;http://farm4.staticflickr.com/3771/8976873293_3318e01b17_h.jpg&amp;quot;
+summary: &amp;quot;tk&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The categories you can pick from are as follows:
+- &amp;quot;science and tech&amp;quot;
+- &amp;quot;arts and culture&amp;quot;
+- &amp;quot;scholars and fellows&amp;quot;
+- &amp;quot;social justice&amp;quot;
+- &amp;quot;community&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;The layouts you can pick from are as follows: textonly, singleimage, or slideshow&lt;/p&gt;
+
+&lt;p&gt;Slideshow is the only layout that uses the &amp;quot;image&amp;quot; field. The rest will use the image from &amp;quot;featureimg&amp;quot; for the image that shows up on the homepage, as well as the image that shows up on the post in the case of &amp;quot;singleimage&amp;quot; (does this mean we don&amp;#39;t need a &amp;quot;textonly&amp;quot; layout option???)&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
