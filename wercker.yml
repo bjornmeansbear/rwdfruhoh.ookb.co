@@ -1,0 +1,41 @@
+box: wercker/ruby
+# Build definition
+# See the Ruby section on the wercker devcenter: 
+# http://devcenter.wercker.com/articles/languages/ruby.html
+build:
+  # The steps that will be executed on build
+  steps:
+    # A step that executes `bundle install` command
+    - bundle-install
+
+    # A custom script step, name value is used in the UI
+    # and the code value contains the command that get executed
+    - script:
+        name: echo ruby information
+        code: |
+          echo "ruby version $(ruby --version) running"
+          echo "from location $(which ruby)"
+          echo -p "gem list: $(gem list)"
+
+    # Add more steps here:
+    #- script:
+    #    name: rspec
+    #    code: bundle exec rspec
+
+deploy :
+  steps :
+    - script:
+        name: Configure git
+        code: |-
+          git config --global user.email "kb@ookb.co"
+          git config --global user.name "bjornmeansbear"
+
+          # remove current .git folder
+          rm -rf .git
+    - script:
+        name: Deploy to github pages
+        code: |-
+          git init
+          git add .
+          git commit -m "deploy commit from $WERCKER_STARTED_BY"
+          git push -f $GIT_REMOTE master:gh-pages
