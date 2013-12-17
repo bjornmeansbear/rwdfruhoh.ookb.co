@@ -1,7 +1,7 @@
 Robert W. Deutsch Foundation
 ====================================
 
-currently: http://rwdhruhoh.ookb.co
+currently: http://rwdfruhoh.ookb.co
 
 ## Instructions and advice.
 
