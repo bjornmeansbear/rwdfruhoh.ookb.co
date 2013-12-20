@@ -91,10 +91,10 @@ classes: "largelogosize"
         {{{content}}}
       </div>
     {{/ homepage.find_by_name.tellus }}
-    {{# homepage.find_by_name.news }}
+    {{# _root.find_by_name.news }}
       <div class="span4 news">
-        <h3><a href="news">{{ title }}</a></h3>
-        {{{content}}}
+        <h3><a href="news">{{ jumbohed }}</a></h3>
+        <p>{{ jumbodek }}</p>
         
         <ul class="newslist">
         {{# news.all }}
@@ -103,7 +103,7 @@ classes: "largelogosize"
         </ul>
         
       </div>
-    {{/ homepage.find_by_name.news }}
+    {{/ _root.find_by_name.news }}
   </div>
 </div>
 
