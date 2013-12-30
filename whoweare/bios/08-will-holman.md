@@ -1,8 +1,8 @@
 ---
 title: Will Holman
-subhead: TK
+subhead: Fellow
 image: "rwdf-square.png"
-email: "tk@rwdfoundation.org"
+email: "will@rwdfoundation.org"
 tags: staff
 ---
 
