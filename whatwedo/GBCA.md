@@ -2,12 +2,10 @@
 title: Greater Baltimore Cultural Alliance (GBCA)
 categories: 
   - community
-  - "arts & culture"
-layout: single image
+  - "arts and culture"
+layout: textonly
 featuretitle: GBCA
-featureimg: null
 summary: "Since its launch, GBCA has served as both a catalyst and an incubator for various programs and initiatives in the region including The Baltimore Fun Guide, Weekly Fun Savers, Artist U, the Baker Artist Awards and The Rubys."
-published: true
 ---
 
 Born out of the need for cultural unity within Baltimore, the GBCA was founded by Nancy Haragan in 2001. Since its launch, GBCA has served as both a catalyst and an incubator for various programs and initiatives in the region including The Baltimore Fun Guide, Weekly Fun Savers, Artist U, the Baker Artist Awards and The Rubys. 
