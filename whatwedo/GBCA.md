@@ -1,5 +1,5 @@
 ---
-title: GBCA
+title: Greater Baltimore Cultural Alliance (GBCA)
 categories: 
   - community
   - "arts & culture"
@@ -15,3 +15,4 @@ Born out of the need for cultural unity within Baltimore, the GBCA was founded b
 GBCA's current Executive Director, Jeannie Howe, and her team has more than doubled the organization's membership over the past three years. The foundation has helped fund GBCA’s regular operating costs, a major website re-design, the Artist U program and the seed funding for The Rubys, which are individual project grants for Baltimore artists. 
 
 For a full list of GBCA’s programs, click here.
+
