@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 gem 'psych', "~> 2.0.0"
-gem 'ruhoh', "~> 2.5"
+gem 'ruhoh', "~> 2.6"
 
 # To enable asset packaging and processing via sprockets:
 #
