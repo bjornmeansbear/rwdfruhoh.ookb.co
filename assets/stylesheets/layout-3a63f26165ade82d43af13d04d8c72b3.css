@@ -637,6 +637,7 @@ footer ul.menu { list-style: none; }
 .plain p { padding-right:15px; }
 
 #tab-staff h3 { color: black; }
+#tab-staff h3:first-of-type { margin-top: 0; }
 
 #tab-staff article section {
   border-bottom: 4px solid; 
