@@ -636,11 +636,13 @@ footer ul.menu { list-style: none; }
 .top-25 { padding-top:25px; }
 .plain p { padding-right:15px; }
 
+#tab-staff h3 { color: black; }
+
 #tab-staff article section {
   border-bottom: 4px solid; 
   border-color: #f8f7f7; 
   border-color: rgba(248,247,247,1); 
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   padding-bottom: 15px;
 }
 
@@ -651,8 +653,6 @@ footer ul.menu { list-style: none; }
   margin-bottom: 12px; 
   padding-bottom: 12px;
   }
-
-#tab-staff h3 { color: #B9BAB8; color: rgba(185,186,184,1); }
 
 #tab-staff article section:last-of-type,
 .plain:last-of-type {
