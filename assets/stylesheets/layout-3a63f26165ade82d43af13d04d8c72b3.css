@@ -651,7 +651,9 @@ footer ul.menu { list-style: none; }
   margin-bottom: 12px; 
   padding-bottom: 12px;
   }
-  
+
+#tab-staff h3 { color: #B9BAB8; color: rgba(185,186,184,1); }
+
 #tab-staff article section:last-of-type,
 .plain:last-of-type {
   border-bottom: none; 
