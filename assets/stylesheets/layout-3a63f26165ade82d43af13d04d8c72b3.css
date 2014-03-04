@@ -655,7 +655,7 @@ footer ul.menu { list-style: none; }
   padding-bottom: 12px;
   }
 
-#tab-staff article div.row::last-of-type section,
+#tab-staff article div.row:last-of-type section,
 .plain:last-of-type {
   border-bottom: none; 
   padding-bottom: 0;
